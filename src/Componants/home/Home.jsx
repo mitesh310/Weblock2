@@ -1,14 +1,12 @@
 import React from 'react'
 import "./home.css"
-import Header from '../header/Header.jsx'
 
 
 export default function Home() {
   return (
     <>
-    <Header/>
     <div className="company">
-        <div className="container mt-5">
+        <div className="container">
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12">
                     <div className="home">
