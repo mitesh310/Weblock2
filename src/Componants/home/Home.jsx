@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './../footer/Footer.jsx'
 import "./home.css"
 import Header from '../header/Header.jsx'
 
@@ -370,7 +369,6 @@ export default function Home() {
             </div>
         </div>
     </div>
-    <Footer/>
     
     </>
     
