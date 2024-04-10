@@ -370,7 +370,6 @@ export default function Home() {
         </div>
     </div>
     
-    <h1>heelo</h1>
     </>
     
   )
