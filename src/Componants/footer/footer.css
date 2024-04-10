@@ -1,0 +1,26 @@
+.footer{
+    background-color: #000C1D;
+}
+.footer p{
+    color: #64748B;
+    
+}
+.footer li{
+    list-style: none;
+    color: #9795B5;
+    line-height: 35px;
+}
+.footer li i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    color: #000C1D;
+    margin-right: 10px;
+}
+.footer .f-icon i{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000C1D;
+    margin-right: 10px;  
+}

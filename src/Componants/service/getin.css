@@ -1,0 +1,31 @@
+.get-touch{
+    background-color: #0E1934;
+}
+.get-touch h2{
+    text-align: center;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.get-touch .custom-hr{
+    width: 50%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.get-touch button{
+    border: none;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.get-touch button:hover{
+    box-shadow: 0 4px 8px 0 white;
+}
+.get-touch .card{
+    position: absolute;
+    color: #656363;
+    text-align: center;
+}
+.get-touch .card i{
+    color: #0E1934;
+}

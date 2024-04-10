@@ -1,0 +1,171 @@
+
+
+.web {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.web .box {
+    border: 1px solid #DDDDDD;
+    height: 100%;
+    padding: 20px;
+}
+
+.web .box:hover {
+    box-shadow: 0 4px 8px 0 black;
+    border: 1px solid #1A76D166;
+}
+
+.web .box h5 {
+    font-weight: bolder;
+}
+
+.web .box p {
+    color: #696969;
+}
+
+.eng {
+    background-color: #000C1D;
+}
+
+.eng h2 {
+    text-align: center;
+}
+
+.eng hr {
+    width: 10%;
+}
+
+.eng .box {
+
+    /* height: 100%; */
+    padding: 30px;
+}
+
+.eng .box h5 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.eng button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.eng button:hover {
+    box-shadow: 0 4px 4px 0 white;
+}
+
+.boost{
+    color: black;
+}
+
+.boost h3 {
+    font-weight: bolder;
+}
+
+.boost p {
+    color: #696969;
+}
+
+.boost h5{
+    font-weight: bolder;
+}
+
+.boost .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+.boost .chek img {
+    align-self: flex-start;
+    padding-top: 6px;
+  }
+
+.boost .chek p {
+    margin: 0; 
+  }
+  .boost button{
+    padding: 8px;
+    background-color: #fff;
+    font-weight: bolder;
+    border-radius: 5px;
+  }
+  .boost button:hover{
+    box-shadow: 0 4px 4px 0 black;
+  }
+
+
+.data{
+    margin-top: 200px;
+    color: black;
+}
+.data h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.data .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+.data .chek span {
+    font-size: 60px;
+    align-self: flex-start;
+    font-weight: bolder;
+  }
+.data .chek .one{
+    background: linear-gradient(180deg, rgba(197, 173, 215, 0.44) 0%, rgba(104, 91, 113, 0.4) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .two{
+    background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .three{
+    background: linear-gradient(180deg, rgba(197, 219, 60, 0.54) 0%, rgba(164, 183, 32, 0.53) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .four{
+    background: linear-gradient(180deg, rgba(214, 77, 68, 0.54) 0%, rgba(139, 46, 45, 0.55) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .five{
+    background: linear-gradient(180deg, rgba(58, 189, 190, 0.2862) 0%, rgba(14, 130, 129, 0.2916) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .six{
+    background: linear-gradient(180deg, rgba(255, 194, 103, 0.54) 0%, rgba(255, 167, 38, 0.53) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .seven{
+    background: linear-gradient(180deg, rgba(197, 219, 60, 0.53) 0%, rgba(164, 183, 32, 0.54) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek .eight{
+    background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.data .chek h1 {
+    margin: 0; 
+  }
+  

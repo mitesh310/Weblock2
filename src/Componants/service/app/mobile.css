@@ -1,0 +1,148 @@
+.mobile h2{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.mobile .custom-hr{
+    width: 10%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.mobile .box {
+    border: 1px solid #DDDDDD;
+    height: 100%;
+    padding: 40px ;
+}
+
+.mobile .box:hover {
+    box-shadow: 0 4px 8px 0 #00000040;
+    border: 1px solid #1A76D166;
+}
+
+.mobile .box h4 {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mobile .box p {
+    color: #696969;
+}
+.mobile .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+.mobile .chek img {
+    align-self: flex-start;
+  }
+
+.mobile .chek h6 {
+    margin: 0;
+    font-weight: bolder; 
+  }
+.mobile button{
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}  
+.mobile button:hover{
+    box-shadow: 0 4px 4px 0 black;
+}
+.mobile button h5{
+    margin-bottom: 0;
+}  
+
+.recruit{
+    padding: 50px;
+    background: #0E1934;
+}
+.recruit h2{
+    text-align: center;
+}
+.recruit .custom-hr{
+    width: 10%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.recruit .box {
+    background-color: #E7F5FF;
+    height: 100%;
+    padding: 40px ;
+}
+.recruit .box h6{
+    text-align: center;
+    font-weight: bolder;
+}
+.recruit .box h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #24236E;
+}
+.recruit .box p{
+    font-weight: bolder;
+    text-align: center;
+}
+.recruit .box button{
+    border: none;
+    background: #303481;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+.other h2{
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+.other .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+.other .chek img {
+    align-self: flex-start;
+  }
+
+.other .chek h6 {
+    color: #000000;
+    margin: 0;
+    font-weight: bolder; 
+  }
+
+.inno{
+    color: #000000;
+    margin-top: 200px;
+}  
+.inno h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.inno .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.inno .box {
+    border: 1px solid #DDDDDD;
+    height: 100%;
+    padding: 40px ;
+}
+
+.inno .box:hover {
+    box-shadow: 0 4px 8px 0 #00000040;
+    border: 1px solid #1A76D166;
+}
+.inno .box h5{
+    text-align: center;
+    font-weight: bolder;
+}
+.inno .box p{
+    color: #696969;
+}
