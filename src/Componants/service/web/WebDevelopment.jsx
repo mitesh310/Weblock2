@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../Banner'
 import './webdevlopment.css'
 import Getin from '../Getin'
+import Process from '../Process'
 
 
 export default function WebDevelopment() {
@@ -146,7 +147,52 @@ export default function WebDevelopment() {
       <div className="data">
         <div className="container">
           <h2 className='mt-5'>Our Detailed Data Analytics Process</h2>
-          <div className="row mt-5">
+          <Process 
+            number1="01"
+            title1="Planning and Discovery"
+            img1="./image/webdevlopment/Mask group (4).png"
+            desc1="Define Goals: Understand the purpose of the website or web application, target audience, and desired outcomes.Research: Conduct market research, competitor analysis, and gather requirements from stakeholders. "
+
+            number2="02"
+            title2="Design Phase"
+            img2="./image/webdevlopment/Mask.png"
+            desc2="Wireframing: Create wireframes or low-fidelity prototypes to outline the structure and layout of key pages and features.
+            UI/UX Design: Develop high-fidelity designs focusing on user interface (UI) design elements such as colors, typography, icons, and user experience (UX) considerations like navigation, interactions, and usability. "
+          />
+          <Process 
+            number1="03"
+            title1="Development"
+            img1="./image/webdevlopment/Mask group (3).png"
+            desc1="Front-end Development brings UI/UX designs to life using HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js. Back-end Development manages server-side logic, databases, and functionality with languages like Python, PHP, Ruby, Java, or Node.js, utilizing frameworks such as Django, Laravel, Ruby on Rails, Spring Boot, or Express.js based on project requirements. "
+
+            number2="04"
+            title2="Testing"
+            img2="./image/webdevlopment/image 90 (1).png"
+            desc2="Functional Testing verifies features work as intended, Compatibility Testing ensures performance across devices, Usability Testing gathers feedback for user experience improvements, and Security Testing safeguards data and authentication. "
+          />
+          <Process 
+            number1="05"
+            title1="Deployment"
+            img1="./image/webdevlopment/image 90.png"
+            desc1="Server Setup involves choosing a hosting environment (shared, VPS, cloud), configuring servers, databases, domains, and SSL certificates. Deploy Code includes uploading web application files, configuring settings, and ensuring functionality in the production environment. Monitor Performance using tools to track performance metrics, uptime, response times, and server resources for optimization. "
+
+            number2="06"
+            title2="Maintenance and Updates"
+            img2="./image/webdevlopment/Mask group (2).png"
+            desc2="Regular updates are crucial for website security and performance, ensuring software and plugins are up-to-date to prevent vulnerabilities. Continuous content updates maintain user engagement and relevance, meeting evolving business needs. Consistent technical support and bug fixes ensure smooth functionality, enhancing user satisfaction and operational efficiency. "
+          />
+          <Process 
+            number1="07"
+            title1="Optimization and SEO"
+            img1="./image/webdevlopment/Mask group (1).png"
+            desc1="To enhance website performance, focus on improving speed through code optimization, image compression, and caching techniques. Additionally, implement SEO strategies such as optimizing meta tags, headings, content, and site structure, along with creating sitemaps, robots.txt files, and schema markup, to boost indexing and ranking on search engines. "
+
+            number2="08"
+            title2="Feedback and Iteration"
+            img2="./image/webdevlopment/Mask group.png"
+            desc2="Gathering feedback from users, stakeholders, and analytics data allows for informed decision-making in implementing iterative improvements, introducing new features, and making enhancements based on feedback and performance metrics, ensuring continuous iteration and improvement of the website/application to align with evolving business goals and user needs. "
+          />
+          {/* <div className="row mt-5">
             <div className="col-lg-4">
               <div className="chek mt-5">
                 <span className='one'>01</span>
@@ -174,8 +220,8 @@ export default function WebDevelopment() {
                   <span className='two'>02</span>
                 </div>
               </div>
-          </div>
-          <div className="row mt-5">
+          </div> */}
+          {/* <div className="row mt-5">
             <div className="col-lg-4">
               <div className="chek mt-5">
                 <span className='three'>03</span>
@@ -202,8 +248,8 @@ export default function WebDevelopment() {
                   <span className='four'>04</span>
                 </div>
               </div>
-          </div>
-          <div className="row mt-5">
+          </div> */}
+          {/* <div className="row mt-5">
             <div className="col-lg-4">
               <div className="chek mt-5">
                 <span className='five'>05</span>
@@ -230,8 +276,8 @@ export default function WebDevelopment() {
                   <span className='six'>06</span>
                 </div>
               </div>
-          </div>
-          <div className="row mt-5">
+          </div> */}
+          {/* <div className="row mt-5">
             <div className="col-lg-4">
               <div className="chek mt-5">
                 <span className='seven'>07</span>
@@ -258,7 +304,7 @@ export default function WebDevelopment() {
                   <span className='eight'>08</span>
                 </div>
               </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

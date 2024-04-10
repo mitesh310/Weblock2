@@ -5,16 +5,16 @@
     
 }
 body{
-    color: white;
     font-family: Inria Serif;
-    /* background-color: #000C1D; */
 }
-.company{
-  background-color: #000C1D;
-}
+
 .home{
     margin-top: 80px;
-
+    background-color: #000C1D;
+    color: white;
+}
+.home h1{
+  padding-top: 50px;
 }
 .home p{
     font-size: 20px;
@@ -50,7 +50,7 @@ body{
     text-align: center;
 }
 .client .trust{
-    background: #D5E8FF;
+    /* background: #D5E8FF; */
     margin: 50px 0px;
 }
 .client .trust .img {
@@ -70,15 +70,23 @@ body{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+.all{
+  background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .all h1{
+  color: #1099C5;
   font-weight: bolder;
   text-align: center;
   padding-top: 80px;
 }
 .all span{
-    color: #1099C5;
+    color: #021D44;
 }
 .all h3{
+  color: #1099C5;
+  font-weight: bolder;
   text-align: center;
 }
 .all .finish{
@@ -86,7 +94,7 @@ body{
   margin-right: -25px;
 }
 .all .hr {
-  border: 1px solid white;
+  border: 1px solid #021D44;
 }
 .box{
   padding: 30px 0px;
@@ -124,6 +132,8 @@ body{
 }
 
 .service {
+  background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
+
   padding: 50px 0;
 }
 
@@ -137,7 +147,7 @@ body{
   top: 30px;
   font-size: 30px;
   font-weight: 600;
-  color: white;
+  color: #1099C5;
   text-align: center;
 }
 
@@ -146,6 +156,11 @@ body{
   padding: 20px;
   height: 100%; 
   background-color: #ffffff; 
+}
+.service .box:hover {
+  background: linear-gradient(143.62deg, #1099C5 0%, #B8E1EE 56.67%, #DFEDF1 100%);
+  transition-duration: 2s;
+
 }
 .service .box .vector{
   margin-top: 20px;
@@ -200,6 +215,8 @@ body{
 
 .indu {
   padding: 50px 0;
+  background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
+
 }
 .indu .container {
   display: flex;
@@ -216,15 +233,20 @@ body{
   top: 30px;
   font-size: 30px;
   font-weight: 600;
-  color: white;
+  color: #1099C5;
   text-align: center;
 }
+.indu h6{
+  color: #1099C5;
+  font-weight: bold;
+}
 .indu .btn{
-  background-color: white;
+  background-color: #1099C5;
+  color: white;
   align-self: flex-end;
 }
 .indu .btn:hover{
-  color: black;
+  box-shadow: 0 4px 8px 0 #00000040;
 }
 .indu .box-img {
   display: flex;
@@ -285,6 +307,8 @@ body{
 
 .test{
   padding: 30px 0px;
+  background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
+
  
 }
 .test img.logo{
@@ -297,7 +321,7 @@ body{
   top: 30px;
   font-size: 28px;
   font-weight: 600;
-  color: white;
+  color: #1099C5;
   text-align: center;
 }
 .test .card h5{

@@ -6,18 +6,20 @@ export default function Home() {
   return (
     <>
     <div className="company">
+    <div className="home">
         <div className="container">
             <div className="row mb-5">
                 <div className="col-lg-6 col-md-12">
-                    <div className="home">
+                    
                         <h1>Boost your Business <br />By leveraging <span>AI & ML</span> </h1>
                         <p>The development of full artificial intelligence colud <br /> spell the end of the human race.</p>
                         <button className='mt-3'>Get In Touch</button>
-                    </div>
+                    
                 </div>
                 <div className="col-lg-6 col-md-12">
                     <img src="./image/home/bg.png" alt="" />
                 </div>
+            </div>
             </div>
         
         </div>
@@ -52,11 +54,11 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div class="all m-5">
+        <div class="all">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1><span>The numbers</span><br /> say it all</h1>
+                    <h1><span>The Numbers</span><br /> say it all</h1>
                 </div>
                 <div class="col-lg-3">
                     <div className="finish">
@@ -230,7 +232,7 @@ export default function Home() {
                 <button className='btn'>View More</button>
                 <div class="box-img mt-5">
                     <div class="box-1">
-                        <center><img src="./image/home/Vector (2).png" alt="" /></center>
+                        <center><img src="./image/home/4.png" alt="" /></center>
                         <h6>Retail, Ecommerce</h6>
                     </div>
                     <div class="box-1">
@@ -242,7 +244,7 @@ export default function Home() {
                         <h6>Healthcare & Fitness</h6>
                     </div>
                     <div class="box-1">
-                        <center><img src="./image/home/Frame (4).png" alt="" /></center>
+                        <center><img src="./image/home/3.png" alt="" /></center>
                         <h6>Logistics & Distribution</h6>
                     </div>
                     <div class="box-1">
@@ -260,11 +262,11 @@ export default function Home() {
                         <h6>Education & e-learning</h6>
                     </div>
                     <div class="box-1">
-                        <center><img src="./image/home/Frame (5).png" alt="" /></center>
+                        <center><img src="./image/home/2.png" alt="" /></center>
                         <h6>Healthcare & Fitness</h6>
                     </div>
                     <div class="box-1">
-                        <center><img src="./image/home/Frame (6).png" alt="" /></center>
+                        <center><img src="./image/home/1.png" alt="" /></center>
                         <h6>Logistics & Distribution</h6>
                     </div>
                     <div class="box-1">
