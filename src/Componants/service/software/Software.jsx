@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Banner from "../Banner";
 import "./software.css";
 import Getin from "../Getin";
+import Price from '../Price'
+
 
 
 export default function Software() {
@@ -135,8 +137,23 @@ export default function Software() {
           </div>
         </div>
       </div>
-      <Getin />
-      <div className="industry">
+      
+      <Price 
+       heading="Recruit Mobile App Development Team As per Your Requirement"
+        
+       title1= "Premium"
+       price1= "15"
+       desc1= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+       title2= "Premium"
+       price2= "15"
+       desc2= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+       title3= "Premium"
+       price3= "15"
+       desc3= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      />
+      <div className="industry mt-5">
         <div className="container">
           <h2>Our Industry-Based Software Capabilities</h2>
           <div className="custom-hr">
@@ -198,43 +215,26 @@ export default function Software() {
                   </p>
                 )}
                 {selectedOption === "Healthcare" && (
-                  <p>Maximize your manufacturing efficiency with our custom
-                  software development services tailored to your needs. Our
-                  solutions optimize production planning, inventory
-                  management, and supply chain processes, integrating
-                  industry-specific manufacturing software. Benefit from
-                  real-time analytics for enhanced efficiency, cost reduction,
-                  and improved productivity.</p>
+                  <p>Experience seamless healthcare management with our custom software solutions. We specialize in electronic medical records, appointment scheduling, and telehealth platforms, enhancing workflow efficiency, patient care quality, and data security compliance. Trust us to elevate your healthcare organization's capabilities and provide exceptional service to your patients.</p>
                 )}
                 {selectedOption === "Banking" && (
-                  <p>Maximize your manufacturing efficiency with our custom
-                  software development services tailored to your needs. Our
-                  solutions optimize production planning, inventory
-                  management, and supply chain processes, integrating
-                  industry-specific manufacturing software. Benefit from
-                  real-time analytics for enhanced efficiency, cost reduction,
-                  and improved productivity.</p>
+                  <p>Our tailored banking software solutions optimize your operations and elevate customer satisfaction. With secure transactions,
+                  seamless account management, and efficient processes, we help your institution thrive in the digital era.</p>
                 )}
                 {selectedOption === "Retail" && (
-                  <p>Maximize your manufacturing efficiency with our custom
-                  software development services tailored to your needs. Our
-                  solutions optimize production planning, inventory
-                  management, and supply chain processes, integrating
-                  industry-specific manufacturing software. Benefit from
-                  real-time analytics for enhanced efficiency, cost reduction,
-                  and improved productivity.</p>
+                  <p>Elevate your retail operations with our tailored software solutions. From efficient point-of-sale systems to seamless inventory management and personalized e-commerce platforms, our comprehensive retail software empowers you to enhance customer experiences and drive sales growth.</p>
                 )}
                 {selectedOption === "Aviation" && (
-                  <p>Content for Aviation Software Development.</p>
+                  <p>Elevate your aviation operations with our expert software solutions. Whether it's flight management, crew scheduling, maintenance tracking, or passenger service platforms, our dedicated team ensures safety, efficiency, and exceptional travel experiences every step of the way.</p>
                 )}
                 {selectedOption === "Transportation" && (
-                  <p>Content for Transport Software Development.</p>
+                  <p>Empower your logistics with our cutting-edge software solutions, tailored to streamline fleet management, optimize routes, and enhance shipment tracking. Experience efficiency and precision in your transportation operations like never before</p>
                 )}
                 {selectedOption === "Telecommunication" && (
-                  <p>Content for Tele Software Development.</p>
+                  <p>Unlock the potential of your telecommunications business with our state-of-the-art software solutions, designed to propel you ahead of the competition. Whether you need billing systems, CRM, network management, or communication platforms, our skilled developers are primed to craft bespoke solutions tailored to your exact requirements.</p>
                 )}
                 {selectedOption === "Insurance" && (
-                  <p>Content for Insurance Software Development.</p>
+                  <p>Empower your insurance business with our customized software solutions. Our insurance software development services cover policy management, claims processing, underwriting automation, and customer portal development, helping you streamline operations, enhance customer satisfaction, and improve risk management.</p>
                 )}
               </div>
             </div>
@@ -243,59 +243,9 @@ export default function Software() {
         </div>
       </div>
 
-      {/* this seaction css mobile.css under */}
-      <div className="recruit">
-        <div className="container">
-          <h2 className="pt-5">
-            Recruit Mobile App Development Team As per Your Requirement
-          </h2>
-          <div className="custom-hr">
-            <hr />
-          </div>
-          <div className="row mt-5">
-            <div className="col-lg-4">
-              <div className="box">
-                <h6>Premium</h6>
-                <h1>$15</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <center>
-                  <button>Get Started</button>
-                </center>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="box">
-                <h6>Premium</h6>
-                <h1>$15</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <center>
-                  <button>Get Started</button>
-                </center>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="box">
-                <h6>Premium</h6>
-                <h1>$15</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <center>
-                  <button>Get Started</button>
-                </center>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="rede mt-5">
+  
+      <Getin />
+      <div className="rede">
         <div className="container">
           <h2>
             Redefining Standards With Our Technology-Based Software Capabilities

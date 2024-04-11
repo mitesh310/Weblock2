@@ -28,10 +28,20 @@ export default function Header() {
         </div>
         <ul className="nav">
           <li className="nav-item">
-            <Link className="nav-link active" to="/">Company</Link>
+            <Link className="nav-link active" to="/about">Company</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/service">Technology</Link>
+          </li> */}
+          <li className="nav-item dropdown">
+            <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Technology
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><Link className="dropdown-item" to="/angularjs">Angular Js</Link></li>
+              <li><Link className="dropdown-item" to="/react">React Js</Link></li>
+
+            </ul>
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,8 +51,8 @@ export default function Header() {
               <li><Link className="dropdown-item" to="/web-development">Web Developer</Link></li>
               <li><Link className="dropdown-item" to="/mobile">Mobile Development</Link></li>
               <li><Link className="dropdown-item" to="/dataanalytics">Data Analytics</Link></li>
-              <li><Link className="dropdown-item" to="/datascinece">Data Scinece </Link></li>
-              <li><Link className="dropdown-item" to="/generativeai">Generative AI </Link></li>
+              {/* <li><Link className="dropdown-item" to="/datascinece">Data Scinece </Link></li> */}
+              <li><Link className="dropdown-item" to="/marketing">Marketing </Link></li>
               <li><Link className="dropdown-item" to="/graphics">Graphics </Link></li>
               <li><Link className="dropdown-item" to="/software">Software Development</Link></li>
               <li><Link className="dropdown-item" to="/ui">UI/UX Development</Link></li>

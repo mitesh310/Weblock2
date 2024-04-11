@@ -91,6 +91,7 @@ export default function Home() {
             <div class="container">
                 <img class='logo' src="./image/home/logo.png" alt="" />
                 <h3>Technologies We Work With</h3>
+                <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/html-5.png" alt="" /></center>
@@ -114,6 +115,8 @@ export default function Home() {
                         <center><img src="./image/home/Flutter 1.png" alt="" /></center>
                     </div>
                 </div>
+                </marquee>
+                <marquee  behavior="scroll"  direction="right"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/PHP-logo 1.png" alt="" /></center>
@@ -137,6 +140,8 @@ export default function Home() {
                         <center><img src="./image/home/apple.png" alt="" /></center>
                     </div>
                 </div>
+                </marquee>
+                <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/aws.png" alt="" /></center>
@@ -160,6 +165,7 @@ export default function Home() {
                         <center><img src="./image/home/hostinger.png" alt="" /></center>
                     </div>
                 </div>
+                </marquee>
             </div>
         </div>
         <div className="service">

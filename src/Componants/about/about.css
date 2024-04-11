@@ -1,0 +1,68 @@
+.about{
+    background: url(../../../public/image/about/bg.png);
+    height: 30vh;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+.about h2{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-weight: bolder;
+}
+.about h5{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+.abus h3{
+    font-weight: bolder;
+}
+.abus p{
+    color: #696969;
+}
+.abus h5{
+    color: #1B192A;
+    font-weight: bold;
+}
+.abus .why-img{
+    margin-top: 100px;
+    width: 95%;
+}
+.abus .why{
+    margin-top: 70px;
+}
+.abus .why .round{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #303481;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: #E7F5FF; 
+    font-weight: bolder;
+}
+.vision{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.vision h4{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.vision p{
+    text-align: center;
+}
+.prot .custom-hr{
+    width: 10%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.prot h3{
+    text-align: center;
+    font-weight: bolder;    
+}

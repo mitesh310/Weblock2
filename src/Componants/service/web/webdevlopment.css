@@ -10,6 +10,8 @@
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 20px;
+    border-radius: 5px;
+
 }
 
 .web .box:hover {
@@ -26,11 +28,14 @@
 }
 
 .eng {
-    background-color: #000C1D;
+    background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
 }
 
 .eng h2 {
     text-align: center;
+    color: #1099C5;
+    font-weight: bolder;
+
 }
 
 .eng hr {
@@ -41,6 +46,15 @@
 
     /* height: 100%; */
     padding: 30px;
+    transition-duration: 2s; /* Duration of the transition */
+    transition-timing-function: ease; /* Timing function (e.g., ease, linear, etc.) */
+    transition-delay: 0s; 
+    border-radius: 5px;
+
+}
+.eng .box:hover{
+    background: linear-gradient(143.62deg, #1099C5 0%, #B8E1EE 56.67%, #DFEDF1 100%);
+    box-shadow: 0 4px 8px 0 #00000040;
 }
 
 .eng .box h5 {
@@ -55,7 +69,7 @@
 }
 
 .eng button:hover {
-    box-shadow: 0 4px 4px 0 white;
+    box-shadow: 0 4px 4px 0 #00000054;
 }
 
 .boost{

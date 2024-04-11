@@ -2,6 +2,7 @@ import React from 'react'
 import './ui.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
+import Price from '../Price'
 
 export default function Ui() {
   return (
@@ -43,7 +44,21 @@ export default function Ui() {
         </div>
         
     </div>
-    <Getin />
+    <Price
+    heading="Recruit Mobile App Development Team As per Your Requirement"
+        
+    title1= "Premium"
+    price1= "15"
+    desc1= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    title2= "Premium"
+    price2= "15"
+    desc2= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    title3= "Premium"
+    price3= "15"
+    desc3= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    />
     <div className="ux">
         <div className="container">
             <h2>UI/UX Process</h2>
@@ -69,6 +84,12 @@ export default function Ui() {
                     <p>10. Dynamic Prototype</p>
                 </div>
             </div>
+        </div>
+    </div>
+    <Getin />
+
+    <div className='ux'>
+        <div className="container">
             <h2>UI/UX Web Applications</h2>
             <div className="custom-hr">
                 <hr />

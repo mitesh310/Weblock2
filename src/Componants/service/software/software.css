@@ -16,6 +16,8 @@
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px;
+    border-radius: 5px;
+
 }
 .software .box:hover {
     box-shadow: 0 4px 8px 0 #00000040;
@@ -31,7 +33,6 @@
 
 .industry{
     color: black;
-    margin-top: 200px;
 }
 .industry h2{
     text-align: center;
@@ -78,6 +79,7 @@
 
 .rede{
     color: black;
+    margin-top: 200px;
 }
 .rede h2{
     text-align: center;
@@ -93,6 +95,8 @@
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px ;
+    border-radius: 5px;
+
 }
 
 .rede .box:hover {

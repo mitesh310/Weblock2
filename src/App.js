@@ -10,6 +10,12 @@ import Footer from "./Componants/footer/Footer";
 import Software from "./Componants/service/software/Software";
 import Ui from "./Componants/service/ui/Ui";
 import DataAnalytics from "./Componants/service/data-analytics/DataAnalytics";
+import Graphic from "./Componants/service/graphic/Graphic";
+import Marketing from "./Componants/service/marketing/Marketing";
+import Aboutus from "./Componants/about/Aboutus";
+import Angular from "./Componants/technology/angular/Angular"
+import New from "./Componants/technology/react/New";
+
 
 function App() {
   return (
@@ -18,6 +24,7 @@ function App() {
       <Header />
      <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<Aboutus />} />
       <Route path="/service" element={<Service />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/web-development" element={<WebDevelopment />} />
@@ -25,6 +32,12 @@ function App() {
       <Route path="/dataanalytics" element={<DataAnalytics />} />
       <Route path="/software" element={<Software />} />
       <Route path="/ui" element={<Ui />} />
+      <Route path="/graphics" element={<Graphic />} />
+      <Route path="/marketing" element={<Marketing />} />
+      <Route path="/angularjs" element={<Angular />} />
+      <Route path="/react" element={<New />} />
+
+
       
 
 

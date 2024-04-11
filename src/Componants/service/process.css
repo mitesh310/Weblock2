@@ -4,6 +4,10 @@
     align-items: center; 
     gap: 10px;
   }
+.chek h1{
+    color: #18205D;
+    font-weight: bold;
+}
 .chek span {
     font-size: 60px;
     align-self: flex-start;

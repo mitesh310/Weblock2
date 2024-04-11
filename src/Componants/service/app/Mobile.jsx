@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import Banner from '../Banner'
 import './mobile.css'
 import Getin from '../Getin'
+import Price from '../Price'
 
 export default function Mobile() {
+
+  const getinRef = useRef(null);
+
+  const scrollToGetin = () => {
+    if (getinRef.current) {
+      getinRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <>
 
@@ -106,42 +117,28 @@ export default function Mobile() {
                   </div>
                 </div>
               </div>
-              <center><button className='mt-5'><h5>Share Your Project with Us for Discussion</h5></button></center>
+              <center><button onClick={scrollToGetin} className='mt-5'><h5>Share Your Project with Us for Discussion</h5></button></center>
           </div>
         </div>
-        <div className="recruit">
-          <div className="container">
-            <h2 className='pt-5'>Recruit Mobile App Development Team As per Your Requirement</h2>
-            <div className="custom-hr">
-                <hr />
-            </div>
-            <div className="row mt-5">
-              <div className="col-lg-4">
-                <div className="box">
-                  <h6>Premium</h6>
-                  <h1>$15</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <center><button>Get Started</button></center>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="box">
-                  <h6>Premium</h6>
-                  <h1>$15</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <center><button>Get Started</button></center>
-                </div>
-              </div><div className="col-lg-4">
-                <div className="box">
-                  <h6>Premium</h6>
-                  <h1>$15</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <center><button>Get Started</button></center>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+
+
+        <Price 
+        heading="Recruit Mobile App Development Team As per Your Requirement"
+        
+        title1= "Premium"
+        price1= "15"
+        desc1= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+        title2= "Premium"
+        price2= "15"
+        desc2= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+        title3= "Premium"
+        price3= "15"
+        desc3= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+
         <div className="other">
           <div className="container">
             <h2 className='mt-5'>Other Mobile Application Development Services</h2>
@@ -200,7 +197,9 @@ export default function Mobile() {
           </div>
         </div>
         
-        <Getin/>
+        <div ref={getinRef}>
+        <Getin />
+      </div>
         <div className="inno">
           <div className="container">
             <h2>Innovative Technologies to Enhance Your Mobile App's Future Potential</h2>

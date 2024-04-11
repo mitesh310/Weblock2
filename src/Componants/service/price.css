@@ -1,0 +1,96 @@
+.recruit{
+    padding: 50px;
+    background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);}
+.recruit h2{
+    text-align: center;
+    color: #1099C5;
+  
+}
+.recruit .custom-hr{
+    width: 10%;
+    color: #1099C5;
+    margin: 0 auto;
+    text-align: center;
+}
+.recruit .box {
+    background-color: #E7F5FF;
+    height: 100%;
+    padding: 40px ;
+    border-radius: 5px;
+
+}
+.recruit .box h6{
+    text-align: center;
+    font-weight: bolder;
+}
+.recruit .box h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #24236E;
+}
+.recruit .box p{
+    font-weight: bolder;
+    text-align: center;
+}
+.recruit .box button{
+    border: none;
+    background: #303481;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+
+
+  
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+  }
+  :root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(16, 153, 197, 0.5);
+	--c2: rgba(168, 239, 255, 0.1);
+}  
+.recruit .ani {
+    background-color: #E7F5FF;
+    height: 100%;
+    padding: 40px ;
+    border-radius: 5px;
+	border: 0.35rem solid;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+  

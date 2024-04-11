@@ -15,6 +15,8 @@
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px ;
+    border-radius: 5px;
+
 }
 
 .mobile .box:hover {
@@ -56,44 +58,7 @@
     margin-bottom: 0;
 }  
 
-.recruit{
-    padding: 50px;
-    background: #0E1934;
-}
-.recruit h2{
-    text-align: center;
-}
-.recruit .custom-hr{
-    width: 10%;
-    color: white;
-    margin: 0 auto;
-    text-align: center;
-}
-.recruit .box {
-    background-color: #E7F5FF;
-    height: 100%;
-    padding: 40px ;
-}
-.recruit .box h6{
-    text-align: center;
-    font-weight: bolder;
-}
-.recruit .box h1{
-    text-align: center;
-    font-weight: bolder;
-    color: #24236E;
-}
-.recruit .box p{
-    font-weight: bolder;
-    text-align: center;
-}
-.recruit .box button{
-    border: none;
-    background: #303481;
-    color: #fff;
-    padding: 10px 35px;
-    border-radius: 5px;
-}
+
 
 .other h2{
     text-align: center;
@@ -133,6 +98,8 @@
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px ;
+    border-radius: 5px;
+
 }
 
 .inno .box:hover {

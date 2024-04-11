@@ -1,0 +1,37 @@
+.point{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.point h2{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.point .custom-hr{
+    width: 10%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.point .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-top: 20px;
+  }
+.point .chek img {
+    align-self: flex-start;
+  }
+
+.point .chek h6 {
+    margin: 0;
+    font-weight: bolder; 
+  }
+.point button{
+    margin-top: 50px;
+    background: white;
+    padding: 5px 20px;
+}  
+.point button:hover{
+    box-shadow: 0 4px 4px 0 black;
+}
