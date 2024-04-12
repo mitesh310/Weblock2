@@ -81,20 +81,23 @@ export default function Graphic() {
           </div>
           <div className="ready">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-6 my-3">
                 <h3>Get a complete brand package ready to go</h3>
                 <p>Creating a complete brand package involves distilling your brand's essence into a cohesive and comprehensive kit, including a memorable logo that aligns with your brand's values and aesthetic, a color palette and typography that reflect your brand's personality, a set of brand guidelines to ensure consistency across all mediums, and compelling marketing materials such as business cards, email templates, and social media graphics.</p>
                 <button onClick={scrollToGetin}>Contact with our designers</button>
               </div>
-              <div className="col-lg-6">
-                <img src="./image/graphic/logoset 1.png" alt="" />
+              <div className="col-lg-6 my-3">
+                <img className='g-img' src="./image/graphic/logoset 1.png" alt="" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div ref={getinRef}>
-        <Getin />
+        <Getin 
+              title1="Have a project in mind or Any  "
+              title2="Questions? We are here to help!"
+        />
       </div>
       <div className="g-process">
         <div className="container">

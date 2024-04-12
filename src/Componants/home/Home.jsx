@@ -6,22 +6,21 @@ export default function Home() {
   return (
     <>
     <div className="company">
-    <div className="home">
-        <div className="container">
-            <div className="row mb-5">
-                <div className="col-lg-6 col-md-12">
-                    
-                        <h1>Boost your Business <br />By leveraging <span>AI & ML</span> </h1>
-                        <p>The development of full artificial intelligence colud <br /> spell the end of the human race.</p>
-                        <button className='mt-3'>Get In Touch</button>
-                    
-                </div>
-                <div className="col-lg-6 col-md-12">
-                    <img src="./image/home/bg.png" alt="" />
+        <div className="home">
+            <div className="container">
+                <div className="row mb-5">
+                    <div className="col-lg-6 col-md-12">
+                        
+                            <h1>Boost your Business <br />By leveraging <span>AI & ML</span> </h1>
+                            <p>The development of full artificial intelligence colud <br /> spell the end of the human race.</p>
+                            <button className='mt-3'>Get In Touch</button>
+                        
+                    </div>
+                    <div className="col-lg-6 col-md-12">
+                        <img className='h-img' src="./image/home/bg.png" alt="" />
+                    </div>
                 </div>
             </div>
-            </div>
-        
         </div>
         <div className="client">
             <div className="container">
@@ -55,7 +54,7 @@ export default function Home() {
             </div>
         </div>
         <div class="all">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <h1><span>The Numbers</span><br /> say it all</h1>
@@ -369,7 +368,7 @@ export default function Home() {
                         <h1>Let's talk!</h1>
                     </div>
                     <div className="col-lg-6">
-                        <center><img src="./image/home/contact-us-animate 1.png" alt="" /></center>
+                        <center><img className='h-img' src="./image/home/contact-us-animate 1.png" alt="" /></center>
                     </div>
                 </div>
             </div>

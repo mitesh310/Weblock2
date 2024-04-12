@@ -13,8 +13,8 @@ export default function Price(props) {
             <div className="custom-hr">
                 <hr />
             </div>
-            <div className="row mt-5">
-              <div className="col-lg-4">
+            <div className="row">
+              <div className="col-lg-4 my-3">
                 <div className="box">
                   <h6>{title1}</h6>
                   <h1>${price1}</h1>
@@ -22,14 +22,14 @@ export default function Price(props) {
                  
                 </div>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 my-3">
                 <div className="box ani ">
                   <h6>{title2}</h6>
                   <h1>${price2}</h1>
                   <p>{desc2}</p>
                  
                 </div>
-              </div><div className="col-lg-4">
+              </div><div className="col-lg-4 my-3">
                 <div className="box">
                   <h6>{title3}</h6>
                   <h1>${price3}</h1>

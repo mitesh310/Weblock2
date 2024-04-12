@@ -99,7 +99,7 @@ export default function Aboutus() {
 
         {/* this seaction css home.css */}
         <div class="all">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <h1><span>The Numbers</span><br /> say it all</h1>

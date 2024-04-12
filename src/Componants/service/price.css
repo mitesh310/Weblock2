@@ -93,4 +93,8 @@
 		--gradY: 0%;
 	}
 }
-  
+@media only screen and (max-width: 429px) and (min-width: 320px){
+    .recruit{
+        padding: 10px;
+    }
+}

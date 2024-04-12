@@ -64,7 +64,10 @@ export default function DataAnalytics() {
         </div>
       </div>
     </div>
-    <Getin />
+    <Getin 
+      title1="Have a project in mind or Any  "
+      title2="Questions? We are here to help!"
+    />
 
     <div className="proc">
       <div className="container">

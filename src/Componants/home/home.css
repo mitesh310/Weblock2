@@ -9,11 +9,12 @@ body{
 }
 
 .home{
-    margin-top: 80px;
+    padding-top: 80px;
     background-color: #000C1D;
     color: white;
 }
 .home h1{
+
   padding-top: 50px;
 }
 .home p{
@@ -28,6 +29,9 @@ body{
     font-weight: 400;
     line-height: 30px;
     padding: 5px;
+}
+.home .h-img{
+  width: 95%;
 }
 
 .client{
@@ -78,7 +82,7 @@ body{
 .all h1{
   color: #1099C5;
   font-weight: bolder;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 80px;
 }
 .all span{
@@ -216,40 +220,45 @@ body{
 .indu {
   padding: 50px 0;
   background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
-
 }
+
 .indu .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
-.indu img.logo{
+.indu img.logo {
   position: absolute;
   width: 65px;
-  left: 40.5%; 
+  left: 50%; /* Center logo horizontally */
+  transform: translateX(-50%);
+  top: 20px; /* Adjust as needed */
 }
-.indu h3{
-  position: relative;
-  top: 30px;
+
+.indu h3 {
   font-size: 30px;
   font-weight: 600;
   color: #1099C5;
   text-align: center;
+  margin-top: 30px;
 }
-.indu h6{
-  color: #1099C5;
-  font-weight: bold;
-}
-.indu .btn{
+
+.indu .btn {
   background-color: #1099C5;
   color: white;
   align-self: flex-end;
+  margin-top: 20px;
 }
-.indu .btn:hover{
+
+.indu .btn:hover {
   box-shadow: 0 4px 8px 0 #00000040;
 }
+
 .indu .box-img {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -257,17 +266,19 @@ body{
 
 .indu .box-1 {
   flex: 1;
-  margin: 0 5px;
-  /* padding: 20px; */
+  margin: 0 20px;
+  text-align: center;
 }
 
 .indu .box-1 img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 10px; /* Add space between image and text */
 }
-.indu .box-1 h6{
-  text-align: center;
-  padding-top: 30px;
+
+.indu .box-1 h6 {
+  color: #1099C5;
+  font-weight: bold;
 }
 .meet{
   padding: 30px 0px;
@@ -340,4 +351,71 @@ body{
   text-align: center;
   margin-top: 150px;
   font-size: 60px;
+}
+.talk .h-img{
+  width: 95%;
+}
+
+
+@media only screen and (max-width: 1280px) and (min-width: 1024px){
+  .client .trust .img {
+    width: 150px;
+  }
+} 
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  /* .client .trust .img {
+    width: 170px;
+  } */
+  .client .trust .col-lg-2{
+    flex: 0 0 calc(16% );
+  }
+  .all .finish{
+    border-right: none;
+    margin-right: 0px;
+  }
+  
+  .indu img.logo {
+    width: 80px; 
+    top: 30px; 
+  }
+
+  .all h1{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+}
+@media only screen and (max-width: 766px) and (min-width: 430px){
+  .client .trust .col-lg-2{
+    flex: 0 0 calc(16% );
+  }
+  .all .finish{
+    border-right: none;
+    margin-right: 0px;
+  }
+  .all h1{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .indu .box-1 {
+    flex: 0 0 48%; 
+    margin: 0 1%; 
+  }
+  
+  
+}
+@media only screen and (max-width: 429px) and (min-width: 320px){
+  .client .trust .img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .all h1{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .all .finish{
+    border-right: none;
+    margin-right: 0px;
+  }
 }

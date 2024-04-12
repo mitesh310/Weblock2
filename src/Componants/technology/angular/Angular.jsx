@@ -73,7 +73,10 @@ export default function Angular() {
     />
 
     <div ref={getinRef}>
-        <Getin />
+        <Getin 
+                title1="Optimize Your Business with Leading "
+                title2="Angular.js Development Firm"
+        />
       </div>
 
 

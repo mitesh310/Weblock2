@@ -10,26 +10,26 @@ export default function Process(props) {
     {/* <div className="data">
         <div className="container"> */}
           {/* <h2 className='mt-5'>{heading}</h2> */}
-          <div className="row mt-5">
-            <div className="col-lg-4">
+          <div className="row ">
+            <div className="col-lg-4 mt-5">
               <div className="chek mt-5">
                 <span className='two'>{number1}</span>
                 <h1 > {title1}</h1>
               </div>
             </div>
-            <div className="col-lg-4">
-              <center><img src={img1} alt="" /></center>
+            <div className="col-lg-4 mt-3">
+              <center><img className='process-img' src={img1} alt="" /></center>
             </div>
             <div className="col-lg-4 mt-5">
-              <p className='mt-2'>{desc1}</p>
+              <p className='mt-5'>{desc1}</p>
             </div>
           </div>
-          <div className="row mt-5">
-            <div className="col-lg-4  mt-5">
-              <p className='mt-3'>{desc2}</p>
+          <div className="row">
+            <div className="col-lg-4 mt-5">
+              <p className='mt-5'>{desc2}</p>
             </div>
-            <div className="col-lg-4">
-              <center><img src={img2} alt="" /></center>
+            <div className="col-lg-4 mt-3">
+              <center><img className='process-img' src={img2} alt="" /></center>
             </div>
             <div className="col-lg-4 mt-5">
               <div className="chek mt-5">

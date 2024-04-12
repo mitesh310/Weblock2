@@ -23,7 +23,7 @@ export default function Ui() {
             <p>In today's competitive market, a well-designed user interface and an enjoyable user experience are crucial for driving user interaction and boosting sales. User Experience (UX) and User Interface (UI) play integral roles in the development of web applications, mobile apps, and software products, leaving a lasting impression on users. From conceptualization to UX design, and from graphics to branding, a meticulously planned and executed UI serves as a bridge between stakeholder goals and user expectations. In a nutshell, a rich look and great feel are essential components for success in today's digital landscape.</p>
             <div className="row my-5">
                 <div className="col-lg-6">
-                    <img src="./image/UI/weba.png" alt="" />
+                    <img className='u-img' src="./image/UI/weba.png" alt="" />
                 </div>
                 <div className="col-lg-6">
                     <h3>Web Applications</h3>
@@ -38,7 +38,7 @@ export default function Ui() {
                     <button>Free Quote Request</button>
                 </div>
                 <div className="col-lg-6">
-                    <img src="./image/UI/mobile.png" alt="" />
+                    <img className='u-img' src="./image/UI/mobile.png" alt="" />
                 </div>
             </div>
         </div>
@@ -74,7 +74,7 @@ export default function Ui() {
                     <p>5. Graphic Interface</p>
                 </div>
                 <div className="col-lg-6">
-                    <center><img src="./image/UI/process.png" alt="" /></center>
+                    <center><img className='u-img' src="./image/UI/process.png" alt="" /></center>
                 </div>
                 <div className="col-lg-3">
                     <p>6. Animation Prototype</p>
@@ -86,7 +86,10 @@ export default function Ui() {
             </div>
         </div>
     </div>
-    <Getin />
+    <Getin 
+          title1="Have a project in mind or Any  "
+          title2="Questions? We are here to help!"
+    />
 
     <div className='ux'>
         <div className="container">
@@ -103,7 +106,7 @@ export default function Ui() {
                     <p>Information architecture</p>
                 </div>
                 <div className="col-lg-6">
-                    <center><img src="./image/UI/web.png" alt="" /></center>
+                    <center><img className='u-img' src="./image/UI/web.png" alt="" /></center>
                 </div>
                 <div className="col-lg-3">
                     <p>Wireframing, Prototypes, Mockups</p>
@@ -122,7 +125,7 @@ export default function Ui() {
                     <p>Visual design </p>
                 </div>
                 <div className="col-lg-6">
-                    <center><img src="./image/UI/app.png" alt="" /></center>
+                    <center><img className='u-img' src="./image/UI/app.png" alt="" /></center>
                 </div>
                 <div className="col-lg-3">
                     <p>Prototyping </p>

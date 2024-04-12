@@ -15,6 +15,16 @@ import Marketing from "./Componants/service/marketing/Marketing";
 import Aboutus from "./Componants/about/Aboutus";
 import Angular from "./Componants/technology/angular/Angular"
 import New from "./Componants/technology/react/New";
+import Vuejs from "./Componants/technology/vue/Vuejs";
+import Html from "./Componants/technology/html/Html";
+import Node from "./Componants/technology/node/Node";
+import Laravel from "./Componants/technology/laravel/Laravel";
+import Socialmedia from "./Componants/technology/socialmedia/Socialmedia";
+import DevOpsConsulting from "./Componants/technology/devops/DevOpsConsulting";
+import DevOpsImplementation from "./Componants/technology/devops/DevOpsImplementation";
+import DevOpsAutomation from "./Componants/technology/devops/DevOpsAutomation";
+import Flutter from "./Componants/technology/mobile/Flutter";
+import Net from "./Componants/technology/mobile/Net";
 
 
 function App() {
@@ -36,6 +46,17 @@ function App() {
       <Route path="/marketing" element={<Marketing />} />
       <Route path="/angularjs" element={<Angular />} />
       <Route path="/react" element={<New />} />
+      <Route path="/vue" element={<Vuejs />} />
+      <Route path="/html" element={<Html />} />
+      <Route path="/node" element={<Node />} />
+      <Route path="/laravel" element={<Laravel />} />
+      <Route path="/socialmedia" element={<Socialmedia />} />
+      <Route path="/devopsconsulting" element={<DevOpsConsulting />} />
+      <Route path="/devopsimplementation" element={<DevOpsImplementation />} />
+      <Route path="/devopsautomation" element={<DevOpsAutomation />} />
+      <Route path="/flutter" element={<Flutter />} />
+      <Route path="/net" element={<Net />} />
+
 
 
       

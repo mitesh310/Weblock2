@@ -24,19 +24,19 @@ export default function Marketing() {
                 <hr />
             </div>
             <div className="row">
-                <div className="col-lg-4 my-5">
+                <div className="col-lg-4 my-3">
                     <div className="box">
                         <h5>Facebook</h5>
                         <p>Facebook provides social media marketing services like ad targeting, audience insights, page management, and analytics to help businesses connect with customers, drive sales, and analyze performance through their platform.</p>
                     </div>
                 </div>
-                <div className="col-lg-4 my-5">
+                <div className="col-lg-4 my-3">
                     <div className="box">
                         <h5>Instagram</h5>
                         <p>Maximize your brand's potential on Instagram with our comprehensive suite of services. From creating eye-catching ads and promoting posts to analyzing performance insights and connecting with potential customers through shopping and messaging features, we're here to help you build engagement and drive sales on this global social platform.</p>
                     </div>
                 </div>
-                <div className="col-lg-4 my-5">
+                <div className="col-lg-4 my-3">
                     <div className="box">
                         <h5>Linkedin</h5>
                         <p>Empower your business with our LinkedIn services, enabling you to build a strong brand presence through captivating company pages, engaging content, and targeted ads. Gain valuable insights with advanced analytics, streamline lead management with CRM integration, and expand your network by joining industry groups.</p>
@@ -45,7 +45,10 @@ export default function Marketing() {
             </div>
         </div>
     </div>
-    <Getin />
+    <Getin 
+          title1="Have a project in mind or Any  "
+          title2="Questions? We are here to help!"
+    />
 
     <div className="s-process">
         <div className="container">

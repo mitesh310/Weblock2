@@ -164,7 +164,7 @@ export default function Software() {
             services tailored to address our clients' unique challenges.
           </h6>
 
-          <div className="bo m-5">
+          <div className="bo my-5">
             <div className="row">
               <div className="col-lg-5">
                 <div className="menu">
@@ -244,7 +244,10 @@ export default function Software() {
       </div>
 
   
-      <Getin />
+      <Getin 
+            title1="Have a project in mind or Any  "
+            title2="Questions? We are here to help!"
+      />
       <div className="rede">
         <div className="container">
           <h2>
@@ -399,9 +402,9 @@ export default function Software() {
             the top 1% IT talents with core competencies in custom web app
             development.
           </p>
-          <div className="row m-5">
+          <div className="row my-5">
             <div className="col-lg-6">
-              <img src="./image/software/image 93.png" alt="" />
+              <img className="s-img" src="./image/software/image 93.png" alt="" />
             </div>
             <div className="col-lg-6">
               <h5 className="m-4">

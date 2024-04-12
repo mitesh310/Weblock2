@@ -64,3 +64,14 @@
 .chek h1 {
     margin: 0; 
   }
+  .process-img{
+    max-width: 100%;
+  }
+
+
+
+  @media only screen and (max-width: 992px) and (min-width: 320px){
+    .chek{
+        justify-content: center;
+    }
+  }

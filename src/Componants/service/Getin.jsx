@@ -1,12 +1,15 @@
 import React from 'react'
 import './getin.css'
 
-export default function Getin() {
+export default function Getin(props) {
+
+const {title1,title2} = props;
+
   return (
     <>
     <div className="get-touch">
         <div className="container">
-          <h2 className='py-5'>Get In Touch With Best Software <br /> Consulting Company</h2>
+          <h2 className='py-5'>{title1} <br /> {title2}</h2>
           <form action="">
           <div className="row py-5">
             <div className="col-lg-4 mb-3">

@@ -67,7 +67,10 @@ export default function New() {
     />
 
     <div ref={getinRef}>
-        <Getin />
+        <Getin 
+                title1="Optimize Your Business with Leading "
+                title2="React Js Development Firm"
+        />
       </div>
 
 

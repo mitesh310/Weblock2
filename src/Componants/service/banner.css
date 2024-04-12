@@ -120,3 +120,14 @@
       background: none;
     }
   }
+
+  @media only screen and (max-width: 766px) and (min-width: 430px){
+    .banner .banner-text .icon{
+      padding-bottom: 20px;
+    }
+  }
+  @media only screen and (max-width: 429px) and (min-width: 320px){
+    .banner .banner-text .icon{
+      padding-bottom: 10px;
+    }
+  }

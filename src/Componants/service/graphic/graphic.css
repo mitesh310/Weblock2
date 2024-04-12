@@ -58,6 +58,9 @@
     font-weight: 600;
     box-shadow: 0 4px 8px 0 #00000040;
 }
+.visualize .g-img{
+    max-width: 100%;
+}
 .g-process {
     margin-top: 200px;
     margin-bottom: 100px;

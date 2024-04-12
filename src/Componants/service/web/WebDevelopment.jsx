@@ -20,40 +20,40 @@ export default function WebDevelopment() {
       <div className="container">
         <div className="web">
           <h2>Comprehensive Web Design and Development Services</h2>
-          <div className="row my-5">
-            <div className="col-lg-4">
+          <div className="row ">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>UI/UX Design Services</h5>
                 <p>We're a top web development company providing result-oriented UI/UX design services globally. Our experts follow industry best practices to deliver creative, innovative, and market-proven solutions tailored to your business needs. Our product development engagement plans are clear and transparent.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>Full-stack Web Design and Development</h5>
                 <p>We're a top web development firm, boasting a team of skilled engineers for full-cycle product development. Our expertise spans front-end and back-end technologies, including popular stacks like MERN, MEAN, Django, Ruby on Rails, and LAMP.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>UI/UX Design Services</h5>
                 <p>Our full-suite web development services encompass everything required to establish a strong online presence. From captivating front-end designs to seamless back-end development, our expert team delivers tailored solutions that align with your specific needs.</p>
               </div>
             </div>
           </div>
-          <div className="row my-5">
-            <div className="col-lg-4">
+          <div className="row">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>Integration Services</h5>
                 <p>Unlock connected digital experiences with our enterprise integration services. Let us handle database or CRM integration for your projects. Benefit from robust and practical solutions for streamlined business processes.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>QA & Testing Services </h5>
                 <p>Experience top-notch QA testing tailored to your business goals. We offer QA and Software Testing for web and mobile, automation, manual, API, security, and performance testing. Benefit from QA consulting and analysis services.</p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 my-5">
               <div className="box">
                 <h5>After Delivery Support</h5>
                 <p>Our 24/7 managed IT services align with your project needs for consistent and real-time support, optimizing your business processes. Bacancy's IT Support and Maintenance services aim to enhance customer satisfaction, accelerate backlog implementation, and lower operational costs.</p>
@@ -107,7 +107,7 @@ export default function WebDevelopment() {
 
           <div className="row">
             <div className="col-lg-6">
-              <img src="./image/webdevlopment/image 93.png" alt="" />
+              <img  className='w-img' src="./image/webdevlopment/image 93.png" alt="" />
             </div>
             <div className="col-lg-6">
               <h5 className='mt-5'>Our web architects and developers excel in the following <br /> services:</h5>
@@ -142,7 +142,10 @@ export default function WebDevelopment() {
           </div>
         </div>
       </div> 
-      <Getin/>
+      <Getin
+      title1="Get In Touch With Best Software "
+      title2="Consulting Company"
+      />
       
       <div className="data">
         <div className="container">
