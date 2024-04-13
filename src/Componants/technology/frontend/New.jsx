@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import './new.css'
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';

@@ -88,8 +88,8 @@ export default function Contact() {
         <div className="container">
           <div className="help">
             <h2 className="mt-3">More Help & Support</h2>
-            <div className="row my-5">
-              <div className="col-lg-4 col-md-6">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 my-3">
                 <div className="free">
                   <center>
                     <img src="./image/contact/consultation.png" alt="" />
@@ -105,7 +105,7 @@ export default function Contact() {
                   </center>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6 my-3">
                 <div className="free">
                   <center>
                     <img src="./image/contact/book.png" alt="" />
@@ -121,7 +121,7 @@ export default function Contact() {
                   </center>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-6">
+              <div className="col-lg-4 col-md-6 my-3">
                 <div className="free">
                   <center>
                     <img src="./image/contact/customer.png" alt="" />

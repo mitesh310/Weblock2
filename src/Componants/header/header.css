@@ -123,10 +123,10 @@ section {
   transition: .3s;
 }
 
-/* .dropdown-link:hover > a {
-  background-color: var(--clr-dropdown);
-  color: var(--clr-light);
-} */
+.dropdown-link:hover > a {
+  background-color: #696969;
+  /* color: var(--clr-light); */
+}
 
 .dropdown-link:not(:nth-last-child(2)) {
   border-bottom: 1px solid var(--clr-light);
@@ -315,6 +315,10 @@ section {
   .nav-link:hover > a {
     transform: scale(1);
     /* background-color: var(--clr-nav-hover); */
+  }
+
+  .dropdown {
+    width: 10rem;
   }
 
   .dropdown,

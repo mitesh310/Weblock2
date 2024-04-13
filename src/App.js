@@ -13,18 +13,32 @@ import DataAnalytics from "./Componants/service/data-analytics/DataAnalytics";
 import Graphic from "./Componants/service/graphic/Graphic";
 import Marketing from "./Componants/service/marketing/Marketing";
 import Aboutus from "./Componants/about/Aboutus";
-import Angular from "./Componants/technology/angular/Angular"
-import New from "./Componants/technology/react/New";
-import Vuejs from "./Componants/technology/vue/Vuejs";
-import Html from "./Componants/technology/html/Html";
-import Node from "./Componants/technology/node/Node";
-import Laravel from "./Componants/technology/laravel/Laravel";
+import Angular from "./Componants/technology/frontend/Angular"
+import New from "./Componants/technology/frontend/New";
+import Vuejs from "./Componants/technology/frontend/Vuejs";
+import Html from "./Componants/technology/frontend/Html";
+import Node from "./Componants/technology/backend/Node";
+import Laravel from "./Componants/technology/backend/Laravel";
 import Socialmedia from "./Componants/technology/socialmedia/Socialmedia";
 import DevOpsConsulting from "./Componants/technology/devops/DevOpsConsulting";
 import DevOpsImplementation from "./Componants/technology/devops/DevOpsImplementation";
 import DevOpsAutomation from "./Componants/technology/devops/DevOpsAutomation";
 import Flutter from "./Componants/technology/mobile/Flutter";
-import Net from "./Componants/technology/mobile/Net";
+import Net from "./Componants/technology/backend/Net";
+import Phython from "./Componants/technology/backend/Phython";
+import Java from "./Componants/technology/backend/Java";
+import Spring from "./Componants/technology/backend/Spring";
+import Rdev from "./Componants/technology/backend/Rdev";
+import Django from "./Componants/technology/backend/Django";
+import Manual from "./Componants/technology/qa/Manual";
+import Automation from "./Componants/technology/qa/Automation";
+import Aws from "./Componants/technology/cloud/Aws";
+import Azure from "./Componants/technology/cloud/Azure";
+import Gcp from "./Componants/technology/cloud/Gcp";
+import Android from "./Componants/technology/mobile/Android";
+import Native from "./Componants/technology/mobile/Native";
+import Ios from "./Componants/technology/mobile/Ios";
+import Javascript from "./Componants/technology/frontend/Javascript";
 
 
 function App() {
@@ -56,6 +70,22 @@ function App() {
       <Route path="/devopsautomation" element={<DevOpsAutomation />} />
       <Route path="/flutter" element={<Flutter />} />
       <Route path="/net" element={<Net />} />
+      <Route path="/python" element={<Phython />} />
+      <Route path="/java" element={<Java />} />
+      <Route path="/manual" element={<Manual />} />
+      <Route path="/automation" element={<Automation />} />
+      <Route path="/aws" element={<Aws />} />
+      <Route path="/azure" element={<Azure />} />
+      <Route path="/gcp" element={<Gcp />} />
+      <Route path="/android" element={<Android />} />
+      <Route path="/native" element={<Native />} />
+      <Route path="/ios" element={< Ios/>} />
+      <Route path="/javascript" element={< Javascript/>} />
+      <Route path="/spring" element={< Spring/>} />
+      <Route path="/rdev" element={< Rdev/>} />
+      <Route path="/django" element={< Django/>} />
+
+
 
 
 

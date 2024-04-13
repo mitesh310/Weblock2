@@ -25,7 +25,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="cont">
         <input type="checkbox" name="check" id="check" checked={isMenuOpen} onChange={toggleMenu} />
         <div className="logo-container">
@@ -113,28 +113,141 @@ const Header = () => {
                 <a href="#">Technology<i className="fas fa-caret-down"></i></a>
                 <div className="dropdown">
                   <ul>
-                    <Link className="dropdown-link" to="/angularjs">
-                      <a href="#">Angular Js</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/react">
-                      <a href="#">React Js</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/vue">
-                      <a href="#">Vue Js</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/html">
-                      <a href="#">HTML/Css</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/node">
-                      <a href="#">Node Js</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/laravel">
-                      <a href="#">Laravel</a>
-                    </Link>
-                    <Link className="dropdown-link" to="/socialmedia">
-                      <a href="#">Social Media Marketing</a>
-                    </Link>
-                    
+                    {/*   mobile */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">Mobile App<i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/ios">
+                          <a href="#">IOS</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/android">
+                          <a href="#">Android</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/flutter">
+                          <a href="#">Flutter</a>
+                        </Link>
+                        {/* <Link className="dropdown-link" to="/">
+                          <a href="#">Kotlin</a>
+                        </Link> */}
+                        <Link className="dropdown-link" to="/native">
+                          <a href="#">React Netive</a>
+                        </Link>
+                        
+                          
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   frontend */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">Frontend <i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/html">
+                          <a href="#">HTML/CSS</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/javascript">
+                          <a href="#">Javascript</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/angularjs">
+                          <a href="#">Angular Js</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/vue">
+                          <a href="#">Vue Js</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/react">
+                          <a href="#">React Js</a>
+                        </Link>
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   backend */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">Backend <i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/node">
+                          <a href="#">Node Js</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/laravel">
+                          <a href="#">Laravel</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/python">
+                          <a href="#">Python</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/java">
+                          <a href="#">Java</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/net">
+                          <a href="#">.Net</a>
+                        </Link>
+                        {/* <Link className="dropdown-link" to="/">
+                          <a href="#">.Net Core</a>
+                        </Link> */}
+                        <Link className="dropdown-link" to="/spring">
+                          <a href="#">Spring Boot</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/rdev">
+                          <a href="#">R Dev</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/django">
+                          <a href="#">Django</a>
+                        </Link>
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   database */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">Database<i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/">
+                          <a href="#">Mysql</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/">
+                          <a href="#">Mongo DB</a>
+                        </Link>                        
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   cloud */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">Cloud Services<i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/aws">
+                          <a href="#">AWS</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/azure">
+                          <a href="#">Azure</a>
+                        </Link>  
+                        <Link className="dropdown-link" to="/gcp">
+                          <a href="#">GCP</a>
+                        </Link>                      
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   QA */}
+                    <li className="dropdown-link">
+                      <a className="sub-menu">QA Testing<i className="fas fa-caret-down"></i></a>
+                      <div className="dropdown second">
+                        <ul>
+                        <Link className="dropdown-link" to="/manual">
+                          <a href="#">Menual Testing</a>
+                        </Link>
+                        <Link className="dropdown-link" to="/automation">
+                          <a href="#">Abtomation Testing</a>
+                        </Link>                        
+                          <div className="arrow"></div>
+                        </ul>
+                      </div>
+                    </li>
+                    {/*   Devops */}
                     <li className="dropdown-link">
                       <a className="sub-menu">DevOps<i className="fas fa-caret-down"></i></a>
                       <div className="dropdown second">
@@ -170,22 +283,19 @@ const Header = () => {
                         </ul>
                       </div>
                     </li>
+                    {/*   social */}
                     <li className="dropdown-link">
-                      <a className="sub-menu">Mobile App<i className="fas fa-caret-down"></i></a>
+                      <a className="sub-menu">Digital Marketing<i className="fas fa-caret-down"></i></a>
                       <div className="dropdown second">
                         <ul>
-                        <Link className="dropdown-link" to="/flutter">
-                          <a href="#">Flutter</a>
-                        </Link>
-                        <Link className="dropdown-link" to="/net">
-                          <a href="#">.NET</a>
-                        </Link>
-                        
-                          
+                        <Link className="dropdown-link" to="/socialmedia">
+                          <a href="#">Social Media Marketing</a>
+                        </Link>                        
                           <div className="arrow"></div>
                         </ul>
                       </div>
                     </li>
+                    
                     
                     <div className="arrow"></div>
                   </ul>
