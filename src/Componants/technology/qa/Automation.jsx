@@ -79,7 +79,8 @@ export default function Automation() {
       />
       </div>
 
-<div className="point">
+ {/* this seaction css anglur.css */}
+    <div className="point">
       <div className="container">
         <h2>Key Components of Automation Testing Development</h2>
         <div className="custom-hr">

@@ -39,6 +39,8 @@ import Android from "./Componants/technology/mobile/Android";
 import Native from "./Componants/technology/mobile/Native";
 import Ios from "./Componants/technology/mobile/Ios";
 import Javascript from "./Componants/technology/frontend/Javascript";
+import Database from "./Componants/technology/database/Database";
+import Staffaugmentation from "./Componants/staff-augmentation/Staffaugmentation";
 
 
 function App() {
@@ -84,6 +86,8 @@ function App() {
       <Route path="/spring" element={< Spring/>} />
       <Route path="/rdev" element={< Rdev/>} />
       <Route path="/django" element={< Django/>} />
+      <Route path="/database" element={< Database/>} />
+      <Route path="/staff-augmentation" element={< Staffaugmentation />} />
 
 
 

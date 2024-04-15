@@ -100,6 +100,11 @@ body{
 .all .hr {
   border: 1px solid #021D44;
 }
+
+
+
+
+
 .box{
   padding: 30px 0px;
   background-color: white;
@@ -199,23 +204,13 @@ body{
   color: black;
   text-align: center;
 }
-.process .box-img {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+.process .gif{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  margin-top: 50px;
 }
 
-.process .box-1 {
-  flex: 1;
-  margin: 0 5px;
-  padding: 20px;
-}
-
-.process .box-1 img {
-  max-width: 100%;
-  height: auto;
-}
 
 .indu {
   padding: 50px 0;
@@ -232,9 +227,7 @@ body{
 .indu img.logo {
   position: absolute;
   width: 65px;
-  left: 50%; /* Center logo horizontally */
-  transform: translateX(-50%);
-  top: 20px; /* Adjust as needed */
+  left: 36%; /* Center logo horizontally */
 }
 
 .indu h3 {
@@ -361,6 +354,7 @@ body{
   .client .trust .img {
     width: 150px;
   }
+
 } 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
   /* .client .trust .img {
@@ -417,5 +411,51 @@ body{
   .all .finish{
     border-right: none;
     margin-right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .all {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+
+
+/* all seaction media queary  */
+@media (min-width: 992px) {
+  .all {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .all {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .all h1 {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .all {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .all h1 {
+    font-size: 24px;
+    padding-top: 40px;
+  }
+
+  .all .col-lg-6,
+  .col-lg-3 {
+    text-align: center;
   }
 }

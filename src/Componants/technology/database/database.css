@@ -1,61 +1,82 @@
-.our h2{
+.database h2{
     padding-top: 50px;
+    color: black;
     text-align: center;
     font-weight: bolder;
 }
-.our .custom-hr{
+.database .custom-hr{
     width: 10%;
-    color: black;
+    color: #000000;
     margin: 0 auto;
     text-align: center;
 }
-.our .box {
+
+
+.database .box {
     border: 1px solid #DDDDDD;
     height: 100%;
-    padding: 40px;
+    padding: 40px ;
     border-radius: 5px;
 
 }
-.our .box:hover {
+
+.database .box:hover {
     box-shadow: 0 4px 8px 0 #00000040;
     border: 1px solid #1A76D166;
 }
-.our .box h5{
-    text-align: center;
+
+.database .box h5 {
     font-weight: bolder;
+    text-align: center;
 }
-.our .box p{
+
+.database .box p {
     color: #696969;
 }
-.r-why{
+.database button{
+    margin-top: 50px;
+    background: white;
+    padding: 5px 20px;
+}  
+.database button:hover{
+    box-shadow: 0 4px 4px 0 black;
+}
+
+
+.mongo{
     margin-top: 200px;
 }
-.r-why h2{
+
+.choos-database{
+    /* margin-top: 200px; */
+    margin-bottom: 100px;
+}
+.choos-database h2{
     padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
-.r-why .custom-hr{
+.choos-database .custom-hr{
     width: 10%;
     color: black;
     margin: 0 auto;
     text-align: center;
 }
-.r-why .chek {
+.choos-database .chek {
     display: flex;
     align-items: center; 
     gap: 10px; 
   }
-.r-why .chek img {
+.choos-database .chek img {
     align-self: flex-start;
     padding-top: 5px;
   }
 
-.r-why .chek h5 {
+.choos-database .chek h5 {
     margin: 0;
     font-weight: bolder; 
   }
-.r-why .chek h5 span{
+.choos-database .chek h5 span{
     font-size: 16px;
     color: #696969;
 }

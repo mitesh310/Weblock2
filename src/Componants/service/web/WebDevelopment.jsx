@@ -1,11 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import Banner from '../Banner'
 import './webdevlopment.css'
 import Getin from '../Getin'
 import Process from '../Process'
+import Price from '../Price'
+
 
 
 export default function WebDevelopment() {
+
+
+  const getinRef = useRef(null);
+
+  const scrollToGetin = () => {
+    if (getinRef.current) {
+      getinRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+
   return (
     <>
 
@@ -97,9 +110,57 @@ export default function WebDevelopment() {
                 </div>
               </div>
             </div>
-            <center><button className='mb-3'>Share Your Project Idea with Us for Discussion</button></center>
+            <center><button onClick={scrollToGetin}  className='mb-3'>Share Your Project Idea with Us for Discussion</button></center>
           </div>
       </div>
+
+
+      <div className="benifits-web">
+      <div className="container">
+        <h2>Why Choose Us</h2>
+        <div className="custom-hr">
+          <hr />
+        </div>
+        <div className="chek">
+          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+          <h5 className='mb-3'> Experience: <span> With years of experience in the industry, we have the expertise to tackle projects of any size and complexity.</span></h5>
+        </div>
+        <div className="chek">
+          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+          <h5 className='mb-3'> Custom Solutions: <span>  We believe in delivering custom solutions that are tailored to your unique business needs, ensuring that your website stands out from the competition.</span></h5>
+        </div>
+        <div className="chek">
+          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+          <h5 className='mb-3'> Communication: <span> We value clear and transparent communication throughout the development process, keeping you informed every step of the way.</span></h5>
+        </div>
+        <div className="chek">
+          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+          <h5 className='mb-3'> Quality Assurance:  <span>Our rigorous quality assurance process ensures that your website is thoroughly tested for functionality, performance, and compatibility before launch.</span></h5>
+        </div>
+        <div className="chek">
+          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+          <h5 className='mb-3'>  Support and Maintenance:  <span> We provide ongoing support and maintenance services to keep your website running smoothly and up-to-date with the latest technologies and security patches.</span></h5>
+        </div>
+
+      </div>
+    </div>
+
+
+      <Price 
+        heading="Recruit Mobile App Development Team As per Your Requirement"
+        
+        title1= "Premium"
+        price1= "15"
+        desc1= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+        title2= "Premium"
+        price2= "15"
+        desc2= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+        title3= "Premium"
+        price3= "15"
+        desc3= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
       <div className="container">
         <div className="boost my-5">
           <h3>Boost Your Business Processes with Our Web Application Development Team</h3>
@@ -135,17 +196,20 @@ export default function WebDevelopment() {
                 <img src="./image/webdevlopment/check-mark 1.png" alt="" />
                 <p className='mb-4'> Experienced web architects with over 5+ years of deep-domain expertise.</p>
               </div>
-              <button>Free Quote Request</button>
+              <button onClick={scrollToGetin}>Free Quote Request</button>
 
               
             </div>
           </div>
         </div>
       </div> 
-      <Getin
-      title1="Get In Touch With Best Software "
-      title2="Consulting Company"
-      />
+
+      <div ref={getinRef}>
+        <Getin
+        title1="Get In Touch With Best Software "
+        title2="Consulting Company"
+        />
+      </div>
       
       <div className="data">
         <div className="container">

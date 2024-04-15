@@ -151,7 +151,7 @@ export default function Aboutus() {
                 </div>
             </div>
         </div>
-        <div className="prot">
+        {/* <div className="prot">
             <div className="container">
                 <div className="custom-hr">
                     <hr />
@@ -159,7 +159,7 @@ export default function Aboutus() {
                 <h3>Our Portfolio</h3>
 
             </div>
-        </div>
+        </div> */}
     </>
   )
 }

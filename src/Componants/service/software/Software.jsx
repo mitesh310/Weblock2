@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useRef } from "react";
 import Banner from "../Banner";
 import "./software.css";
 import Getin from "../Getin";
@@ -7,11 +7,22 @@ import Price from '../Price'
 
 
 export default function Software() {
+
   const [selectedOption, setSelectedOption] = useState("Manufacturing");
 
   const handleOptionClick = (option) => {
     setSelectedOption(option);
   };
+
+
+  const getinRef = useRef(null);
+
+  const scrollToGetin = () => {
+    if (getinRef.current) {
+      getinRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <Banner
@@ -243,11 +254,13 @@ export default function Software() {
         </div>
       </div>
 
-  
+      <div ref={getinRef}>
       <Getin 
             title1="Have a project in mind or Any  "
             title2="Questions? We are here to help!"
       />
+      </div>
+      
       <div className="rede">
         <div className="container">
           <h2>
@@ -437,7 +450,7 @@ export default function Software() {
                 <img src="./image/webdevlopment/check-mark 1.png" alt="" />
                 <h6 className="mb-4"> Easy exit policy</h6>
               </div>
-              <button className="mt-3 ms-4">INQUIRE NOW</button>
+              <button onClick={scrollToGetin}   className="mt-3 ms-4">INQUIRE NOW</button>
             </div>
           </div>
         </div>

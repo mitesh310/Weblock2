@@ -70,40 +70,7 @@ const Header = () => {
                     <Link className="dropdown-link" to="/ui">
                       <a href="#">UI/UX Development </a>
                     </Link>
-                    {/* <li className="dropdown-link">
-                      <a href="#">Link 3<i className="fas fa-caret-down"></i></a>
-                      <div className="dropdown second">
-                        <ul>
-                          <li className="dropdown-link">
-                            <a href="#">Link 1</a>
-                          </li>
-                          <li className="dropdown-link">
-                            <a href="#">Link 2</a>
-                          </li>
-                          <li className="dropdown-link">
-                            <a href="#">Link 3</a>
-                          </li>
-                          <li className="dropdown-link">
-                            <a href="#">More<i className="fas fa-caret-down"></i></a>
-                            <div className="dropdown second">
-                              <ul>
-                                <li className="dropdown-link">
-                                  <a href="#">Link 1</a>
-                                </li>
-                                <li className="dropdown-link">
-                                  <a href="#">Link 2</a>
-                                </li>
-                                <li className="dropdown-link">
-                                  <a href="#">Link 3</a>
-                                </li>
-                                <div className="arrow"></div>
-                              </ul>
-                            </div>
-                          </li>
-                          <div className="arrow"></div>
-                        </ul>
-                      </div>
-                    </li> */}
+                   
                     
                     <div className="arrow"></div>
                   </ul>
@@ -204,12 +171,9 @@ const Header = () => {
                       <a className="sub-menu">Database<i className="fas fa-caret-down"></i></a>
                       <div className="dropdown second">
                         <ul>
-                        <Link className="dropdown-link" to="/">
-                          <a href="#">Mysql</a>
-                        </Link>
-                        <Link className="dropdown-link" to="/">
-                          <a href="#">Mongo DB</a>
-                        </Link>                        
+                        <Link className="dropdown-link" to="/database">
+                          <a href="#">Database</a>
+                        </Link>                    
                           <div className="arrow"></div>
                         </ul>
                       </div>
@@ -241,7 +205,7 @@ const Header = () => {
                           <a href="#">Menual Testing</a>
                         </Link>
                         <Link className="dropdown-link" to="/automation">
-                          <a href="#">Abtomation Testing</a>
+                          <a href="#">Automation Testing</a>
                         </Link>                        
                           <div className="arrow"></div>
                         </ul>
@@ -301,7 +265,7 @@ const Header = () => {
                   </ul>
                 </div>
               </Link>
-              <Link className="nav-link" style={{ '--i': '1.35s' }} to="/contact">
+              <Link className="nav-link" style={{ '--i': '1.35s' }} to="/staff-augmentation">
                 <a href="#">Staff-Augmentation</a>
               </Link>
               <Link className="nav-link" style={{ '--i': '1.35s' }} to="/contact">

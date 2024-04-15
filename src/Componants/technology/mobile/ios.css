@@ -1,61 +1,53 @@
-.our h2{
+.ios h2{
     padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
-.our .custom-hr{
+.ios .custom-hr{
     width: 10%;
     color: black;
     margin: 0 auto;
     text-align: center;
 }
-.our .box {
+.ios .box {
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px;
     border-radius: 5px;
 
 }
-.our .box:hover {
+.ios .box:hover {
     box-shadow: 0 4px 8px 0 #00000040;
     border: 1px solid #1A76D166;
 }
-.our .box h5{
+.ios .box h5{
     text-align: center;
     font-weight: bolder;
 }
-.our .box p{
+.ios .box p{
     color: #696969;
 }
-.r-why{
+
+.i-why{
     margin-top: 200px;
 }
-.r-why h2{
+.i-why h2{
     padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
-.r-why .custom-hr{
+.i-why .custom-hr{
     width: 10%;
     color: black;
     margin: 0 auto;
     text-align: center;
 }
-.r-why .chek {
+.i-why .chek {
     display: flex;
     align-items: center; 
     gap: 10px; 
   }
-.r-why .chek img {
+.i-why .chek img {
     align-self: flex-start;
     padding-top: 5px;
   }
-
-.r-why .chek h5 {
-    margin: 0;
-    font-weight: bolder; 
-  }
-.r-why .chek h5 span{
-    font-size: 16px;
-    color: #696969;
-}

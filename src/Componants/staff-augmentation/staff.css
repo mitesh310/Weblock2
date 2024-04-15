@@ -1,0 +1,10 @@
+.staff{
+    background-image: url(../../../public/image/staff/coming.jpg);
+    height: 100vh;
+    width: 100%;
+    /* Make sure the background image covers the whole container */
+    background-size: cover;
+    /* Center the image vertically and horizontally */
+    background-position: center;
+    
+}

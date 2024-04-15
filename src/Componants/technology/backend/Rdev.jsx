@@ -92,23 +92,19 @@ export default function Rdev() {
         </div>
         <div className="chek">
           <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Expertise: </h5>
-          <p>Our team consists of skilled R developers with years of experience in developing data-driven solutions for clients across diverse industries.</p>
+          <h5 className='mb-3'> Expertise: <span>Our team consists of skilled R developers with years of experience in developing data-driven solutions for clients across diverse industries.</span></h5>
         </div>
         <div className="chek">
           <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'>Customized Solutions: </h5>
-          <p> We understand that every business has unique needs. That's why we work closely with our clients to deliver tailored R development solutions that address their specific challenges and goals.</p>
+          <h5 className='mb-3'>Customized Solutions: <span> We understand that every business has unique needs. That's why we work closely with our clients to deliver tailored R development solutions that address their specific challenges and goals.</span></h5>
         </div>
         <div className="chek">
           <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Quality Assurance:  </h5>
-          <p>We follow best practices in R development and adhere to rigorous quality assurance processes to ensure the reliability, scalability, and performance of our solutions.</p>
+          <h5 className='mb-3'> Quality Assurance:  <span>We follow best practices in R development and adhere to rigorous quality assurance processes to ensure the reliability, scalability, and performance of our solutions.</span></h5>
         </div>
         <div className="chek">
           <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Customer Satisfaction:  </h5>
-          <p>Our commitment to customer satisfaction drives everything we do. We prioritize clear communication, timely delivery, and responsive support to ensure a seamless experience for our clients.</p>
+          <h5 className='mb-3'> Customer Satisfaction:  <span> Our commitment to customer satisfaction drives everything we do. We prioritize clear communication, timely delivery, and responsive support to ensure a seamless experience for our clients.</span></h5>
         </div>
 
       </div>

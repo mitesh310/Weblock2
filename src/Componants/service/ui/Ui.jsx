@@ -1,10 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './ui.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Price from '../Price'
 
 export default function Ui() {
+
+
+    const getinRef = useRef(null);
+
+    const scrollToGetin = () => {
+      if (getinRef.current) {
+        getinRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+  
+
+
   return (
     <>
     <Banner 
@@ -28,14 +40,14 @@ export default function Ui() {
                 <div className="col-lg-6">
                     <h3>Web Applications</h3>
                     <p className='my-5'>Our team of best-in-class UI/UX designers is dedicated to crafting dynamic  and adaptable web design solutions that cater to the unique requirements of your platform. By leveraging state-of-the-art design principles and technology, we ensure that your UI/UX not only attracts more customers but also retains them effectively. Through intuitive navigation, visually engaging interfaces, and seamless user experiences, we aim to lower bounce rates and enhance your brand presence in the digital realm.</p>
-                    <button>Free Quote Request</button>
+                    <button onClick={scrollToGetin} >Free Quote Request</button>
                 </div>
             </div>
             <div className="row my-5">
                 <div className="col-lg-6">
                     <h3>Mobile Applications</h3>
                     <p className='my-5'>Today's mobile app landscape is crowded.  Even the most brilliant vision can struggle to stand out. Weblockinfosoft  bridges this gap with their expert UI/UX design team. They transform your app idea into a captivating reality, fostering user engagement with intuitive and visually stunning interfaces. Their versatility  caters to any development approach, be it native, cross-platform, or hybrid. Their designers are fluent in the latest design trends and industry standards, ensuring your app not only delights users but also functions flawlessly across platforms. </p>
-                    <button>Free Quote Request</button>
+                    <button onClick={scrollToGetin} >Free Quote Request</button>
                 </div>
                 <div className="col-lg-6">
                     <img className='u-img' src="./image/UI/mobile.png" alt="" />
@@ -86,10 +98,13 @@ export default function Ui() {
             </div>
         </div>
     </div>
+
+    <div ref={getinRef}>
     <Getin 
           title1="Have a project in mind or Any  "
           title2="Questions? We are here to help!"
     />
+    </div>
 
     <div className='ux'>
         <div className="container">

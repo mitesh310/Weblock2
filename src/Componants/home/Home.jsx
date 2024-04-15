@@ -1,8 +1,25 @@
-import React from 'react'
+import React, { useEffect, useRef  } from 'react';
 import "./home.css"
 
 
 export default function Home() {
+    const videoRef = useRef(null);
+
+  useEffect(() => {
+    const videoElement = videoRef.current;
+
+    const handleEnded = () => {
+
+      videoElement.currentTime = 0;
+      videoElement.play();
+    };
+
+    videoElement.addEventListener('ended', handleEnded);
+
+    return () => {
+      videoElement.removeEventListener('ended', handleEnded);
+    };
+  }, []); 
   return (
     <>
     <div className="company">
@@ -209,24 +226,13 @@ export default function Home() {
             <div className="container">
                 <img className='logo' src="./image/home/logo.png" alt="" />
                 <h3>Our Development Process</h3>
-                <div class="box-img mt-5">
-                    <div class="box-1">
-                        <center><img src="./image/home/SvgjsG1129.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/SvgjsSvg1145.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Frame (2).png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Frame (3).png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/SvgjsSvg1220.png" alt="" /></center>
-                    </div>
-                    
-                </div>
+                {/* <img className='gif' src="./image/home/video3.gif" alt="" /> */}
+                <video className='gif' ref={videoRef} autoPlay>
+                    <source src="./image/home/video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                
             </div>
 
         </div>

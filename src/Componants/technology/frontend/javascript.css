@@ -1,61 +1,73 @@
-.our h2{
+.javascript h2{
     padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
-.our .custom-hr{
+.javascript .custom-hr{
     width: 10%;
     color: black;
     margin: 0 auto;
     text-align: center;
 }
-.our .box {
+.javascript .box {
     border: 1px solid #DDDDDD;
     height: 100%;
     padding: 40px;
     border-radius: 5px;
 
 }
-.our .box:hover {
+.javascript .box:hover {
     box-shadow: 0 4px 8px 0 #00000040;
     border: 1px solid #1A76D166;
 }
-.our .box h5{
+.javascript .box h5{
     text-align: center;
     font-weight: bolder;
 }
-.our .box p{
+.javascript .box p{
     color: #696969;
 }
-.r-why{
-    margin-top: 200px;
+.javascript button{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: white;
+    padding: 5px 20px;
+}  
+.javascript button:hover{
+    box-shadow: 0 4px 4px 0 black;
 }
-.r-why h2{
-    padding-top: 50px;
+
+
+
+
+.benifits-javascript{
+    margin-bottom: 100px;
+}
+.benifits-javascript h2{
     text-align: center;
     font-weight: bolder;
 }
-.r-why .custom-hr{
+.benifits-javascript .custom-hr{
     width: 10%;
     color: black;
     margin: 0 auto;
     text-align: center;
 }
-.r-why .chek {
+.benifits-javascript .chek {
     display: flex;
     align-items: center; 
     gap: 10px; 
   }
-.r-why .chek img {
+.benifits-javascript .chek img {
     align-self: flex-start;
     padding-top: 5px;
   }
 
-.r-why .chek h5 {
+.benifits-javascript .chek h5 {
     margin: 0;
     font-weight: bolder; 
   }
-.r-why .chek h5 span{
+.benifits-javascript .chek h5 span{
     font-size: 16px;
     color: #696969;
-}
+}  

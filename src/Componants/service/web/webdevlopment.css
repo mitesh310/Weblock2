@@ -72,6 +72,39 @@
     box-shadow: 0 4px 4px 0 #00000054;
 }
 
+.benifits-web{
+    margin-bottom: 100px;
+}
+.benifits-web h2{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.benifits-web .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.benifits-web .chek {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+.benifits-web .chek img {
+    align-self: flex-start;
+    padding-top: 5px;
+  }
+
+.benifits-web .chek h5 {
+    margin: 0;
+    font-weight: bolder; 
+  }
+.benifits-web .chek h5 span{
+    font-size: 16px;
+    color: #696969;
+}  
+
 .boost{
     color: black;
 }

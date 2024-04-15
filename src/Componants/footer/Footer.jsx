@@ -31,19 +31,34 @@ export default function Footer () {
                     <h5>Contact Information</h5>
                     <li className='mt-4'><i class="fa-solid fa-phone"></i> 081281 65664</li>
                     <li><i class="fa-solid fa-envelope"></i> info@weblockinfosoft.com</li>
-                    <li><i class="fa-solid fa-location-dot"></i> Headquater - 3 King William St, Adelaide SA 5000, Australia.</li>
-                    <li><i class="fa-solid fa-location-dot"></i> Branch - 303-304 Golden Square, near D-Mart, Mota Varachha, Surat.</li>
+                    <li> 
+                        <div className="chek">
+                            <i class="fa-solid fa-location-dot"></i> 
+                            <h5> Headquater- </h5> 
+                            <p>3 King William St, Adelaide SA 5000, Australia.</p>
+                        </div>
+                    </li>
+                    <li> 
+                        <div className="chek">
+                            <i class="fa-solid fa-location-dot"></i> 
+                            <h5> Branch- </h5> 
+                            <p>303-304 Golden Square, near D-Mart, Mota Varachha, Surat.</p>
+                        </div>
+                    </li>
+                    
                 </div>
             </div>
-            <div className="footer-end d-flex justify-content-between align-items-center mt-5">
-            <h6 class='mt-5'>@2024 Weblock infosoft . All Rights Reserved</h6>
-            <div class="f-icon mt-5">
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-brands fa-linkedin"></i>
+            <div class="end-line mt-5">
+                <div class="footer-text">
+                    <h6>@2024 Weblock infosoft. All Rights Reserved</h6>
+                </div>
+                <div class="footer-icons">
+                    <i class="f-icon fab fa-facebook-f"></i>
+                    <i class="f-icon fab fa-instagram"></i>
+                    <i class="f-icon fab fa-github"></i>
+                    <i class="f-icon fab fa-linkedin"></i>
+                </div>
             </div>
-        </div>
             
 
             
