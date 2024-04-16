@@ -1,5 +1,8 @@
 import React, { useEffect, useRef  } from 'react';
 import "./home.css"
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 export default function Home() {
@@ -20,6 +23,34 @@ export default function Home() {
       videoElement.removeEventListener('ended', handleEnded);
     };
   }, []); 
+
+
+//   this seaction is test slider
+  const settings = {
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024, // Adjust this value according to your needs
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600, // Adjust this value according to your needs
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
   return (
     <>
     <div className="company">
@@ -102,7 +133,6 @@ export default function Home() {
             </div>
         </div>
         </div>
-
         <div class="box">
             <div class="container">
                 <img class='logo' src="./image/home/logo.png" alt="" />
@@ -206,14 +236,14 @@ export default function Home() {
                         </div>
                         <div className="col-lg-3 col-md-6 mt-5">
                             <div className="box">
-                            <center><img src="./image/home/brainstorming (1).png" alt="" /></center>
+                                <center><img src="./image/home/brainstorming (1).png" alt="" /></center>
                                 <h5>AI / ML</h5>
                                 <p>Our company offers you all support and the team is always ready to answer every query after deployment.</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 mt-5">
                             <div className="box">
-                            <center><img className='vector' src="./image/home/stock-mobile 1.png" alt="" /></center>
+                                <center><img className='vector' src="./image/home/stock-mobile 1.png" alt="" /></center>
                                 <h5>Data Analytics</h5>
                                 <p>Development of mobile application/web/blockchain started using latest tools and technologies with transparency.</p>
                             </div>
@@ -309,7 +339,63 @@ export default function Home() {
             <div className="container">
                 <img class='logo' src="./image/home/logo.png" alt="" />
                 <h3>Testimonial</h3>
-                <div className="row mt-5">
+                <Slider {...settings}>
+                    <div className='mt-5'>
+                        <div className="card m-3">
+                            <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                <h5>John Carter</h5>
+                                <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-5'>
+                        <div className="card m-3">
+                            <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                <h5>John Carter</h5>
+                                <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-5'>
+                        <div className="card m-3">
+                            <div className="card-body">
+                            <div className="row">
+                                <div className="col-3">
+                                <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
+                                </div>
+                                <div className="col-9 mt-3">
+                                <h5>John Carter</h5>
+                                <p>CEO & Co-Founder</p>
+                                </div>
+                            </div>
+                            <p className='mt-3'>
+                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                </Slider>
+                {/* <div className="row mt-5">
                     <div className="col-lg-4">
                         <div className="card mt-3">
                             <div className="card-body">
@@ -364,7 +450,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="talk">
