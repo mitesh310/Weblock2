@@ -23,6 +23,7 @@ export default function Android() {
         heading="Android app Development " 
         desc="We cannot deny the fact that Android is the world’s most popular mobile application platform, and having a presence on this platform in the form of an application makes great business sense. At Bacancy, we can help you build highly innovative and scalable Android applications with dynamic interfaces."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
       />  
       <Solution 
         heading="We are your Preferred Android App Development Partner"

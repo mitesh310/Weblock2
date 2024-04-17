@@ -23,6 +23,7 @@ export default function Java() {
         heading="Java Development Company " 
         desc="Weblock Infosoft leads the industry as a premier Java development company, boasting skilled developers who provide comprehensive Java development services. Our expertise spans custom web, mobile, and desktop software solutions, utilizing cutting-edge Java technologies to deliver high-performance, scalable applications tailored to your business needs."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="Our Java Development Services"

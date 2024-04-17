@@ -124,7 +124,107 @@ body{
   color: black;
   text-align: center;
 }
-.box .box-img {
+
+
+.box .i-sli {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.box .i-sli::before,
+.box .i-sli::after {
+  position: absolute;
+  top: 0;
+  width: 100px; 
+  height: auto; 
+  content: " ";
+  z-index: 2;
+}
+
+.box .i-sli::after {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.box .i-sli::before {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.box .i-sli:hover .image-sli {
+  animation-play-state: paused;
+}
+
+
+
+.box .image-sli {
+  display: inline-block;
+  animation: 30s sli infinite linear;
+  
+}
+
+@keyframes sli {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+.box .image-sli img {
+  width: 100px; 
+  height: auto; 
+  margin: 50px;
+}
+
+
+/* image slide left to right start css */
+.box .i-sli:hover .image-left {
+  animation-play-state: paused;
+}
+.box .image-left {
+  display: inline-block;
+  animation: 30s lef infinite linear;
+  
+}
+@keyframes lef {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+.box .image-left img {
+  width: 100px; 
+  height: auto; 
+  margin: 50px;
+}
+/* image slide leeft to right end css */
+
+
+@media only screen and (max-width: 1024px) {
+
+
+  .box .i-sli::after {
+    left: 0;
+    background: none;
+  }
+
+  .box .i-sli::before {
+    right: 0;
+    background: none;
+  }
+}
+
+
+
+
+
+/* .box .box-img {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
@@ -138,7 +238,7 @@ body{
 .box .box-1 img {
   max-width: 100%; 
   height: auto; 
-}
+} */
 
 .service {
   background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
@@ -342,7 +442,7 @@ body{
 .talk h1{
   font-weight: bolder;
   text-align: center;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   font-size: 60px;
 }
 .talk .h-img{

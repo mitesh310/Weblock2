@@ -23,6 +23,7 @@ export default function Flutter() {
         heading="Flutter App Development Company " 
         desc="With a leading Flutter app development company, create robust, natively compiled cross-platform apps. Our dedicated team, equipped with AI tools, streamlines business processes and crafts feature-rich applications for web, mobile, and desktop. Harness our advanced Flutter app development services for unparalleled efficiency and innovation."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="Flutter App Services"

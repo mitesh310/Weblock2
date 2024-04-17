@@ -3,7 +3,7 @@ import './banner.css'
 
 export default function Banner(props) {
 
-  const {heading,title, desc,desc2 ,button} = props;
+  const { heading, title, desc, desc2, button, scrollToGetin } = props;
 
   
   return (
@@ -18,7 +18,9 @@ export default function Banner(props) {
                   <p><span>{title}</span></p>
                   <h6>{desc} <br /> {desc2}
                   </h6>
-                  <button><h5>{button}</h5></button>
+                  <button onClick={scrollToGetin}>
+                    <h5>{button}</h5>
+                  </button>
                   <div className='mt-5'>
                   <div></div>
                   <i class="fa-solid fa-briefcase m-3 icon"></i>5+ Years of Experience

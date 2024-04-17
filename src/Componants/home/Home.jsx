@@ -3,6 +3,7 @@ import "./home.css"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import MovingComponent from 'react-moving-text'
 
 
 export default function Home() {
@@ -137,7 +138,67 @@ export default function Home() {
             <div class="container">
                 <img class='logo' src="./image/home/logo.png" alt="" />
                 <h3>Technologies We Work With</h3>
-                <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
+                <div className="i-sli">
+                    <div className="image-sli">
+                        <img src="./image/home/html-5.png" alt="" />
+                        <img src="./image/home/css-3.png" alt="" />
+                        <img src="./image/home/javascript.png" alt="" />
+                        <img src="./image/home/bootstrap.png" alt="" />
+                        <img src="./image/home/react.png" alt="" />
+                        <img src="./image/home/Frame.png" alt="" />
+                        <img src="./image/home/Flutter 1.png" alt="" />
+                    </div>
+                    <div className="image-sli">
+                        <img src="./image/home/html-5.png" alt="" />
+                        <img src="./image/home/css-3.png" alt="" />
+                        <img src="./image/home/javascript.png" alt="" />
+                        <img src="./image/home/bootstrap.png" alt="" />
+                        <img src="./image/home/react.png" alt="" />
+                        <img src="./image/home/Frame.png" alt="" />
+                        <img src="./image/home/Flutter 1.png" alt="" />
+                    </div>
+                </div>
+                <div className="i-sli">
+                    <div className="image-left">
+                        <img src="./image/home/PHP-logo 1.png" alt="" />
+                        <img src="./image/home/mysql-official 1.png" alt="" />
+                        <img src="./image/home/nodejs-ar21 1.png" alt="" />
+                        <img src="./image/home/java.png" alt="" />
+                        <img src="./image/home/csharp.png" alt="" />
+                        <img src="./image/home/python.png" alt="" />
+                        <img src="./image/home/apple.png" alt="" />
+                    </div>
+                    <div className="image-left">
+                        <img src="./image/home/PHP-logo 1.png" alt="" />
+                        <img src="./image/home/mysql-official 1.png" alt="" />
+                        <img src="./image/home/nodejs-ar21 1.png" alt="" />
+                        <img src="./image/home/java.png" alt="" />
+                        <img src="./image/home/csharp.png" alt="" />
+                        <img src="./image/home/python.png" alt="" />
+                        <img src="./image/home/apple.png" alt="" />
+                    </div>
+                </div>
+                <div className="i-sli">
+                    <div className="image-sli">
+                        <img src="./image/home/aws.png" alt="" />
+                        <img src="./image/home/Vector.png" alt="" />
+                        <img src="./image/home/clould.png" alt="" />
+                        <img src="./image/home/Go-Daddy.png" alt="" />
+                        <img src="./image/home/ibm.png" alt="" />
+                        <img src="./image/home/image 57.png" alt="" />
+                        <img src="./image/home/hostinger.png" alt="" />
+                    </div>
+                    <div className="image-sli">
+                        <img src="./image/home/aws.png" alt="" />
+                        <img src="./image/home/Vector.png" alt="" />
+                        <img src="./image/home/clould.png" alt="" />
+                        <img src="./image/home/Go-Daddy.png" alt="" />
+                        <img src="./image/home/ibm.png" alt="" />
+                        <img src="./image/home/image 57.png" alt="" />
+                        <img src="./image/home/hostinger.png" alt="" />
+                    </div>
+                </div>
+                {/* <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/html-5.png" alt="" /></center>
@@ -161,8 +222,8 @@ export default function Home() {
                         <center><img src="./image/home/Flutter 1.png" alt="" /></center>
                     </div>
                 </div>
-                </marquee>
-                <marquee  behavior="scroll"  direction="right"  scrollamount={3}  style={{ width: "100%" }}>
+                </marquee> */}
+                {/* <marquee  behavior="scroll"  direction="right"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/PHP-logo 1.png" alt="" /></center>
@@ -186,8 +247,8 @@ export default function Home() {
                         <center><img src="./image/home/apple.png" alt="" /></center>
                     </div>
                 </div>
-                </marquee>
-                <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
+                </marquee> */}
+                {/* <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/aws.png" alt="" /></center>
@@ -211,7 +272,7 @@ export default function Home() {
                         <center><img src="./image/home/hostinger.png" alt="" /></center>
                     </div>
                 </div>
-                </marquee>
+                </marquee> */}
             </div>
         </div>
         <div className="service">
@@ -456,11 +517,21 @@ export default function Home() {
         <div className="talk">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-flex justify-content-center align-items-center">
+                    <MovingComponent
+                        type="unfold"
+                        duration="1000ms"
+                        delay="0s"
+                        direction="normal"
+                        timing="ease"
+                        iteration="infinite"
+                        fillMode="none">
                         <h1>Let's talk!</h1>
+                    </MovingComponent>
+                        
                     </div>
                     <div className="col-lg-6">
-                        <center><img className='h-img' src="./image/home/contact-us-animate 1.png" alt="" /></center>
+                        <center><img className='h-img' src="./image/home/contact-us-animate.svg" alt="" /></center>
                     </div>
                 </div>
             </div>

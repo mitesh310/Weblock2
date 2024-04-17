@@ -26,6 +26,7 @@ export default function Angular() {
         heading="AngularJS Development Company" 
         desc="Experience dynamic success with our leading AngularJS development services. Our expert team excels in crafting scalable web solutions, leveraging AI tools to streamline development processes and enhance performance. Embrace the future of AngularJS development with us today! "
         button="Get started"
+        scrollToGetin={scrollToGetin} 
         />
     </div>
 

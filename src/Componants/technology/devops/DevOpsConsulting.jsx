@@ -25,6 +25,7 @@ export default function DevOpsConsulting() {
         heading="DevOps Consulting Services " 
         desc="Discover the transformative impact of our DevOps Consulting services, harnessing the latest in next-gen technologies. Seamlessly merge development and operations to drive innovation, leveraging automation for agile software delivery. E"
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="DevOps Consulting  Process"

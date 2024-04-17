@@ -24,6 +24,8 @@ export default function Ui() {
     title="Design is not just what it looks like and feels like. Design is how it works."
     desc="Graphic design is a crucial aspect of visual communication, encompassing the use of typography, imagery, and layout to convey messages effectively. It combines creativity and technology to create visually appealing and impactful designs that resonate with the target audience. Graphic designers play a vital role in enhancing brand identity, marketing materials, and overall visual communication strategies. Their expertise lies in crafting designs that capture attention, communicate ideas clearly, and leave a lasting impression on the viewer."
     button="Contact with our experts"
+    scrollToGetin={scrollToGetin} 
+
     />
 
     <div className="ui">

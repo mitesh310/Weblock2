@@ -24,6 +24,7 @@ export default function Html() {
         heading="HTML And CSS Development Company" 
         desc="our tailored HTML/CSS development services are designed to meet your brand-specific requirements. From custom website design to responsive layout implementation, our comprehensive range of services addresses any project-related challenges you may encounter. "
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="HTML and CSS Development Solutions"

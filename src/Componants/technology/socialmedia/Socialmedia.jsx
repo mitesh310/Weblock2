@@ -24,6 +24,7 @@ export default function Socialmedia() {
         heading="Social Media Marketing " 
         desc="Elevate your online presence with our expert social media marketing services. From strategic content creation to targeted audience engagement, we help your brand stand out in the digital sphere. Trust us to drive results and maximize your impact across all social platforms."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="Social media marketing Solutions"

@@ -26,6 +26,7 @@ export default function Aws() {
         heading="AWS Development Services " 
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in AWS development services to empower your business with scalable, secure, and reliable cloud solutions. In this section, we provide an overview of AWS development services, its benefits, and how it can transform your business operations."
         button="Get Started"
+        scrollToGetin={scrollToGetin}
       />
       <Solution 
         heading="What is AWS Development?"

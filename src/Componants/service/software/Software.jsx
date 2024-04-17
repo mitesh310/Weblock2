@@ -30,6 +30,8 @@ export default function Software() {
         desc="Weblock embodies the fusion of passion and dedication with over 835 skilled IT engineers and industry experts. Our commitment to innovation drives transformative software development services, setting us apart as a prominent player in the industry."
         desc2="We specialize in creating cutting-edge digital solutions using advanced technology. Collaborate with us to enhance and expand your software development expertise."
         button="Contact with our experts"
+        scrollToGetin={scrollToGetin} 
+
       />
       <div className="software mt-5">
         <div className="container">

@@ -25,6 +25,7 @@ export default function Rdev() {
         heading="R Development Services " 
         desc="Welcome to our R Development Services page! At Weblock Infosoft, we specialize in providing comprehensive R development solutions tailored to meet your specific business needs. Whether you're looking to harness the power of data analytics, build predictive models, or create interactive visualizations, our team of experienced R developers is here to help you every step of the way."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="What is R Development?"
@@ -79,11 +80,15 @@ export default function Rdev() {
       </div>
     </div>
 
-    <Getin 
-      title1="Optimize Your Business with Leading "
-      title2=" R Development Firm"
-    />
-    
+    <div ref={getinRef}>
+      <Getin 
+        title1="Optimize Your Business with Leading "
+        title2=" R Development Firm"
+      />
+    </div>
+
+
+
     <div className="r-why">
       <div className="container">
         <h2>Why Choose Weblock Infosoft for R Development?</h2>

@@ -27,6 +27,7 @@ export default function WebDevelopment() {
       title="Transforming your vision into reality, one promise at a time"
       desc="We excel in developing strategic roadmaps for global businesses, translating their groundbreaking concepts into web solutions. Our web development services are outcome-driven, serving enterprises, mid-sized companies, and startups by aligning with their distinct visions to deliver impactful website solutions."
       button="Free Consultation Request"
+      scrollToGetin={scrollToGetin} 
       
       />
        

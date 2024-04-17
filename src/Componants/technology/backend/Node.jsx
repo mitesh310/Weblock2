@@ -24,6 +24,7 @@ export default function Node() {
         heading="Node.js Development Company" 
         desc="Discover a trusted Node.js development company specializing in scalable, feature-rich web and mobile app solutions. Our adept team merges deep expertise with AI tools to craft enterprise solutions leveraging asynchronous, event-driven JavaScript runtime. Partner with us to harness Node.js application development expertise for building cutting-edge enterprise solutions that seamlessly integrate human skills with AI brilliance."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="Result-oriented Node js Development Services"

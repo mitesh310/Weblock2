@@ -26,6 +26,7 @@ export default function Spring() {
         Simplifying Web Development" 
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in Spring Boot development, offering a streamlined approach to building robust and scalable web applications. In this section, we provide an overview of Spring Boot, its features, and how it can accelerate your web development projects."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
       /> 
       <Solution
         heading="What are GCP Web Services?"

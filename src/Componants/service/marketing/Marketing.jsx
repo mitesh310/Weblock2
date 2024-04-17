@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './marketing.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
@@ -6,6 +6,13 @@ import Process from '../Process'
 
 
 export default function Marketing() {
+    const getinRef = useRef(null);
+
+    const scrollToGetin = () => {
+      if (getinRef.current) {
+        getinRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
   return (
     <>
     <Banner 
@@ -14,6 +21,8 @@ export default function Marketing() {
     title="Connect genuinely, spend wisely, and use community support to make your brand grow effectively."
     desc="Social media marketing is a digital strategy used to connect with audiences, build brand awareness, and drive engagement. It involves content creation, user interaction, and performance metrics analysis. Success relies on creativity, authenticity, and strategic planning."
     button="Contact with our experts"
+    scrollToGetin={scrollToGetin} 
+
     />
     
 
@@ -45,10 +54,15 @@ export default function Marketing() {
             </div>
         </div>
     </div>
+
+
+    <div ref={getinRef}>
     <Getin 
           title1="Have a project in mind or Any  "
           title2="Questions? We are here to help!"
     />
+    </div>
+
 
     <div className="s-process">
         <div className="container">

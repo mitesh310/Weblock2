@@ -24,6 +24,7 @@ export default function Laravel() {
         heading="Laravel Development Company " 
         desc="As your trusted Laravel development company, we propel your success by harnessing the full potential of the Laravel framework alongside cutting-edge AI tools. Connect with our team of highly-experienced, top-rated Laravel engineers to collaborate on web and app development services, shaping a better future together."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="Streamlining Success: The Laravel Development Process laravel"

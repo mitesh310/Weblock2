@@ -25,6 +25,7 @@ export default function Net() {
         heading=".NET Development Services " 
         desc="AI-infused .NET Development Company, Elevate your projects! Renowned for crafting scalable, cost-effective enterprise solutions, we excel in modern ASP .NET development services. Building world-class desktop, web, and mobile apps is our forte."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading=".NET Development Services"

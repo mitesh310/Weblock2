@@ -25,6 +25,7 @@ export default function DevOpsAutomation() {
         heading="DevOps Automation Services " 
         desc="Empower your organization with our DevOps Automation Services, revolutionizing your deployment and release capabilities. Through our expert DevOps Automation Consulting Services, we streamline processes, minimize manual tasks, and elevate software quality."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="DevOps Automation Services"

@@ -22,6 +22,7 @@ export default function New() {
     heading="ReactJS Development Company" 
     desc="At Weblock infosoft, we're passionate about leveraging the power of React.js to build exceptional web experiences. As a leading React.js development company, we specialize in creating dynamic, interactive, and scalable web applications that propel businesses forward. "
     button="Get started"
+    scrollToGetin={scrollToGetin} 
     />
 
 <Solution

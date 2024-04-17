@@ -22,7 +22,9 @@ export default function Vuejs() {
     
     heading="Vue js Development Company" 
     desc="Collaborate with a premier Vue.js development company like ours to elevate your online presence. At Weblock Infosoft, we specialize in building sleek, cost-effective Vue.js applications that deliver exceptional performance. Whether it's designing intuitive user interfaces or integrating cutting-edge algorithms, our expert team, aided by AI, ensures that your web projects stand out from the crowd. "
-    button="Get Started"/>
+    button="Get Started"
+    scrollToGetin={scrollToGetin} 
+    />
 
 
     <Solution 

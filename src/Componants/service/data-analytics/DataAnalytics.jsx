@@ -1,16 +1,24 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './data-analytics.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Process from '../Process'
 
 export default function DataAnalytics() {
+  const getinRef = useRef(null);
+
+  const scrollToGetin = () => {
+    if (getinRef.current) {
+      getinRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
     <Banner
     heading="Data Analytics Services"
     desc="Unlock business potential with our reliable software consulting services, tailored to future trends. Transform your digital journey with expert tech solutions and flawless execution for optimal growth."
     button="Free Consultation Request"
+    scrollToGetin={scrollToGetin} 
     />
     <div className="analytics">
       <div className="container">
@@ -64,10 +72,14 @@ export default function DataAnalytics() {
         </div>
       </div>
     </div>
+
+
+    <div ref={getinRef}>
     <Getin 
       title1="Have a project in mind or Any  "
       title2="Questions? We are here to help!"
     />
+    </div>
 
     <div className="proc">
       <div className="container">

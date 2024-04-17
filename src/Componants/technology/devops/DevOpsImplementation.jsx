@@ -24,6 +24,7 @@ export default function DevOpsImplementation() {
         heading="DevOps Implementation Services " 
         desc="Transform your business landscape with our tailored DevOps Implementation Services, designed to tackle everyday challenges head-on. From enhancing time-to-market and software quality to boosting efficiency and productivity, we've got you covered. Harness the power of improved team collaboration and streamlined automation to meet evolving customer demands and market dynamics swiftly."
         button="Get Started"
+        scrollToGetin={scrollToGetin} 
     />
     <Solution 
         heading="DevOps Consulting  Process"

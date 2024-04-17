@@ -21,6 +21,7 @@ export default function Automation() {
       heading="Automation Testing Technology" 
       desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in automation testing development to ensure the efficiency, scalability, and reliability of your software products. In this section, we provide an overview of automation testing development, its advantages, and how it can benefit your projects."
       button="Get Started"
+      scrollToGetin={scrollToGetin} 
       />
       <div className="manual">
         <div className="container">
