@@ -4,6 +4,14 @@
     color: black;
     font-weight: bolder;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.web .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .web .box {
@@ -15,7 +23,7 @@
 }
 
 .web .box:hover {
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 0 4px 8px 0 #00000054;
     border: 1px solid #1A76D166;
 }
 
@@ -25,10 +33,13 @@
 
 .web .box p {
     color: #696969;
+    font-weight: lighter;
 }
 
 .eng {
     background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .eng h2 {
@@ -63,17 +74,21 @@
 }
 
 .eng button {
+    background: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 4px 4px 0 #00000054;
+    margin-bottom: 20px;
 }
 
 .eng button:hover {
-    box-shadow: 0 4px 4px 0 #00000054;
+   background: #1099C5;
+   color: #fff;
 }
 
 .benifits-web{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .benifits-web h2{
     padding-top: 50px;
@@ -104,8 +119,12 @@
     font-size: 16px;
     color: #696969;
 }  
+.benifits-web .benifits-img{
+    width: 95%;
+}
 
 .boost{
+    padding: 30px 0;
     color: black;
 }
 
@@ -138,13 +157,16 @@
     margin: 0; 
   }
   .boost button{
+   border: none;
     padding: 8px;
     background-color: #fff;
     font-weight: bolder;
     border-radius: 5px;
+    box-shadow: 1px 4px 4px 1px #00000054;
   }
   .boost button:hover{
-    box-shadow: 0 4px 4px 0 black;
+   background: #1099C5;
+   color: #fff;
   }
 
 
@@ -152,6 +174,12 @@
     margin-top: 200px;
     margin-bottom: 150px;
     color: black;
+}
+.data .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
 }
 .data h2{
     text-align: center;

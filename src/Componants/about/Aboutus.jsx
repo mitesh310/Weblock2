@@ -8,7 +8,7 @@ export default function Aboutus() {
             <h2>About Us</h2>
             <h5>Weblock Infosoft is trusted It Solution Provider Company today. With a futuristic vision <br /> to grow in the tech industry, this company passionately in 2019 with a small</h5>
         </div>
-        <div className="abus my-5">
+        <div className="abus">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
@@ -53,7 +53,7 @@ export default function Aboutus() {
                 </div>
                 <div className="row">
                     <div className="col-lg-6">
-                        <img className='why-img' src="./image/about/why.png" alt="" />
+                        <img className='why-img2' src="./image/about/why.png" alt="" />
                     </div>
                     <div className="col-lg-6">
                         <div className="why">
@@ -71,8 +71,8 @@ export default function Aboutus() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <h5>Latest Technologies</h5>
-                                    <p>At the forefront of innovation, Weblock Infosoft pioneers advanced solutions for a tech-driven future.</p>
+                                    <h5>Unique Solutions</h5>
+                                    <p>Weblock Infosoft is known for its innovative approaches that offer unique solutions to your technological problems.</p>
                                 </div>
                                 <div className="col-lg-2">
                                     <div className="round">2</div>
@@ -87,8 +87,8 @@ export default function Aboutus() {
                                     <div className="round">3</div>
                                 </div>
                                 <div className="col-lg-5">
-                                    <h5>Latest Technologies</h5>
-                                    <p>At the forefront of innovation, Weblock Infosoft pioneers advanced solutions for a tech-driven future.</p>
+                                    <h5>Powerful Strategies</h5>
+                                    <p>Weblock Infosoft is a leading innovator, offering advanced solutions to shape a tech-driven future.</p>
                                 </div>
                             </div>
                         </div>
@@ -140,13 +140,13 @@ export default function Aboutus() {
                     </div>
                     <div className="col-lg-4">
                         <center><img src="./image/about/vision.png" alt="" /></center>
-                        <h4>OUR MISSION</h4>
-                        <p>We have decided to give  employment to 100 youngsters  in next 2 years</p>
+                        <h4>OUR VISION</h4>
+                        <p>We have a vision of encouraging  youngsters who are seeking  best place where they can earn  and learn</p>
                     </div>
                     <div className="col-lg-4">
                         <center><img src="./image/about/values.png" alt="" /></center>
-                        <h4>OUR MISSION</h4>
-                        <p>We have decided to give  employment to 100 youngsters  in next 2 years</p>
+                        <h4>OUR VALUES</h4>
+                        <p>Our company is built on a strong foundation of values that guide everything we do.</p>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,6 @@
+.graphic {
+    padding: 50px 0;
+}
 .graphic h2{
     color: black;
     text-align: center;
@@ -27,7 +30,7 @@
     color: #696969;
 }
 .visualize{
-    margin-top: 80px;
+    padding: 50px;
 }
 .visualize h2{
     text-align: center;
@@ -54,9 +57,13 @@
     border-radius: 5px;
     border: none;
     background-color: white;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
     box-shadow: 0 4px 8px 0 #00000040;
+}
+.visualize .ready button:hover{
+    background: #1099C5;
+    color: white;
 }
 .visualize .g-img{
     max-width: 100%;

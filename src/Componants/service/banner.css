@@ -3,9 +3,10 @@
     /* height: 80vh; */
     background-size: cover;
     color: white;
+    padding-bottom: 100px;
 }
 .banner .banner-text h1{
-    padding-top: 200px;
+    padding-top: 150px;
     font-weight: bolder;
 }
 .banner .banner-text span{
@@ -22,6 +23,10 @@
     border: none;
     border-radius: 5px;
 }
+.banner .banner-text button:hover{
+  background-color: #02A1D7;
+  color: #FFFFFF;
+}
 .banner .banner-text button h5{
     font-weight: bolder;
     margin-bottom: 0;
@@ -29,7 +34,7 @@
 .banner .banner-text .icon{
     font-size: 35px;
     color: #02A1D7;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 /* slider image   */

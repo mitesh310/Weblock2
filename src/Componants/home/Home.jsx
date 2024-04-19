@@ -7,23 +7,6 @@ import MovingComponent from 'react-moving-text'
 
 
 export default function Home() {
-    const videoRef = useRef(null);
-
-  useEffect(() => {
-    const videoElement = videoRef.current;
-
-    const handleEnded = () => {
-
-      videoElement.currentTime = 0;
-      videoElement.play();
-    };
-
-    videoElement.addEventListener('ended', handleEnded);
-
-    return () => {
-      videoElement.removeEventListener('ended', handleEnded);
-    };
-  }, []); 
 
 
 //   this seaction is test slider
@@ -62,7 +45,7 @@ export default function Home() {
                         
                             <h1>Boost your Business <br />By leveraging <span>AI & ML</span> </h1>
                             <p>The development of full artificial intelligence colud <br /> spell the end of the human race.</p>
-                            <button className='mt-3'>Get In Touch</button>
+                            <a href="/contact"><button className='mt-3'>Get In Touch</button></a>
                         
                     </div>
                     <div className="col-lg-6 col-md-12">
@@ -135,7 +118,7 @@ export default function Home() {
         </div>
         </div>
         <div class="box">
-            <div class="container">
+            <div class="container-fluid">
                 <img class='logo' src="./image/home/logo.png" alt="" />
                 <h3>Technologies We Work With</h3>
                 <div className="i-sli">
@@ -317,15 +300,15 @@ export default function Home() {
             <div className="container">
                 <img className='logo' src="./image/home/logo.png" alt="" />
                 <h3>Our Development Process</h3>
-                {/* <img className='gif' src="./image/home/video3.gif" alt="" /> */}
-                <video className='gif' ref={videoRef} autoPlay>
+                {/* <video
+                    className='gif'
+                    autoPlay
+                >
                     <source src="./image/home/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                </video>
-
-                
+                </video> */}
+                <img className='gif' src="./image/home/video.gif" alt="" />
             </div>
-
         </div>
         <div className="indu">
             <div className="container">
@@ -382,7 +365,43 @@ export default function Home() {
             <div className="container">
                 <img class='logo' src="./image/home/logo.png" alt="" />
                 <h3>Meet Our Team</h3>
-                <div class="box-img mt-5">
+                <div className="row mt-5">
+                <div className="col-lg-4 mt-2">
+                    <div class="content">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="./image/home/image 44 2.png" alt=""/>
+                        <div class="content-details fadeIn-bottom">
+                            <h4 class="content-title">Nitesh Vasani</h4>
+                            <p class="content-text">Founder & CEO</p>
+                        </div>
+        
+                    </div>
+                </div>
+                <div className="col-lg-4 mt-2">
+                    <div class="content">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="./image/home/team-2.jpg" alt=""/>
+                        <div class="content-details fadeIn-bottom">
+                            <h4 class="content-title">Avani Vaghani</h4>
+                            <p class="content-text">HR</p>
+                        </div>
+        
+                    </div>
+                </div>
+                <div className="col-lg-4 mt-2">
+                    <div class="content">
+                        <div class="content-overlay"></div>
+                        <img class="content-image" src="./image/home/image 44.png" alt=""/>
+                        <div class="content-details fadeIn-bottom">
+                            <h4 class="content-title">Dhruvil Savaliya</h4>
+                            <p class="content-text">Social Marketing Head</p>
+                        </div>
+        
+                    </div>
+                </div>
+                </div>
+                
+                {/* <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/image 44 2.png" alt="" /></center>
                     </div>
@@ -393,7 +412,7 @@ export default function Home() {
                         <center><img src="./image/home/image 44.png" alt="" /></center>
                     </div>
                     
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="test">
@@ -410,7 +429,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-9 mt-3">
                                 <h5>John Carter</h5>
-                                <p>CEO & Co-Founder</p>
+                                <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>
@@ -428,7 +447,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-9 mt-3">
                                 <h5>John Carter</h5>
-                                <p>CEO & Co-Founder</p>
+                                <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>
@@ -446,7 +465,7 @@ export default function Home() {
                                 </div>
                                 <div className="col-9 mt-3">
                                 <h5>John Carter</h5>
-                                <p>CEO & Co-Founder</p>
+                                <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>

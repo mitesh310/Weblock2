@@ -26,33 +26,43 @@ export default function Laravel() {
         button="Get Started"
         scrollToGetin={scrollToGetin} 
     />
-    <Solution 
-        heading="Streamlining Success: The Laravel Development Process laravel"
-        customHr={customHr}
 
-        title1="Laravel Team Augmentation"
-        desc1="Elevate your project's success by seamlessly augmenting your team with the precise number of dedicated Laravel developers you need. Our   team augmentation solution empowers you to fill skill gaps and drive your business forward with the expertise required for success."
-        img1="./image/laravel/image 104.png"
-    
-        title2="Custom Web Application Development "
-        desc2="Our Laravel custom web application development service delivers tailored solutions, meticulously crafted to align with your business needs. With expertise in Laravel's robust framework, we ensure scalability, security, and optimal performance for your bespoke web application, driving your business forward with precision and agility."
-        img2="./image/laravel/image 105.png"
-    />
 
-    <Solution
-        title1="Enterprise Application Development"
-        desc1="Our Laravel enterprise application development service harnesses the power of Laravel's robust framework to build scalable, secure, and feature-rich solutions tailored to your business needs. From comprehensive requirements analysis to seamless integration and ongoing support, we deliver enterprise-grade applications that drive efficiency and innovation for your organization."
-        img1="./image/laravel/image 106.png"
+      <div className="seaction">
+        <div className="container">
+          <h2>Streamlining Success: The Laravel Development Process laravel</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <Solution 
+              title1="Laravel Team Augmentation"
+              desc1="Elevate your project's success by seamlessly augmenting your team with the precise number of dedicated Laravel developers you need. Our   team augmentation solution empowers you to fill skill gaps and drive your business forward with the expertise required for success."
+              img1="./image/laravel/image 104.png"
+          
+              title2="Custom Web Application Development "
+              desc2="Our Laravel custom web application development service delivers tailored solutions, meticulously crafted to align with your business needs. With expertise in Laravel's robust framework, we ensure scalability, security, and optimal performance for your bespoke web application, driving your business forward with precision and agility."
+              img2="./image/laravel/image 105.png"
+          />
 
-        title2="API Development and Integration"
-        desc2="Our Laravel API development and integration service ensures seamless connectivity and functionality across your ecosystem. Leveraging Laravel's powerful features, we craft efficient APIs that integrate smoothly with third-party services, empowering your applications with enhanced capabilities and interoperability."
-        img2="./image/laravel/image 107.png"
-    />
-    <Solution 
-        title1="Migration and Upgradation Services"
-        desc1="Experience seamless migration from legacy systems to Laravel or upgrading existing Laravel applications with our expert services. We provide comprehensive assessment, planning, and execution to ensure a smooth transition, preserving data integrity and minimizing downtime. Trust us to modernize your applications, unlocking the full potential of Laravel's advanced features for enhanced performance and scalability."
-        img1="./image/laravel/image 108.png"
-    />
+          <Solution
+              title1="Enterprise Application Development"
+              desc1="Our Laravel enterprise application development service harnesses the power of Laravel's robust framework to build scalable, secure, and feature-rich solutions tailored to your business needs. From comprehensive requirements analysis to seamless integration and ongoing support, we deliver enterprise-grade applications that drive efficiency and innovation for your organization."
+              img1="./image/laravel/image 106.png"
+
+              title2="API Development and Integration"
+              desc2="Our Laravel API development and integration service ensures seamless connectivity and functionality across your ecosystem. Leveraging Laravel's powerful features, we craft efficient APIs that integrate smoothly with third-party services, empowering your applications with enhanced capabilities and interoperability."
+              img2="./image/laravel/image 107.png"
+          />
+          <Solution 
+              title1="Migration and Upgradation Services"
+              desc1="Experience seamless migration from legacy systems to Laravel or upgrading existing Laravel applications with our expert services. We provide comprehensive assessment, planning, and execution to ensure a smooth transition, preserving data integrity and minimizing downtime. Trust us to modernize your applications, unlocking the full potential of Laravel's advanced features for enhanced performance and scalability."
+              img1="./image/laravel/image 108.png"
+          />
+        </div>  
+      </div>  
+
+
+
     <div ref={getinRef}>
         <Getin 
         title1="Optimize Your Business with Leading "

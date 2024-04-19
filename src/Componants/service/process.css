@@ -13,14 +13,15 @@
     align-self: flex-start;
     font-weight: bolder;
   }
+ 
+  .chek .two{
+      background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+  }
 .chek .one{
     background: linear-gradient(180deg, rgba(197, 173, 215, 0.44) 0%, rgba(104, 91, 113, 0.4) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-.chek .two{
-    background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -65,8 +66,13 @@
     margin: 0; 
   }
   .process-img{
-    max-width: 100%;
+    max-width: 95%;
   }
+ .desc-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 

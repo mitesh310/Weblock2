@@ -27,13 +27,26 @@ export default function Rdev() {
         button="Get Started"
         scrollToGetin={scrollToGetin} 
     />
-    <Solution 
-        heading="What is R Development?"
-        customHr={customHr}
 
-        desc1="R is a powerful programming language and software environment for statistical computing and graphics. It provides a wide variety of statistical and graphical techniques, making it an indispensable tool for data scientists, statisticians, and researchers across various industries."
-        img1="./image/r/image 105.png"
-    />
+
+      <div className="seaction">
+        <div className="container">
+          <h2>What is R Development?</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5 my-5">
+              <p>R is a powerful programming language and software environment for statistical computing and graphics. It provides a wide variety of statistical and graphical techniques, making it an indispensable tool for data scientists, statisticians, and researchers across various industries.</p>
+            </div>
+            
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/r/image 105.png" alt="" />
+            </div>
+          </div>
+        </div>  
+      </div> 
 
     <div className="our">
       <div className="container">

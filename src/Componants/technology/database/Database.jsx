@@ -32,7 +32,15 @@ export default function Database() {
           <div className="custom-hr">
             <hr />
           </div>
-          <p>MySQL is a popular open-source relational database management system (RDBMS) known for its reliability, performance, and ease of use. It is widely used in various applications, from small-scale websites to large enterprise systems.</p>
+          <div className="row data-text">
+            <div className="col-lg-8">
+              <p>MySQL is a popular open-source relational database management system (RDBMS) known for its reliability, performance, and ease of use. It is widely used in various applications, from small-scale websites to large enterprise systems.</p>
+            </div>
+            <div className="col-lg-4">
+              <img className='data-img' src="./image/database/image 120.png" alt="" />
+            </div>
+          </div>
+          
           <h2>key features of MySQL</h2>
           <div className="custom-hr">
               <hr />
@@ -93,7 +101,15 @@ export default function Database() {
           <div className="custom-hr">
             <hr />
           </div>
-          <p>MongoDB is the ideal choice for its flexible schema design, allowing seamless adaptation to evolving data requirements. Its scalability ensures effortless handling of growing datasets, while its high-performance features guarantee efficient data processing, making it the perfect fit for modern, data-driven applications.</p>
+          <div className="row data-text">
+            <div className="col-lg-8">
+              <p>MongoDB is the ideal choice for its flexible schema design, allowing seamless adaptation to evolving data requirements. Its scalability ensures effortless handling of growing datasets, while its high-performance features guarantee efficient data processing, making it the perfect fit for modern, data-driven applications.</p>
+            </div>
+            <div className="col-lg-4">
+              <img className='data-img' src="./image/database/image 119.png" alt="" />
+            </div>
+          </div>
+          
           <h2>key features of MongoDB</h2>
           <div className="custom-hr">
               <hr />

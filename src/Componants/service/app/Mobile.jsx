@@ -142,7 +142,10 @@ export default function Mobile() {
 
         <div className="other">
           <div className="container">
-            <h2 className='mt-5'>Other Mobile Application Development Services</h2>
+            <h2>Other Mobile Application Development Services</h2>
+            <div className="custom-hr">
+                <hr />
+              </div>
             <div className="row mt-5">
               <div className="col-lg-3"></div>
               <div className="col-lg-3">

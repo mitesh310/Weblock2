@@ -1,5 +1,6 @@
 .software{
     color: black;
+    padding: 50px 0;
 }
 .software h2{
     text-align: center;
@@ -65,6 +66,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid black;
+    cursor: pointer;
 }
 .industry .bo h3{
     text-align: center;
@@ -114,6 +116,8 @@
 
 .rise{
     color: black;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 .rise .s-img{
     max-width: 100%;
@@ -144,8 +148,10 @@
     background-color: #fff;
     padding: 5px 30px;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #00000040;
 
 }
 .rise button:hover {
-    box-shadow: 0 4px 8px 0 black;
+    background: #1099C5;
+    color: white;
 }

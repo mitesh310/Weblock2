@@ -1,5 +1,8 @@
+.mobile{
+    padding: 50px 0;
+}
+
 .mobile h2{
-    padding-top: 50px;
     color: black;
     text-align: center;
     font-weight: bolder;
@@ -47,19 +50,30 @@
     font-weight: bolder; 
   }
 .mobile button{
+    border: none;
     background-color: white;
     margin-bottom: 50px;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 1px 4px 4px 2px #00000054;
 }  
 .mobile button:hover{
-    box-shadow: 0 4px 4px 0 black;
+    background: #1099C5;
+   color: #fff;
 }
 .mobile button h5{
     margin-bottom: 0;
 }  
 
-
+.other{
+    padding: 50px 0;
+}
+.other .custom-hr{
+    width: 10%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .other h2{
     text-align: center;
@@ -84,6 +98,7 @@
 .inno{
     color: #000000;
     margin-top: 200px;
+    margin-bottom: 100px;
 }  
 .inno h2{
     text-align: center;

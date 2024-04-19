@@ -1,5 +1,8 @@
+.manual{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .manual h2{
-    padding-top: 50px;
     color: black;
     text-align: center;
     font-weight: bolder;
@@ -9,6 +12,16 @@
     color: #000000;
     margin: 0 auto;
     text-align: center;
+}
+.manual .qa-text{
+    margin-bottom: 50px;
+}
+.manual .qa-text p{
+    padding: 50px;
+    padding-top: 80px;
+}
+.manual .qa-img{
+    max-width: 100%;
 }
 
 

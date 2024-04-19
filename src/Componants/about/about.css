@@ -8,14 +8,17 @@
 .about h2{
     color: white;
     text-align: center;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     font-weight: bolder;
 }
 .about h5{
     text-align: center;
     color: white;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
+}
+.abus{
+    margin-top: 100px;
 }
 .abus h3{
     font-weight: bolder;
@@ -28,7 +31,11 @@
     font-weight: bold;
 }
 .abus .why-img{
-    margin-top: 100px;
+    margin-top: 50px;
+    width: 95%;
+}
+.abus .why-img2{
+    margin-top: 190px;
     width: 95%;
 }
 .abus .why{

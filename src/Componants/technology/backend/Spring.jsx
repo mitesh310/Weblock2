@@ -28,12 +28,24 @@ export default function Spring() {
         button="Get Started"
         scrollToGetin={scrollToGetin} 
       /> 
-      <Solution
-        heading="What are GCP Web Services?"
-        customHr={customHr}
-        desc2="Spring Boot is an open-source Java framework designed to simplify the development of Java-based web applications. Built on top of the popular Spring framework, Spring Boot provides a convention-over-configuration approach, reducing the complexity of application setup and configuration. It aims to enable developers to create production-ready applications with minimal effort and boilerplate code."
-        img2="./image/spring/image 104.png"
-      />
+
+      <div className="seaction">
+        <div className="container">
+          <h2>What are GCP Web Services?</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/spring/image 104.png" alt="" />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5 my-5">
+              <p>Spring Boot is an open-source Java framework designed to simplify the development of Java-based web applications. Built on top of the popular Spring framework, Spring Boot provides a convention-over-configuration approach, reducing the complexity of application setup and configuration. It aims to enable developers to create production-ready applications with minimal effort and boilerplate code.</p>
+            </div>
+          </div>
+        </div>  
+      </div> 
 
       <div className="jango">
         <div className="container">

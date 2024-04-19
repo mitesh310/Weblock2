@@ -27,14 +27,25 @@ export default function Javascript() {
         button="Get started"
         scrollToGetin={scrollToGetin} 
       />
+      <div className="seaction">
+        <div className="container">
+          <h2>Introduction to JavaScript</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/javascript/image 104.png" alt="" />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5 my-5">
+              <p>JavaScript is a high-level, interpreted programming language primarily used for creating dynamic and interactive web content. It is one of the core technologies of the World Wide Web, alongside HTML and CSS, and is supported by all modern web browsers. JavaScript enables developers to add interactivity, manipulate DOM elements, handle events, and communicate with servers, making it essential for building modern web applications.</p>
+            </div>
+          </div>
+        </div>  
+      </div> 
 
-      <Solution
-        heading="Introduction to JavaScript"
-        customHr={customHr}
-
-        desc2="JavaScript is a high-level, interpreted programming language primarily used for creating dynamic and interactive web content. It is one of the core technologies of the World Wide Web, alongside HTML and CSS, and is supported by all modern web browsers. JavaScript enables developers to add interactivity, manipulate DOM elements, handle events, and communicate with servers, making it essential for building modern web applications."
-        img2="./image/javascript/image 104.png"
-      />
+ 
 
       <div className="javascript">
         <div className="container">
@@ -99,8 +110,8 @@ export default function Javascript() {
         </div>
         <div className="row">
           
-          <div className="col-lg-3"></div>
-          <div className="col-lg-4">
+          <div className="col-lg-4"></div>
+          <div className="col-lg-3">
             <div className="chek">
               <img src="./image/webdevlopment/check-mark 1.png" alt="" />
               <h6 className='mb-4'> React.Js</h6>

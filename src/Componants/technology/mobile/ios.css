@@ -1,5 +1,9 @@
+.ios{
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
 .ios h2{
-    padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
@@ -29,7 +33,7 @@
 }
 
 .i-why{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .i-why h2{
     padding-top: 50px;
@@ -51,3 +55,6 @@
     align-self: flex-start;
     padding-top: 5px;
   }
+.i-why .ios-img{
+    max-width: 100%;
+}  

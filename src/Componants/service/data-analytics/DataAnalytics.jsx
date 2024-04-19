@@ -84,6 +84,9 @@ export default function DataAnalytics() {
     <div className="proc">
       <div className="container">
       <h2>Our Detailed Data Analytics Process</h2>
+      <div className="custom-hr">
+          <hr />
+      </div>
       <Process 
       number1="01"
       title1="Definition of Data Requirements"
@@ -114,7 +117,7 @@ export default function DataAnalytics() {
 
       number2="06"
       title2="Deployment and Monitoring"
-      img2="./image/dataanlytics/Monitoring.png"
+      img2="./image/dataanlytics/Group 39561.png"
       desc2="The implementation of the predictive results is integrated into business processes, which are subsequently monitored for necessary adjustments and corrections as needed. "
       />
       </div>

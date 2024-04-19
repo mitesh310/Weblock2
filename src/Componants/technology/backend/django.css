@@ -28,13 +28,18 @@
     color: #696969;
 }
 .jango button{
+    border: none;
     margin-top: 50px;
     margin-bottom: 100px;
     background: white;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #00000040;
 }  
 .jango button:hover{
-    box-shadow: 0 4px 4px 0 black;
+    background: #1099C5;
+    color: #fff;
+
 }
 
 

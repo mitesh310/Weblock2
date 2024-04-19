@@ -1,8 +1,9 @@
 .analytics{
     color: black;
+    padding: 50px 0;
 }
 .analytics h2{
-    padding-top: 50px;
+
     text-align: center;
     font-weight: bolder;
 }
@@ -34,6 +35,12 @@
     color: black;
     margin-top: 200px;
     margin-bottom: 150px;
+}
+.proc .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
 }
 .proc h2{
     text-align: center;

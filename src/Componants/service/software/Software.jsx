@@ -33,7 +33,7 @@ export default function Software() {
         scrollToGetin={scrollToGetin} 
 
       />
-      <div className="software mt-5">
+      <div className="software">
         <div className="container">
           <h2>Software Development Services for All Industries</h2>
           <div className="custom-hr">
@@ -404,7 +404,7 @@ export default function Software() {
           </div>
         </div>
       </div>
-      <div className="rise mt-5">
+      <div className="rise">
         <div className="container">
           <h2>
             Raise With Weblock infosoft : Your Preferred Software Development
@@ -452,7 +452,7 @@ export default function Software() {
                 <img src="./image/webdevlopment/check-mark 1.png" alt="" />
                 <h6 className="mb-4"> Easy exit policy</h6>
               </div>
-              <button onClick={scrollToGetin}   className="mt-3 ms-4">INQUIRE NOW</button>
+              <button onClick={scrollToGetin}   className="mt-3 ms-4">Inquire Now</button>
             </div>
           </div>
         </div>

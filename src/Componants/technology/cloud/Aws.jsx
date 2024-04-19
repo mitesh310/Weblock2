@@ -28,13 +28,25 @@ export default function Aws() {
         button="Get Started"
         scrollToGetin={scrollToGetin}
       />
-      <Solution 
-        heading="What is AWS Development?"
-        customHr={customHr}
 
-        desc1="AWS development refers to the process of leveraging Amazon Web Services (AWS) cloud platform to build, deploy, and manage applications and infrastructure. AWS offers a wide range of cloud services, including computing power, storage, databases, machine learning, and more, enabling businesses to innovate and scale rapidly without the burden of managing physical hardware."
-        img1="./image/aws/image 104.png"
-      />
+      <div className="seaction">
+        <div className="container">
+          <h2>What is AWS Development?</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/aws/image 104.png" alt="" />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5 my-5">
+              <p>AWS development refers to the process of leveraging Amazon Web Services (AWS) cloud platform to build, deploy, and manage applications and infrastructure. AWS offers a wide range of cloud services, including computing power, storage, databases, machine learning, and more, enabling businesses to innovate and scale rapidly without the burden of managing physical hardware.</p>
+            </div>
+          </div>
+        </div>  
+      </div>  
+ 
 
     <div className="our-aws">
       <div className="container">

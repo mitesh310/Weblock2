@@ -49,7 +49,7 @@ export default function Ios() {
             <div className="col-lg-4 my-3">
               <div className="box">
                 <h5>Development Phase</h5>
-                <p>Our talented designers create stunning UI/UX designs that align with your brand identity and enhance user engagement. We prioritize usability and functionality to deliver an intuitive and visually appealing app interface.</p>
+                <p>Our experienced developers utilize the latest technologies and best practices to build robust and scalable iOS applications. We follow agile development methodologies to ensure flexibility, transparency, and timely delivery.</p>
               </div>
             </div>
           </div>
@@ -85,18 +85,26 @@ export default function Ios() {
         <div className="custom-hr">
           <hr />
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <p>IOS, the operating system powering Apple's iPhone, iPad, and iPod Touch, offers unparalleled performance, security, and user experience.</p>
+        <div className="row">
+          <div className="col-lg-8 mt-5">
+            <div className="chek mt-3">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <p>IOS, the operating system powering Apple's iPhone, iPad, and iPod Touch, offers unparalleled performance, security, and user experience.</p>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <p>Developing an iOS app allows you to reach a lucrative market of millions of iPhone and iPad users worldwide.</p>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <p>With our iOS development services, you can tap into this vast audience and elevate your brand to new heights.</p>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <img className='ios-img' src="./image/ios/image 117.png" alt="" />
+          </div>
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <p>Developing an iOS app allows you to reach a lucrative market of millions of iPhone and iPad users worldwide.</p>
-        </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <p>With our iOS development services, you can tap into this vast audience and elevate your brand to new heights.</p>
-        </div>
+        
         
 
       </div>
@@ -105,7 +113,7 @@ export default function Ios() {
     {/* this seaction css anglur.css */}
     <div className="point">
       <div className="container">
-        <h2>Key Features of Our iOS Development Services</h2>
+        <h2>Key Features of Our IOS Development Services</h2>
         <div className="custom-hr">
           <hr />
         </div>

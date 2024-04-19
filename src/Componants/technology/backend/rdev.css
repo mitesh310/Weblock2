@@ -1,5 +1,8 @@
+.our {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
 .our h2{
-    padding-top: 50px;
     text-align: center;
     font-weight: bolder;
 }
@@ -28,7 +31,8 @@
     color: #696969;
 }
 .r-why{
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 .r-why h2{
     padding-top: 50px;

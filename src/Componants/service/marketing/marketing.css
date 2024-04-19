@@ -1,5 +1,7 @@
+.social{
+    padding: 50px;
+}
 .social h2{
-    padding-top: 50px;
     color: black;
     text-align: center;
     font-weight: bolder;
@@ -31,6 +33,12 @@
 .s-process{
     margin-top: 200px;
     margin-bottom: 100px;
+}
+.s-process .custom-hr{
+    width: 10%;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
 }
 .s-process h2{
     text-align: center;

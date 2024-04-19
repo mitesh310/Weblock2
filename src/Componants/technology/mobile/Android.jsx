@@ -25,17 +25,23 @@ export default function Android() {
         button="Get Started"
         scrollToGetin={scrollToGetin} 
       />  
-      <Solution 
-        heading="We are your Preferred Android App Development Partner"
-        customHr={customHr}
-
-        desc1="Our dedicated team prioritizes meeting your unique requirements by offering a comprehensive suite of features and services aimed at boosting your business revenue through a mobile-responsive platform. With skilled developers adept in cutting-edge methodologies, innovative ideas, and tailored solutions, we're committed to transforming your app concept into a successful reality. "
-        img1="./image/android/image 104.png"
-    
-        title2="We Are A Team Comprised Of Industry Experts And Veterans "
-        desc2="With a deep understanding of programming intricacies, unwavering dedication to quality, and a focus on enhancing ROI, our developers excel at crafting top-notch applications. Tap into our comprehensive Android app development services, providing a holistic solution for your web and mobile app requirements."
-        img2="./image/android/image 105.png"
-    />
+      <div className="seaction">
+        <div className="container">
+          <h2>We are your Preferred Android App Development Partner</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <Solution 
+            desc1="Our dedicated team prioritizes meeting your unique requirements by offering a comprehensive suite of features and services aimed at boosting your business revenue through a mobile-responsive platform. With skilled developers adept in cutting-edge methodologies, innovative ideas, and tailored solutions, we're committed to transforming your app concept into a successful reality. "
+            img1="./image/android/image 104.png"
+        
+            title2="We Are A Team Comprised Of Industry Experts And Veterans "
+            desc2="With a deep understanding of programming intricacies, unwavering dedication to quality, and a focus on enhancing ROI, our developers excel at crafting top-notch applications. Tap into our comprehensive Android app development services, providing a holistic solution for your web and mobile app requirements."
+            img2="./image/android/image 105.png"
+          />
+        </div>
+      </div>  
+      
     <div ref={getinRef}>
         <Getin 
         title1=" Optimize Your Business with Leading "
@@ -50,7 +56,16 @@ export default function Android() {
             <div className="custom-hr">
                 <hr />
             </div>
-            <p>Android development boasts the largest market share globally, ensuring a vast user base and potential audience for your app. Moreover, as an open-source platform, Android offers unparalleled flexibility and customization options for developers, fostering innovation and creativity. By leveraging the Google Play Store, one of the largest app distribution platforms, Android apps can reach millions of users worldwide, maximizing their visibility and impact. Additionally, the thriving community of developers provides invaluable resources, tutorials, and support, making Android development an accessible and rewarding journey.</p>
+            <div className="row">
+              <div className="col-lg-8 mt-5">
+                <p>Android development boasts the largest market share globally, ensuring a vast user base and potential audience for your app. Moreover, as an open-source platform, Android offers unparalleled flexibility and customization options for developers, fostering innovation and creativity. By leveraging the Google Play Store, one of the largest app distribution platforms, Android apps can reach millions of users worldwide, maximizing their visibility and impact. Additionally, the thriving community of developers provides invaluable resources, tutorials, and support, making Android development an accessible and rewarding journey.</p>
+              </div>
+              <div className="col-lg-4">
+              <img className='android-img' src="./image/android/image 118.png" alt="" />
+              </div>
+            </div>
+           
+            
 
         </div>
     </div>
@@ -59,6 +74,9 @@ export default function Android() {
     <div className="key">
       <div className="container">
         <h2>Key Components of Android Development</h2>
+        <div className="custom-hr">
+          <hr />
+        </div>
         <div className="row">
             
             <div className="col-lg-4 my-3">

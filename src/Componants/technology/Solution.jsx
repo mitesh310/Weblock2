@@ -2,14 +2,11 @@ import React from 'react';
 import './solution.css';
 
 export default function Solution(props) {
-  const { heading, title1, desc1, img1, title2, desc2, img2, customHr } = props;
+  const { heading, title1, desc1, img1, title2, desc2, img2 } = props;
 
   return (
     <>
-      <div className="seaction">
-        <div className="container">
-          <h2>{heading}</h2>
-          {customHr} 
+      
           <div className="row my-5">
             <div className="col-lg-5">
               <h4>{title1}</h4>
@@ -30,8 +27,7 @@ export default function Solution(props) {
               <p>{desc2}</p>
             </div>
           </div>
-        </div>
-      </div>
+      
     </>
   );
 }

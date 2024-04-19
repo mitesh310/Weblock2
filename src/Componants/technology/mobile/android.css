@@ -1,5 +1,6 @@
 .key{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .key h2{
     text-align: center;
@@ -28,4 +29,8 @@
 }
 .key .box p{
     color: #696969;
+}
+
+.asp .android-img{
+    max-width: 100%;
 }

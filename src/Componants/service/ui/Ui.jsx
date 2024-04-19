@@ -73,7 +73,7 @@ export default function Ui() {
     price3= "15"
     desc3= "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     />
-    <div className="ux">
+    <div className="ux1">
         <div className="container">
             <h2>UI/UX Process</h2>
             <div className="custom-hr">

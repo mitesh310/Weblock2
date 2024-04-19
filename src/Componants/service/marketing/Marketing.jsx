@@ -67,6 +67,9 @@ export default function Marketing() {
     <div className="s-process">
         <div className="container">
             <h2>Social media Marketing Process We Follow</h2>
+            <div className="custom-hr">
+                <hr />
+            </div>
             <p>Our social media marketing process involves <br /> audience analysis, content creation, strategic campaigns, and iterative optimization <br />
                 for maximum impact and growth.</p>
             <Process 

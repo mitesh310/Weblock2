@@ -27,13 +27,26 @@ export default function Gcp() {
         button="Get Started"
         scrollToGetin={scrollToGetin}
       />
-      <Solution 
-        heading="What are GCP Web Services?"
-        customHr={customHr}
 
-        desc2="Google Cloud Platform (GCP) is a suite of cloud computing services offered by Google, designed to help businesses build, deploy, and scale applications and websites. GCP offers a wide range of services, including computing, storage, databases, machine learning, and more, all hosted on Google's highly reliable and secure infrastructure."
-        img2="./image/aws/image 106.png"
-      />
+
+
+      <div className="seaction">
+        <div className="container">
+          <h2>What are GCP Web Services?</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/aws/image 106.png" alt="" />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5 my-5">
+              <p>Google Cloud Platform (GCP) is a suite of cloud computing services offered by Google, designed to help businesses build, deploy, and scale applications and websites. GCP offers a wide range of services, including computing, storage, databases, machine learning, and more, all hosted on Google's highly reliable and secure infrastructure.</p>
+            </div>
+          </div>
+        </div>  
+      </div>  
 
     <div className="our-aws">
       <div className="container">

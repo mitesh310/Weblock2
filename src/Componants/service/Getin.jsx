@@ -9,7 +9,7 @@ const {title1,title2} = props;
     <>
     <div className="get-touch">
         <div className="container">
-          <h2 className='py-5'>{title1} <br /> {title2}</h2>
+          <h2>{title1} <br /> {title2}</h2>
           <form action="">
           <div className="row py-5">
             <div className="col-lg-4 mb-3">
@@ -48,20 +48,23 @@ const {title1,title2} = props;
                   required
                 ></textarea>
             </div>
-              <center><button className='mb-5'>INQUIRE NOW</button></center>
-              <div className="col-lg-4"></div>
-              <div className="col-lg-4">
+              <center><button>INQUIRE NOW</button></center>
+              {/* <div className="col-lg-4"></div> */}
+              {/* <div className="col-lg-4"> */}
+              <center>
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><i class="fa-regular fa-envelope"></i> Info@Weblockinfosoft.com</h5>
                     <div className="custom-hr">
-                <hr />
-            </div>
-                    <p class="card-text">Your success is assured!"</p>
+                      <hr />
+                    </div>
+                    <p class="card-text">Your success is assured!</p>
                     <h6>We expedite digital product releases and ensure your success.</h6>
                   </div>
+                  
                 </div>
-              </div>
+              </center>
+              {/* </div> */}
           </div>
           </form>
         </div>

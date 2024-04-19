@@ -29,7 +29,15 @@ export default function Automation() {
           <div className="custom-hr">
             <hr />
           </div>
-          <p>Automation testing development is a software testing approach where test cases are executed automatically using specialized tools and scripts, rather than manually by human testers. Automation testing involves the creation of scripts or test scenarios that simulate user interactions with the software application and verify its behavior, functionality, and performance.</p>
+          <div className="row qa-text">
+            <div className="col-lg-8">
+            <p>Automation testing development is a software testing approach where test cases are executed automatically using specialized tools and scripts, rather than manually by human testers. Automation testing involves the creation of scripts or test scenarios that simulate user interactions with the software application and verify its behavior, functionality, and performance.</p>
+            </div>
+            <div className="col-lg-4">
+              <img className='qa-img' src="./image/qa/image 122.png" alt="" />
+            </div>
+          </div>
+          
           <h2>Benefits of Automation Testing Development</h2>
           <div className="custom-hr">
               <hr />
@@ -90,7 +98,7 @@ export default function Automation() {
         <div className="row">
           
           <div className="col-lg-3"></div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="chek">
               <img src="./image/webdevlopment/check-mark 1.png" alt="" />
               <h6 className='mb-4'> Test Planning and Strategy</h6>

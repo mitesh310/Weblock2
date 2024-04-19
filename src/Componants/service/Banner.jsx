@@ -22,10 +22,10 @@ export default function Banner(props) {
                     <h5>{button}</h5>
                   </button>
                   <div className='mt-5'>
-                  <div></div>
-                  <i class="fa-solid fa-briefcase m-3 icon"></i>5+ Years of Experience
-                  <i class="fa-solid fa-headset m-3 icon"></i>148+ Clients
-                  <i class="fa-solid fa-rocket m-3 icon"></i>98% Success rate
+                  {/* <div></div> */}
+                  <i class="fa-solid fa-briefcase me-3 icon"></i>5+ Years of Experience
+                  <i class="fa-solid fa-headset mx-3 icon"></i>148+ Clients
+                  <i class="fa-solid fa-rocket mx-3 icon"></i>98% Success rate
                   </div>
               </div>
             </div>

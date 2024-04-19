@@ -9,7 +9,7 @@ export default function Price(props) {
     <>
         <div className="recruit">
           <div className="container">
-            <h2 className='pt-5'>{heading}</h2>
+            <h2 >{heading}</h2>
             <div className="custom-hr">
                 <hr />
             </div>
@@ -18,7 +18,7 @@ export default function Price(props) {
                 <div className="box">
                   <h6>{title1}</h6>
                   <h1>${price1}</h1>
-                  <p>{desc1}.</p>
+                  <p>{desc1}</p>
                  
                 </div>
               </div>
@@ -29,7 +29,8 @@ export default function Price(props) {
                   <p>{desc2}</p>
                  
                 </div>
-              </div><div className="col-lg-4 my-3">
+              </div>
+              <div className="col-lg-4 my-3">
                 <div className="box">
                   <h6>{title3}</h6>
                   <h1>${price3}</h1>

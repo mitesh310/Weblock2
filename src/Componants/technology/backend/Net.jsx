@@ -27,44 +27,55 @@ export default function Net() {
         button="Get Started"
         scrollToGetin={scrollToGetin} 
     />
-    <Solution 
-        heading=".NET Development Services"
-        customHr={customHr}
 
-        title1="Custom .NET Development"
-        desc1="AI-infused .NET Development Company, Elevate your projects! Renowned for crafting scalable, cost-effective enterprise solutions, we excel in modern ASP .NET development services. Building world-class desktop, web, and mobile apps is our forte."
-        img1="./image/net/image 104.png"
+
+      <div className="seaction">
+        <div className="container">
+          <h2>.NET Development Services</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <Solution 
+              title1="Custom .NET Development"
+              desc1="AI-infused .NET Development Company, Elevate your projects! Renowned for crafting scalable, cost-effective enterprise solutions, we excel in modern ASP .NET development services. Building world-class desktop, web, and mobile apps is our forte."
+              img1="./image/net/image 104.png"
+          
+              title2=".NET Consulting "
+              desc2="Pioneer in ASP .NET application development services, become the domain leader! Our developers deliver secure, scalable, and flexible solutions, customizing your business journey catalyst."
+              img2="./image/net/image 105.png"
+          />
+
+          <Solution
+              title1=".NET Integration "
+              desc1="Reform your existing business processes, ace your product with our .NET application development services! Integrate modern and advanced functionality into your scope, whether you operate in eCommerce, healthcare, or education. "
+              img1="./image/net/image 106.png"
+
+              title2="Porting and Migration to .NET Framework "
+              desc2="Move to the classic and proven framework with our experienced .Net developers! Masters in migrating your existing legacy platform to .NET, we have 12+ years of expertise"
+              img2="./image/net/image 107.png"
+          />    
+          
+          <Solution
+              title1="Third-Party .NET Customization "
+              desc1="Expand your business into bigger possibilities with Bacancy. We help you adapt and incorporate third-party solutions through our scalable, flexible, and smooth .NET customizations."
+              img1="./image/net/image 108.png"
+
+              title2="Dedicated .NET Development Team "
+              desc2="Outsource your .NET development to Bacancy, a reliable, convenient, and trustworthy partner. We offer a dedicated team of .NET developers who work solely for you, on your project, as per your time and requirements."
+              img2="./image/net/image 109.png"
+          /> 
+          
+          <Solution
+              title1="Post Launch Support for .Net Projects "
+              desc1="We stand with you end-to-end throughout your .NET software development, and even after its completion. Just high-five us, sit back, and see your project flourish."
+              img1="./image/net/image 110.png"
+          /> 
+        </div>  
+      </div>  
+
+
+
     
-        title2=".NET Consulting "
-        desc2="Pioneer in ASP .NET application development services, become the domain leader! Our developers deliver secure, scalable, and flexible solutions, customizing your business journey catalyst."
-        img2="./image/net/image 105.png"
-    />
-
-    <Solution
-        title1=".NET Integration "
-        desc1="Reform your existing business processes, ace your product with our .NET application development services! Integrate modern and advanced functionality into your scope, whether you operate in eCommerce, healthcare, or education. "
-        img1="./image/net/image 106.png"
-
-        title2="Porting and Migration to .NET Framework "
-        desc2="Move to the classic and proven framework with our experienced .Net developers! Masters in migrating your existing legacy platform to .NET, we have 12+ years of expertise"
-        img2="./image/net/image 107.png"
-    />    
-    
-    <Solution
-        title1="Third-Party .NET Customization "
-        desc1="Expand your business into bigger possibilities with Bacancy. We help you adapt and incorporate third-party solutions through our scalable, flexible, and smooth .NET customizations."
-        img1="./image/net/image 108.png"
-
-        title2="Dedicated .NET Development Team "
-        desc2="Outsource your .NET development to Bacancy, a reliable, convenient, and trustworthy partner. We offer a dedicated team of .NET developers who work solely for you, on your project, as per your time and requirements."
-        img2="./image/net/image 109.png"
-    /> 
-    
-    <Solution
-        title1="Post Launch Support for .Net Projects "
-        desc1="We stand with you end-to-end throughout your .NET software development, and even after its completion. Just high-five us, sit back, and see your project flourish."
-        img1="./image/net/image 110.png"
-    /> 
     <div ref={getinRef}>
         <Getin 
         title1="Build Scalable High-end Software Solutions With "

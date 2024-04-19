@@ -28,13 +28,26 @@ export default function Azure() {
         button="Get Started"
         scrollToGetin={scrollToGetin}
       />
-      <Solution 
-        heading="What are Azure Web Services?"
-        customHr={customHr}
 
-        desc1="Azure web services refer to a suite of cloud computing services offered by Microsoft Azure, a leading cloud platform. These services provide a range of functionalities, including website hosting, application development, data storage, analytics, and more, enabling businesses to build, deploy, and manage web applications and services efficiently."
-        img1="./image/aws/image 105.png"
-      />
+      <div className="seaction">
+        <div className="container">
+          <h2>What are Azure Web Services?</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5 my-5">
+              <p>Azure web services refer to a suite of cloud computing services offered by Microsoft Azure, a leading cloud platform. These services provide a range of functionalities, including website hosting, application development, data storage, analytics, and more, enabling businesses to build, deploy, and manage web applications and services efficiently.</p>
+            </div>
+            
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/aws/image 105.png" alt="" />
+            </div>
+          </div>
+        </div>  
+      </div>  
+ 
 
     <div className="our-aws">
       <div className="container">

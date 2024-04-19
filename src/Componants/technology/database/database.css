@@ -10,8 +10,13 @@
     margin: 0 auto;
     text-align: center;
 }
-
-
+.database .data-text p{
+    padding: 50px;
+    padding-top: 80px;
+}
+.database .data-img{
+    max-width: 100%;
+}
 .database .box {
     border: 1px solid #DDDDDD;
     height: 100%;
@@ -34,12 +39,16 @@
     color: #696969;
 }
 .database button{
+    border: none;
     margin-top: 50px;
     background: white;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 #00000040;
+    border-radius: 5px
 }  
 .database button:hover{
-    box-shadow: 0 4px 4px 0 black;
+    background: #1099C5;
+    color: #fff;
 }
 
 
@@ -48,7 +57,7 @@
 }
 
 .choos-database{
-    /* margin-top: 200px; */
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .choos-database h2{

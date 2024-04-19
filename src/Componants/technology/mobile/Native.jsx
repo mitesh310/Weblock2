@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
-import Solution from '../Solution';
+
 import './native.css'
 
 export default function Native() {
 
 
-  const customHr = <hr className="custom-hr" />;
+
 
   const getinRef = useRef(null);
 
@@ -27,13 +27,24 @@ export default function Native() {
         button="Get started"
         scrollToGetin={scrollToGetin} 
       />
-       <Solution
-        heading="Introduction to JavaScript"
-        customHr={customHr}
-
-        desc2="React Native is an open-source framework developed by Facebook for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, significantly reducing development time and cost. React Native combines the performance and user experience of native mobile apps with the flexibility and productivity of web development, making it an ideal choice for building cross-platform mobile applications."
-        img2="./image/native/image 104.png"
-      />
+      <div className="seaction">
+        <div className="container">
+          <h2>Introduction to React Native</h2>
+          <div className="custom-hr">
+            <hr />
+          </div>
+          <div className="row mt-5">
+            <div className="col-lg-5">
+              <img className='se-img' src="./image/native/image 104.png" alt="" />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-5 my-5">
+              <p>React Native is an open-source framework developed by Facebook for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, significantly reducing development time and cost. React Native combines the performance and user experience of native mobile apps with the flexibility and productivity of web development, making it an ideal choice for building cross-platform mobile applications.</p>
+            </div>
+          </div>
+        </div>  
+      </div>  
+ 
 
 
       <div className="native">

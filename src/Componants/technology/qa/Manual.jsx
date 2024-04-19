@@ -30,7 +30,15 @@ export default function Manual() {
           <div className="custom-hr">
             <hr />
           </div>
-          <p>Manual testing development is a critical component of the software testing process where human testers execute test cases manually to identify defects and ensure the functionality, usability, and performance of software applications. Unlike automated testing, manual testing relies on human judgment and observation to assess the software's behavior, features, and compliance with requirements.</p>
+          <div className="row qa-text">
+            <div className="col-lg-8">
+            <p>Manual testing development is a critical component of the software testing process where human testers execute test cases manually to identify defects and ensure the functionality, usability, and performance of software applications. Unlike automated testing, manual testing relies on human judgment and observation to assess the software's behavior, features, and compliance with requirements.</p>
+            </div>
+            <div className="col-lg-4">
+              <img className='qa-img' src="./image/qa/image 121.png" alt="" />
+            </div>
+          </div>
+          
           <h2>Key Components of Manual Testing Development</h2>
           <div className="custom-hr">
               <hr />
