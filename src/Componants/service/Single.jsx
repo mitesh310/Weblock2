@@ -21,9 +21,12 @@ export default function Single(props) {
                     <h1> {title} </h1>
                     <p className='mt-4'> {desc} </p>
                 </MovingComponent>
-                    <button className="more mt-3">
+                    {/* <button className="more mt-3">
                         <a href={url}>Explore more</a>
-                    </button>
+                    </button> */}
+                    <a href={url} className="more mt-3">
+                        <button>Explore more</button>
+                    </a>
                 </div>
             </div>
 

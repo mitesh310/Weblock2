@@ -1,4 +1,4 @@
-import React, { useEffect, useRef  } from 'react';
+import React from 'react';
 import "./home.css"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -40,11 +40,11 @@ export default function Home() {
     <div className="company">
         <div className="home">
             <div className="container">
-                <div className="row mb-5">
+                <div className="row">
                     <div className="col-lg-6 col-md-12">
                         
                             <h1>Boost your Business <br />By leveraging <span>AI & ML</span> </h1>
-                            <p>The development of full artificial intelligence colud <br /> spell the end of the human race.</p>
+                            <p>The development of full artificial intelligence cloud <br /> spell the end of the human race.</p>
                             <a href="/contact"><button className='mt-3'>Get In Touch</button></a>
                         
                     </div>
@@ -56,8 +56,11 @@ export default function Home() {
         </div>
         <div className="client">
             <div className="container">
-                <img className='logo' src="./image/home/logo.png" alt="" />
-                <h3>Trusted By Over 148+ Clients Around The World</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>Trusted By Over 148+ Clients Around The World</h3>
+                </div>
+                
             </div>
             <div className="trust">
                 <div className="container">
@@ -119,8 +122,10 @@ export default function Home() {
         </div>
         <div class="box">
             <div class="container-fluid">
-                <img class='logo' src="./image/home/logo.png" alt="" />
-                <h3>Technologies We Work With</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>Technologies We Work With</h3>
+                </div>
                 <div className="i-sli">
                     <div className="image-sli">
                         <img src="./image/home/html-5.png" alt="" />
@@ -181,88 +186,16 @@ export default function Home() {
                         <img src="./image/home/hostinger.png" alt="" />
                     </div>
                 </div>
-                {/* <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
-                <div class="box-img mt-5">
-                    <div class="box-1">
-                        <center><img src="./image/home/html-5.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/css-3.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/javascript.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/bootstrap.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/react.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Frame.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Flutter 1.png" alt="" /></center>
-                    </div>
-                </div>
-                </marquee> */}
-                {/* <marquee  behavior="scroll"  direction="right"  scrollamount={3}  style={{ width: "100%" }}>
-                <div class="box-img mt-5">
-                    <div class="box-1">
-                        <center><img src="./image/home/PHP-logo 1.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/mysql-official 1.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/nodejs-ar21 1.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/java.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/csharp.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/python.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/apple.png" alt="" /></center>
-                    </div>
-                </div>
-                </marquee> */}
-                {/* <marquee  behavior="scroll"  direction="left"  scrollamount={3}  style={{ width: "100%" }}>
-                <div class="box-img mt-5">
-                    <div class="box-1">
-                        <center><img src="./image/home/aws.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Vector.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/clould.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/Go-Daddy.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/ibm.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/image 57.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/hostinger.png" alt="" /></center>
-                    </div>
-                </div>
-                </marquee> */}
+
             </div>
         </div>
         <div className="service">
             <div className="container">
                 <div className="container">
-                    <img className='logo' src="./image/home/logo.png" alt="" />
-                    <h3>Our Services</h3>
+                    <div className="half-logo d-flex justify-content-center align-items-center">
+                        <img className='logo' src="./image/home/logo.png" alt="" />
+                        <h3>Our Services</h3>
+                    </div>
                     <div className="row">
                         <div className="col-lg-3 col-md-6 mt-5">
                             <div className="box">
@@ -298,8 +231,10 @@ export default function Home() {
         </div>
         <div className="process">
             <div className="container">
-                <img className='logo' src="./image/home/logo.png" alt="" />
-                <h3>Our Development Process</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>Our Development Process</h3>
+                </div>
                 {/* <video
                     className='gif'
                     autoPlay
@@ -312,8 +247,10 @@ export default function Home() {
         </div>
         <div className="indu">
             <div className="container">
-            <img class='logo' src="./image/home/logo.png" alt="" />
-                <h3>We Serve Industries</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>We Serve Industries</h3>
+                </div>
                 <button className='btn'>View More</button>
                 <div class="box-img mt-5">
                     <div class="box-1">
@@ -363,8 +300,10 @@ export default function Home() {
         </div>
         <div className="meet">
             <div className="container">
-                <img class='logo' src="./image/home/logo.png" alt="" />
-                <h3>Meet Our Team</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>Meet Our Team</h3>
+                </div>
                 <div className="row mt-5">
                 <div className="col-lg-4 mt-2">
                     <div class="content">
@@ -401,24 +340,15 @@ export default function Home() {
                 </div>
                 </div>
                 
-                {/* <div class="box-img mt-5">
-                    <div class="box-1">
-                        <center><img src="./image/home/image 44 2.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/image 44 2.png" alt="" /></center>
-                    </div>
-                    <div class="box-1">
-                        <center><img src="./image/home/image 44.png" alt="" /></center>
-                    </div>
-                    
-                </div> */}
+                
             </div>
         </div>
         <div className="test">
             <div className="container">
-                <img class='logo' src="./image/home/logo.png" alt="" />
-                <h3>Testimonial</h3>
+                <div className="half-logo d-flex justify-content-center align-items-center">
+                    <img className='logo' src="./image/home/logo.png" alt="" />
+                    <h3>Testimonial</h3>
+                </div>
                 <Slider {...settings}>
                     <div className='mt-5'>
                         <div className="card m-3">
@@ -475,62 +405,7 @@ export default function Home() {
                         </div>
                     </div>
                 </Slider>
-                {/* <div className="row mt-5">
-                    <div className="col-lg-4">
-                        <div className="card mt-3">
-                            <div className="card-body">
-                                <div className="row">
-                                    <div className="col-3">
-                                        <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
-                                    </div>
-                                    <div className="col-9 mt-3">
-                                        <h5>John Carter</h5>
-                                        <p>CEO & Co-Founder</p>
-                                    </div>
-                                </div>
-                                <p className='mt-3'>
-                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="card mt-3">
-                            <div className="card-body">
-                                <div className="row">
-                                    <div className="col-3">
-                                        <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
-                                    </div>
-                                    <div className="col-9 mt-3">
-                                        <h5>John Carter</h5>
-                                        <p>CEO & Co-Founder</p>
-                                    </div>
-                                </div>
-                                <p className='mt-3'>
-                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="card mt-3">
-                            <div className="card-body">
-                                <div className="row">
-                                    <div className="col-3">
-                                        <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
-                                    </div>
-                                    <div className="col-9 mt-3">
-                                        <h5>John Carter</h5>
-                                        <p>CEO & Co-Founder</p>
-                                    </div>
-                                </div>
-                                <p className='mt-3'>
-                                Sagittis egestas suscipit pharetra nostra pulvinar curabitur rhoncus aliquet. Aliquam eros pharetra, nam dictumst eu facilisis maecenas ut. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+                
             </div>
         </div>
         <div className="talk">

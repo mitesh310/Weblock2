@@ -191,6 +191,12 @@
     .web h2{
         padding-top: 50px;
     }
+    .eng .col-lg-3{
+        width: 50%;
+    }
+    .web .col-lg-4{
+        width: 33%;
+    }
 }
 @media only screen and (max-width:767px) and (min-width:420px) {
     .web h2{

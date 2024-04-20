@@ -32,15 +32,16 @@ export default function Footer () {
                     <li className='mt-4'><i class="fa-solid fa-phone"></i> <a href="tel:8141865664">8141865664</a></li>
                     <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@weblockinfosoft.com">info@weblockinfosoft.com</a></li>
                     <li> 
-                        <div className="chek">
-                            <i class="fa-solid fa-location-dot"></i> 
+                        <div className="chek-f">
+                            <img className='fa-solid' src="./image/home/location.png" alt="" /> 
                             <h5> Headquater- </h5> 
                             <p>3 King William St, Adelaide SA 5000, Australia.</p>
                         </div>
                     </li>
                     <li> 
-                        <div className="chek">
-                            <i class="fa-solid fa-location-dot"></i> 
+                        <div className="chek-f">
+                            <img className='fa-solid' src="./image/home/location.png" alt="" /> 
+                            {/* <i class="fa-solid fa-location-dot"></i>  */}
                             <h5> Branch- </h5> 
                             <p>303-304 Golden Square, near D-Mart, Mota Varachha, Surat.</p>
                         </div>
@@ -53,13 +54,13 @@ export default function Footer () {
                     <h6>@2024 Weblock infosoft. All Rights Reserved</h6>
                 </div>
                 <div class="footer-icons">
-                    <a href="https://www.facebook.com/people/Weblock-Infosoft/61555415910934/"  target="_blank">
+                    <a href="https://www.facebook.com/people/Weblock-Infosoft/61555415910934/" target="_blank">
                         <i class="f-icon fa-brands fa-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com/weblock_infosoft/"  target="_blank">
                         <i class="f-icon fab fa-instagram"></i>
                     </a>
-                    <a href="https://github.com/weblock-infosoft"  target="_blank">
+                    <a href="https://github.com/weblock-infosoft" target="_blank">
                         <i class="f-icon fab fa-github"></i>
                     </a>
                     <a href="https://www.linkedin.com/company/weblock-infosoft/" target="_blank">
@@ -67,11 +68,7 @@ export default function Footer () {
                     </a>
                 </div>
             </div>
-            
-
-            
         </div>
-        
     </div>
     </>
   )

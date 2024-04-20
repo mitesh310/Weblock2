@@ -38,24 +38,32 @@ body{
 }
 
 .client{
+    margin-top: 50px;
     padding: 30px 0px;
     background-color: white;
     color: black;
    
 }
-.client img.logo{
-    position: absolute;
-    width: 65px;
-    left: 31%; 
+.client img.logo {
+  /* position: absolute;
+  width: 65px;
+  left: 32%; 
+  transform: translateX(-32%); 
+  top: 30px; */
+  width: 65px;
 }
 .client h3{
-    position: relative;
+    /* position: relative;
     top: 30px;
     font-size: 30px;
     font-weight: 600;
     color: black;
-    text-align: center;
+    text-align: center; */
+    padding-top: 40px;
+    font-weight: 600;
+    margin-left: -25px;
 }
+
 .client .trust{
     /* background: #D5E8FF; */
     margin: 50px 0px;
@@ -118,18 +126,12 @@ body{
  
 }
 .box img.logo{
-  position: absolute;
-  width: 65px;
-  left: 38%; 
+  width :65px;
 }
 .box h3{
-  position: relative;
-  top: 30px;
-  font-size: 30px;
+  padding-top: 40px;
   font-weight: 600;
-  color: black;
-  text-align: center;
-  margin-bottom: 20px;
+  margin-left: -25px;
 }
 
 
@@ -253,17 +255,14 @@ body{
 }
 
 .service img.logo{
-  position: absolute;
   width: 65px;
-  left: 43.5%; 
 }
 .service h3{
-  position: relative;
-  top: 30px;
-  font-size: 30px;
+  padding-top: 40px;
   font-weight: 600;
+  margin-left: -25px;
   color: #1099C5;
-  text-align: center;
+
 }
 
 .service .box {
@@ -298,17 +297,12 @@ body{
  
 }
 .process img.logo{
-  position: absolute;
   width: 65px;
-  left: 39%; 
 }
 .process h3{
-  position: relative;
-  top: 30px;
-  font-size: 28px;
+  padding-top: 40px;
   font-weight: 600;
-  color: black;
-  text-align: center;
+  margin-left: -25px;
 }
 .process .gif{
   width: 100%;
@@ -329,17 +323,14 @@ body{
 }
 
 .indu img.logo {
-  position: absolute;
   width: 65px;
-  left: 36%; /* Center logo horizontally */
 }
 
 .indu h3 {
-  font-size: 30px;
-  font-weight: 600;
   color: #1099C5;
-  text-align: center;
-  margin-top: 30px;
+  padding-top: 40px;
+  font-weight: 600;
+  margin-left: -25px;
 }
 
 .indu .btn {
@@ -399,18 +390,12 @@ body{
  
 }
 .meet img.logo{
-  position: absolute;
   width: 65px;
-  left: 43%; 
 }
 .meet h3{
-  position: relative;
-  top: 30px;
-  font-size: 28px;
+  padding-top: 40px;
   font-weight: 600;
-  color: black;
-  text-align: center;
-  margin-bottom: 20px;
+  margin-left: -25px;
 }
 .meet .content {
   position: relative;
@@ -423,7 +408,7 @@ body{
 .meet .content .content-overlay {
   background: rgba(0,0,0,0.7);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -487,44 +472,25 @@ body{
 }
 
 
-/* .meet .box-img {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-}
-
-.meet .box-1 {
-  flex: 1; 
-  margin: 0 5px; 
-}
-
-.meet .box-1 img {
-  max-width: 100%; 
-  height: auto; 
-  border-radius: 50%;
-} */
-
 .test{
   padding: 30px 0px;
   background: linear-gradient(95deg, #afc7e9 0%, #DFE5EE 100.41%);
-
- 
 }
 .test img.logo{
-  position: absolute;
   width: 65px;
-  left: 44%; 
 }
 .test h3{
-  position: relative;
-  top: 30px;
-  font-size: 28px;
-  font-weight: 600;
   color: #1099C5;
-  text-align: center;
+  padding-top: 40px;
+  font-weight: 600;
+  margin-left: -25px;
 }
 .test .card h5{
   color: #1099C5;
+  margin-left: 10px;
+}
+.test .card h6{
+  margin-left: 10px;
 }
 .test .card p{
   color: #8D8BA7;
@@ -559,7 +525,7 @@ body{
   }
 
 } 
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 1024px) and (min-width: 768px){
   /* .client .trust .img {
     width: 170px;
   } */
@@ -579,6 +545,12 @@ body{
   .all h1{
     text-align: center;
     padding-bottom: 50px;
+  }
+  .test .card h6{
+    margin-left: 20px;
+  }
+  .test .card h5{
+    margin-left: 20px;
   }
 
 }
@@ -601,7 +573,7 @@ body{
   
   
 }
-@media only screen and (max-width: 429px) and (min-width: 320px){
+@media only screen and (max-width: 429px) and (min-width: 315px){
   .client .trust .img{
     display: block;
     margin-left: auto;
@@ -617,6 +589,13 @@ body{
   }
   .indu .box-1 {
     flex-basis: calc(20% - 20px); 
+    padding: 15px;
+  }
+  .test .card h6{
+    margin-left: 20px;
+  }
+  .test .card h5{
+    margin-left: 20px;
   }
 }
 @media (min-width: 768px) {
@@ -663,5 +642,112 @@ body{
   .all .col-lg-6,
   .col-lg-3 {
     text-align: center;
+  }
+}
+
+
+/* logo and heading only */
+
+@media only screen and (max-width: 766px) and (min-width: 325px){
+  
+  .client h3{
+   padding-top: 64px;
+   margin-left: -18px;
+  }
+  .client img.logo {
+    width: 50px;
+  }
+  .box h3{
+    padding-top: 30px;
+    margin-left: -17px;
+  }
+  .box img.logo{
+    width: 50px;
+  }
+  .service h3{
+    padding-top: 30px;
+    margin-left: -17px;
+  }
+  .service img.logo{
+    width: 50px;
+  }
+  .indu h3{
+      padding-top: 30px;
+      margin-left: -16px;
+  }
+  .indu img.logo{
+    width: 50px;
+  }
+  .meet h3{
+    padding-top: 30px;
+    margin-left: -16px;
+  }
+  .meet img.logo{
+    width: 50px;
+  }
+  .test img.logo{
+    width: 50px;
+  }
+  .test h3{
+    padding-top: 32px;
+    margin-left: -16px;
+  }
+
+}
+
+
+@media only screen and (max-width: 324px) and (min-width: 300px){
+  .client{
+    margin-top: 0px;
+    padding: 15px 0;
+  }
+  .client h3{
+    padding-top: 90px;
+    margin-left: -18px;
+   }
+   .client img.logo {
+    width: 50px;
+  }
+  .box h3{
+    margin-top: 26px;
+    margin-left: -15px;
+  }
+  .box img.logo{
+    width: 50px;
+  }
+  .service h3{
+    padding-top: 25px;
+    margin-left: -17px;
+  }
+  .service img.logo{
+    width: 50px;
+  }
+  .process h3{
+    margin-top: 24px;
+    margin-left: -17px;
+  }
+  .process img.logo{
+    width: 50px;
+  }
+  .indu h3{
+   padding-top: 32px;
+    margin-left: -17px;
+  }
+  .indu img.logo{
+    width: 50px;
+  }
+  .meet h3{
+    padding-top: 35px;
+    margin-left: -16px;
+  }
+  .meet img.logo{
+    width: 50px;
+  }
+  .test img.logo{
+    width: 50px;
+  }
+  .test h3{
+    padding-top: 32px;
+    margin-left: -16px;
   }
 }

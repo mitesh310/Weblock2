@@ -33,22 +33,23 @@
 }
 
 
-.footer .chek {
+.footer .chek-f {
     display: flex;
     align-items: center; 
     gap: 10px; 
   }
-.footer .chek i {
+.footer .chek-f img {
     align-self: flex-start;
-    margin-top: 5px;
+    margin-top: 6px;
+    width: 33px;
   }
 
-.footer .chek h5 {
+.footer .chek-f h5 {
     margin: 0px;
     font-weight: bolder;
     margin-bottom: 50px; 
   }
-  .footer .chek p{
+  .footer .chek-f p{
     color: #9795B5;
   }
 

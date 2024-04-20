@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './header.css'; 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,9 +30,11 @@ const Header = () => {
         <div className="cont">
           <input type="checkbox" name="check" id="check" checked={isMenuOpen} onChange={toggleMenu} />
           <div className="logo-container">
-            <Link to="/">
+            <a href="/">
               <img src={scrolled ? "./image/home/logo-2.png" : "./image/home/logo-1.png"} alt="Company Logo" width="100" />
-            </Link>
+            </a>
+            
+            
 
           </div>
 
