@@ -2,12 +2,14 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function Net() {
 
      
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -31,7 +33,16 @@ export default function Net() {
 
       <div className="seaction">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>.NET Development Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -90,8 +101,16 @@ export default function Net() {
             <div className="custom-hr">
                 <hr />
             </div>
-            <p>Embracing the ever-evolving landscape of technology, ASP.NET WEB API emerges as a powerful framework for crafting versatile HTTP services. From browsers to mobile devices and beyond, WEB API supports a myriad of client-side servers. While integrated into the core ASP.NET platform, it seamlessly incorporates MVC features such as routing, controllers, and dependency injection, ensuring robust and flexible development.</p>
-            <p>In the era of web and mobile applications, rapid and seamless data access is paramount. To meet this need for quick and straightforward server responses, you require an API that is both compatible and adaptable, ensuring swift performance across platforms.</p>
+            <div className="row">
+              <div className="col-lg-8">
+                <p>Embracing the ever-evolving landscape of technology, ASP.NET WEB API emerges as a powerful framework for crafting versatile HTTP services. From browsers to mobile devices and beyond, WEB API supports a myriad of client-side servers. While integrated into the core ASP.NET platform, it seamlessly incorporates MVC features such as routing, controllers, and dependency injection, ensuring robust and flexible development.</p>
+                <p>In the era of web and mobile applications, rapid and seamless data access is paramount. To meet this need for quick and straightforward server responses, you require an API that is both compatible and adaptable, ensuring swift performance across platforms.</p>
+              </div>
+              <div className="col-lg-4">
+                <img className='net-img' src="./image/net/image 123.png" alt="" />
+              </div>
+            </div>
+            
 
         </div>
     </div>

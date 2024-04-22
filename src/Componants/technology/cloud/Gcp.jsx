@@ -1,13 +1,15 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
-import Solution from '../Solution'
+// import Solution from '../Solution'
 import Getin from '../../service/Getin';
 import './aws.css'
+import MovingComponent from 'react-moving-text'
+
 
 export default function Gcp() {
 
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -29,10 +31,19 @@ export default function Gcp() {
       />
 
 
-
-      <div className="seaction">
+{/* this seaction css native.css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What are GCP Web Services?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -41,7 +52,7 @@ export default function Gcp() {
               <img className='se-img' src="./image/aws/image 106.png" alt="" />
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>Google Cloud Platform (GCP) is a suite of cloud computing services offered by Google, designed to help businesses build, deploy, and scale applications and websites. GCP offers a wide range of services, including computing, storage, databases, machine learning, and more, all hosted on Google's highly reliable and secure infrastructure.</p>
             </div>
           </div>

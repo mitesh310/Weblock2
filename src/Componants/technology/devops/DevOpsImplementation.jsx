@@ -2,11 +2,13 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
+import MovingComponent from 'react-moving-text'
+
 
 export default function DevOpsImplementation() {
     
 
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -29,17 +31,26 @@ export default function DevOpsImplementation() {
 
       <div className="seaction">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>DevOps Implementation Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
           <Solution 
             title1="DevOps Catalyst"
-            desc1="DevOps Catalyste: Igniting innovation through seamless integration. Our expert team specializes in next-gen DevOps solutions, leveraging cutting-edge technologies to streamline development and operations. With a focus on automation and agility, we empower your organization to drive efficiency and accelerate software delivery. Experience the catalyst for transformation with DevOps Catalyste"
+            desc1="Igniting innovation through seamless integration. Our expert team specializes in next-gen DevOps solutions, leveraging cutting-edge technologies to streamline development and operations. With a focus on automation and agility, we empower your organization to drive efficiency and accelerate software delivery. Experience the catalyst for transformation with DevOps Catalyste"
             img1="./image/dimplementation/image 104.png"
         
             title2="AgileOps Innovate "
-            desc2="AgileOps Innovate: Pioneering the future of operational excellence. Our cutting-edge solutions seamlessly merge agility and operations, driving innovation at every turn. Experience accelerated growth and efficiency as we revolutionize your business processes. Trust us to propel your organization forward with tailored strategies and next-gen technologies."
+            desc2="Pioneering the future of operational excellence. Our cutting-edge solutions seamlessly merge agility and operations, driving innovation at every turn. Experience accelerated growth and efficiency as we revolutionize your business processes. Trust us to propel your organization forward with tailored strategies and next-gen technologies."
             img2="./image/dimplementation/image 105.png"
         />
 

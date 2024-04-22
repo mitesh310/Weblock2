@@ -3,6 +3,8 @@ import './marketing.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Process from '../Process'
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function Marketing() {
@@ -28,7 +30,17 @@ export default function Marketing() {
 
     <div className="social">
         <div className="container">
-            <h2>Social Media Marketing service</h2>
+            <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
+
+                <h2>Social Media Marketing service</h2>
+            </MovingComponent>
             <div className="custom-hr">
                 <hr />
             </div>
@@ -70,7 +82,7 @@ export default function Marketing() {
             <div className="custom-hr">
                 <hr />
             </div>
-            <p>Our social media marketing process involves <br /> audience analysis, content creation, strategic campaigns, and iterative optimization <br />
+            <p className='spr-p'>Our social media marketing process involves <br /> audience analysis, content creation, strategic campaigns, and iterative optimization <br />
                 for maximum impact and growth.</p>
             <Process 
                 number1="01"

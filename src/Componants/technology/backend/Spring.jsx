@@ -2,12 +2,13 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
 import './django.css'
-import Solution from '../Solution';
+import MovingComponent from 'react-moving-text'
+// import Solution from '../Solution';
 
 export default function Spring() {
 
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -29,9 +30,20 @@ export default function Spring() {
         scrollToGetin={scrollToGetin} 
       /> 
 
-      <div className="seaction">
+
+{/* this seaction css native .css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What are GCP Web Services?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -40,13 +52,15 @@ export default function Spring() {
               <img className='se-img' src="./image/spring/image 104.png" alt="" />
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>Spring Boot is an open-source Java framework designed to simplify the development of Java-based web applications. Built on top of the popular Spring framework, Spring Boot provides a convention-over-configuration approach, reducing the complexity of application setup and configuration. It aims to enable developers to create production-ready applications with minimal effort and boilerplate code.</p>
             </div>
           </div>
         </div>  
       </div> 
 
+
+    {/* this seaction css django.css */}
       <div className="jango">
         <div className="container">
           <h2>Key Features of Spring Boot</h2>

@@ -1,13 +1,15 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
-import Solution from '../Solution';
-import './javascript.css'
+// import Solution from '../Solution';
+import './javascript.css';
+import MovingComponent from 'react-moving-text';
+
 
 export default function Javascript() {
   
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -27,9 +29,21 @@ export default function Javascript() {
         button="Get started"
         scrollToGetin={scrollToGetin} 
       />
-      <div className="seaction">
+
+
+      {/* this seaction css native.css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">          
           <h2>Introduction to JavaScript</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -38,7 +52,7 @@ export default function Javascript() {
               <img className='se-img' src="./image/javascript/image 104.png" alt="" />
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>JavaScript is a high-level, interpreted programming language primarily used for creating dynamic and interactive web content. It is one of the core technologies of the World Wide Web, alongside HTML and CSS, and is supported by all modern web browsers. JavaScript enables developers to add interactivity, manipulate DOM elements, handle events, and communicate with servers, making it essential for building modern web applications.</p>
             </div>
           </div>

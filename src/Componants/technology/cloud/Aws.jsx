@@ -1,14 +1,16 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
-import Solution from '../Solution'
+// import Solution from '../Solution'
 import Getin from '../../service/Getin';
-import './aws.css'
+import './aws.css';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function Aws() {
 
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -29,9 +31,20 @@ export default function Aws() {
         scrollToGetin={scrollToGetin}
       />
 
-      <div className="seaction">
+
+{/* this seaction css native.css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What is AWS Development?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -40,7 +53,7 @@ export default function Aws() {
               <img className='se-img' src="./image/aws/image 104.png" alt="" />
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>AWS development refers to the process of leveraging Amazon Web Services (AWS) cloud platform to build, deploy, and manage applications and infrastructure. AWS offers a wide range of cloud services, including computing power, storage, databases, machine learning, and more, enabling businesses to innovate and scale rapidly without the burden of managing physical hardware.</p>
             </div>
           </div>

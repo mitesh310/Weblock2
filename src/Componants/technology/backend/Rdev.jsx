@@ -1,13 +1,15 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
-import Solution from '../Solution'
+// import Solution from '../Solution'
 import Getin from '../../service/Getin';
 import './rdev.css';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function Rdev() {
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -29,14 +31,24 @@ export default function Rdev() {
     />
 
 
-      <div className="seaction">
+{/* this seaction css natove.css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What is R Development?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
           <div className="row mt-5">
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>R is a powerful programming language and software environment for statistical computing and graphics. It provides a wide variety of statistical and graphical techniques, making it an indispensable tool for data scientists, statisticians, and researchers across various industries.</p>
             </div>
             
@@ -108,22 +120,30 @@ export default function Rdev() {
         <div className="custom-hr">
           <hr />
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Expertise: <span>Our team consists of skilled R developers with years of experience in developing data-driven solutions for clients across diverse industries.</span></h5>
+        <div className="row">
+          <div className="col-lg-8 mt-3">
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Expertise: <span>Our team consists of skilled R developers with years of experience in developing data-driven solutions for clients across diverse industries.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'>Customized Solutions: <span> We understand that every business has unique needs. That's why we work closely with our clients to deliver tailored R development solutions that address their specific challenges and goals.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Quality Assurance:  <span>We follow best practices in R development and adhere to rigorous quality assurance processes to ensure the reliability, scalability, and performance of our solutions.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Customer Satisfaction:  <span> Our commitment to customer satisfaction drives everything we do. We prioritize clear communication, timely delivery, and responsive support to ensure a seamless experience for our clients.</span></h5>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <img className='r-img' src="./image/r/image 124.png" alt="" />
+          </div>
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'>Customized Solutions: <span> We understand that every business has unique needs. That's why we work closely with our clients to deliver tailored R development solutions that address their specific challenges and goals.</span></h5>
-        </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Quality Assurance:  <span>We follow best practices in R development and adhere to rigorous quality assurance processes to ensure the reliability, scalability, and performance of our solutions.</span></h5>
-        </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Customer Satisfaction:  <span> Our commitment to customer satisfaction drives everything we do. We prioritize clear communication, timely delivery, and responsive support to ensure a seamless experience for our clients.</span></h5>
-        </div>
+        
 
       </div>
     </div>

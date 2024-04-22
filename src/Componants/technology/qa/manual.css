@@ -19,6 +19,7 @@
 .manual .qa-text p{
     padding: 50px;
     padding-top: 80px;
+    text-align: justify;
 }
 .manual .qa-img{
     max-width: 100%;
@@ -45,4 +46,21 @@
 
 .manual .box p {
     color: #696969;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .manual .qa-text .col-lg-8{
+        width: 60%;
+    }
+    .manual .qa-text .col-lg-4{
+        width: 40%;
+    }
+    .manual .qa-text p{
+        padding: 0px;
+    }
+    .manual .col-lg-4{
+        width: 50%;
+    }
+
 }

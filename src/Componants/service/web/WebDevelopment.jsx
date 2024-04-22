@@ -4,6 +4,7 @@ import './webdevlopment.css'
 import Getin from '../Getin'
 import Process from '../Process'
 import Price from '../Price'
+import MovingComponent from 'react-moving-text'
 
 
 
@@ -33,7 +34,16 @@ export default function WebDevelopment() {
        
       <div className="container">
         <div className="web">
-          <h2>Comprehensive Web Design and Development Services</h2>
+          <MovingComponent
+            type="fadeInFromBottom"
+            duration="1000ms"
+            delay="1s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none">
+            <h2>Comprehensive Web Design and Development Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

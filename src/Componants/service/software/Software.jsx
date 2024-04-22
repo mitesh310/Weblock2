@@ -3,6 +3,8 @@ import Banner from "../Banner";
 import "./software.css";
 import Getin from "../Getin";
 import Price from '../Price'
+import MovingComponent from 'react-moving-text'
+
 
 
 
@@ -35,7 +37,16 @@ export default function Software() {
       />
       <div className="software">
         <div className="container">
+        <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>Software Development Services for All Industries</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -212,7 +223,7 @@ export default function Software() {
                   <img
                     className="pt-5"
                     src={`./image/software/${selectedOption.toLowerCase()}.png`}
-                    alt="image"
+                    alt="logo"
                   />
                 </center>
                 <h3>{`${selectedOption} Software Development`}</h3>

@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import './manual.css'
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin'
+import MovingComponent from 'react-moving-text'
+
 
 export default function Manual() {
 
@@ -26,7 +28,16 @@ export default function Manual() {
       />
       <div className="manual">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What is Manual Testing Development?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

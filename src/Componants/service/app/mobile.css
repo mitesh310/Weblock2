@@ -35,6 +35,7 @@
 
 .mobile .box p {
     color: #696969;
+    text-align: justify;
 }
 .mobile .chek {
     display: flex;
@@ -128,4 +129,5 @@
 }
 .inno .box p{
     color: #696969;
+    text-align: justify;
 }

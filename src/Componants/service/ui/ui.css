@@ -4,6 +4,7 @@
 .ui h2{
     padding-top: 50px;
     text-align: center;
+    font-weight: bolder;
 }
 .ui .custom-hr{
     width: 10%;
@@ -16,6 +17,7 @@
 }
 .ui p{
     color: #696969;
+    text-align: justify;
 }
 .ui h3{
     font-weight: bolder;
@@ -27,7 +29,6 @@
     padding: 5px 30px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 #00000040;
-
 }
 .ui button:hover {
     background: #1099C5;

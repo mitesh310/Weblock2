@@ -2,10 +2,13 @@
 
 .web {
     color: black;
-    font-weight: bolder;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.web h2 {
+    font-weight: bolder;
+
 }
 .web .custom-hr{
     width: 10%;
@@ -34,6 +37,7 @@
 .web .box p {
     color: #696969;
     font-weight: lighter;
+    text-align: justify;
 }
 
 .eng {
@@ -187,7 +191,7 @@
 }
 
 
-@media only screen and (max-width: 1023px) and (min-width: 768px){
+@media only screen and (max-width: 991px) and (min-width: 768px){
     .web h2{
         padding-top: 50px;
     }
@@ -195,7 +199,7 @@
         width: 50%;
     }
     .web .col-lg-4{
-        width: 33%;
+        width: 50%;
     }
 }
 @media only screen and (max-width:767px) and (min-width:420px) {

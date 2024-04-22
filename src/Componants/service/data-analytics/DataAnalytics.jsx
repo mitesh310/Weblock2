@@ -3,6 +3,8 @@ import './data-analytics.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Process from '../Process'
+import MovingComponent from 'react-moving-text'
+
 
 export default function DataAnalytics() {
   const getinRef = useRef(null);
@@ -22,7 +24,16 @@ export default function DataAnalytics() {
     />
     <div className="analytics">
       <div className="container">
-        <h2>Data Analytics Services and Solutions</h2>
+        <MovingComponent
+            type="fadeInFromBottom"
+            duration="1000ms"
+            delay="1s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="none">
+          <h2>Data Analytics Services and Solutions</h2>
+        </MovingComponent>
         <div className="custom-hr">
           <hr />
         </div>

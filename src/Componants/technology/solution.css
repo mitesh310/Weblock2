@@ -17,3 +17,18 @@
 .seaction .se-img{
     width: 95%;
 }
+.seaction p{
+    text-align: justify;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .seaction .col-lg-5{
+        width: 50%;
+    }
+    .seaction .col-lg-2{
+        display: none;
+    }
+    .seaction h4{
+        padding-top: 0px;
+    }
+
+}

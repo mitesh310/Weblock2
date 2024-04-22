@@ -103,7 +103,7 @@ export default function Contact() {
                     performance
                   </p>
                   <center>
-                    <button>Explore More</button>
+                    {/* <button>Explore More</button> */}
                   </center>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function Contact() {
                     educate users or customers.
                   </p>
                   <center>
-                    <button>Explore More</button>
+                    {/* <button>Explore More</button> */}
                   </center>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function Contact() {
                     Our team is here to help and ready to provide solutionse
                   </p>
                   <center>
-                    <button>Explore More</button>
+                    {/* <button>Explore More</button> */}
                   </center>
                 </div>
               </div>

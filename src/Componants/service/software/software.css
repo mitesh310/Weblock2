@@ -30,6 +30,7 @@
 }
 .software .box p{
     color: #696969;
+    text-align: justify;
 }
 
 .industry{
@@ -75,7 +76,7 @@
 .industry .bo p{
     color: #696969;
     padding: 0px 40px;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -112,6 +113,7 @@
 }
 .rede .box p{
     color: #696969;
+    text-align: justify;
 }
 
 .rise{
@@ -154,4 +156,12 @@
 .rise button:hover {
     background: #1099C5;
     color: white;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .software .col-lg-4{
+        width: 50%;
+    }
+    .rede .col-lg-6{
+        width: 50%;
+    }
 }

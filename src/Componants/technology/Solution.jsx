@@ -2,7 +2,7 @@ import React from 'react';
 import './solution.css';
 
 export default function Solution(props) {
-  const { heading, title1, desc1, img1, title2, desc2, img2 } = props;
+  const { title1, desc1, img1, title2, desc2, img2 } = props;
 
   return (
     <>

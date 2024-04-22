@@ -29,6 +29,7 @@
 }
 .social .box p{
     color: #696969;
+    text-align: justify;
 }
 .s-process{
     margin-top: 200px;
@@ -46,5 +47,13 @@
 }
 .s-process p{
     color: #696969;
+    text-align: justify;
+}
+.s-process .spr-p{
     text-align: center;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .social .col-lg-4{
+        width: 50%;
+    }
 }

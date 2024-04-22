@@ -29,6 +29,7 @@
 }
 .our .box p{
     color: #696969;
+    text-align: justify;
 }
 .r-why{
     margin-top: 150px;
@@ -62,4 +63,18 @@
 .r-why .chek h5 span{
     font-size: 16px;
     color: #696969;
+}
+.r-why .r-img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .our .col-lg-4{
+        width: 50%;
+    }
+    .r-why .col-lg-8{
+        width: 60%;
+    }
+    .r-why .col-lg-4{
+        width: 40%;
+    }
 }

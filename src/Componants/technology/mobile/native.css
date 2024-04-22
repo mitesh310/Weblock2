@@ -1,3 +1,28 @@
+.seaction-native{
+    padding-top: 50px;
+    text-align: center;
+}
+.seaction-native h2{
+    font-weight: bolder;
+}
+.seaction-native .custom-hr{
+    width: 10%;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+.seaction-native p{
+    text-align: justify;
+    color: #696969;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.seaction-native .se-img{
+    max-width: 100%;
+}
+
+
+
 .native h2{
     padding-top: 50px;
     text-align: center;
@@ -25,6 +50,7 @@
     font-weight: bolder;
 }
 .native .box p{
+    text-align: justify;
     color: #696969;
 }
 .native button{
@@ -95,3 +121,20 @@
     font-size: 16px;
     color: #696969;
 }  
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .seaction-native .col-lg-5{
+        width: 50%;
+    }
+    .seaction-native .col-lg-2{
+        display: none;
+    }
+    .seaction-native p{
+        margin-top: 0;
+    }
+    .native .col-lg-4{
+        width: 50%;
+    }
+}

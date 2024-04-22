@@ -11,7 +11,7 @@ export default function Service() {
             <div className="services">
                 <div className="bg">
                     <h2>OUR SERVICES</h2>
-                    <p>Convert your idea into reality with our enthusiastic It solutions</p>
+                    <p>Convert your idea into reality with our enthusiastic IT solutions.</p>
                 </div>
                 <div className="all-services">
                     <div className="container">
@@ -70,10 +70,10 @@ export default function Service() {
                                 desc="UX/UI design focuses on creating engaging and intuitive user experiences (UX) and user interfaces (UI) for digital products such as websites, mobile apps, and software applications. UX design involves understanding user behaviors, needs, and goals through research and testing to ensure products are user-centric and efficient. UI design focuses on designing visually appealing and functional interfaces, including layout, typography, colors, and interactive elements, to enhance usability and provide a seamless user experience. Collaboration between UX designers, UI designers, developers, and stakeholders is essential to create products that are both aesthetically pleasing and easy to use, ultimately leading to higher user satisfaction and retention."
                                 url="/ui"
                             />
-                            <ServiceImg url="./image/service/service7.png" />
-
-
                             <ServiceImg url="./image/service/service8.png" />
+
+
+                            <ServiceImg url="./image/service/service9.png" />
                             <Single
                                 title="marketing "
                                 desc="Social media marketing is a digital marketing strategy that utilizes social media platforms such as Facebook, Instagram, Twitter, LinkedIn, and others to promote products, services, or content. It involves creating and sharing engaging posts, images, videos, and other media formats to reach and engage with target audiences. Social media marketing aims to build brand awareness, drive website traffic, generate leads, and increase sales or conversions."

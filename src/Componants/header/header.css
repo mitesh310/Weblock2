@@ -137,7 +137,7 @@ header.scrolled .nav-link > a {
 }
 
 .dropdown-link:not(:nth-last-child(2)) {
-  border-bottom: 1px solid var(--clr-light);
+  border-bottom: 1px solid #d5cfcf;
 }
 
 .dropdown-link i {
@@ -158,7 +158,7 @@ header.scrolled .nav-link > a {
 }
 
 .dropdown-link:first-child:hover ~ .arrow {
-  background-color: var(--clr-dropdown);
+  background-color: #000c1d;
 }
 
 .dropdown-link {
@@ -292,8 +292,8 @@ header.scrolled .hamburger-menu div:after {
 
   .nav-btn {
     position: fixed;
-    /* height: calc(100vh - 3rem); */
-    top: 3rem;
+    height: calc(100vh - 3rem);
+    top: 3.6rem;
     left: 0;
     width: 100%;
     background-color: #000c1d;

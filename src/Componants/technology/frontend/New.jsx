@@ -1,11 +1,12 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
+import MovingComponent from 'react-moving-text'
 import Getin from '../../service/Getin';
 
 export default function New() {
 
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -28,7 +29,16 @@ export default function New() {
 
       <div className="seaction">
         <div className="container">
+        <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>React JS Development Solutions</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

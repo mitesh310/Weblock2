@@ -29,8 +29,15 @@
 }
 .key .box p{
     color: #696969;
+    text-align: justify;
 }
 
 .asp .android-img{
     max-width: 100%;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .key .col-lg-4{
+        width: 50%;
+    }
+
 }

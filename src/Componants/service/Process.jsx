@@ -10,7 +10,7 @@ export default function Process(props) {
  
           <div className="row mt-5">
             <div className="col-lg-4 d-flex justify-content-center align-items-center">
-              <div className="chek">
+              <div className="p-chek">
                 <span className='two'>{number1}</span>
                 <h1 > {title1}</h1>
               </div>
@@ -30,7 +30,7 @@ export default function Process(props) {
               <center><img className='process-img' src={img2} alt="" /></center>
             </div>
             <div className="col-lg-4 d-flex justify-content-center align-items-center">
-              <div className="chek">
+              <div className="p-chek">
                   <h1 > {title2}</h1>
                   <span className='two'>{number2}</span>
                 </div>

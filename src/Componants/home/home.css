@@ -262,7 +262,6 @@ body{
   font-weight: 600;
   margin-left: -25px;
   color: #1099C5;
-
 }
 
 .service .box {
@@ -308,7 +307,7 @@ body{
   width: 100%;
   height: 100%;
   object-fit: cover; 
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .indu {
@@ -387,7 +386,6 @@ body{
   padding: 30px 0px;
   background-color: white;
   color: black;
- 
 }
 .meet img.logo{
   width: 65px;
@@ -503,6 +501,14 @@ body{
 .test  .slick-dots li.slick-active button:before{
   color: white;
 }
+
+
+
+
+
+
+
+
 .talk{
   padding: 30px 0px;
   background-color: white;
@@ -596,6 +602,11 @@ body{
   }
   .test .card h5{
     margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 314px) and (min-width: 215px){
+  .all hr{
+    width: 90%;
   }
 }
 @media (min-width: 768px) {

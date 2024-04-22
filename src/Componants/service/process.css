@@ -1,68 +1,68 @@
 
-.chek {
+.p-chek {
     display: flex;
     align-items: center; 
     gap: 10px;
   }
-.chek h1{
+.p-chek h1{
     color: #18205D;
     font-weight: bold;
 }
-.chek span {
+.p-chek span {
     font-size: 60px;
     align-self: flex-start;
     font-weight: bolder;
   }
  
-  .chek .two{
+  .p-chek .two{
       background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
   }
-.chek .one{
+.p-chek .one{
     background: linear-gradient(180deg, rgba(197, 173, 215, 0.44) 0%, rgba(104, 91, 113, 0.4) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .three{
+.p-chek .three{
     background: linear-gradient(180deg, rgba(197, 219, 60, 0.54) 0%, rgba(164, 183, 32, 0.53) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .four{
+.p-chek .four{
     background: linear-gradient(180deg, rgba(214, 77, 68, 0.54) 0%, rgba(139, 46, 45, 0.55) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .five{
+.p-chek .five{
     background: linear-gradient(180deg, rgba(58, 189, 190, 0.2862) 0%, rgba(14, 130, 129, 0.2916) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .six{
+.p-chek .six{
     background: linear-gradient(180deg, rgba(255, 194, 103, 0.54) 0%, rgba(255, 167, 38, 0.53) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .seven{
+.p-chek .seven{
     background: linear-gradient(180deg, rgba(197, 219, 60, 0.53) 0%, rgba(164, 183, 32, 0.54) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek .eight{
+.p-chek .eight{
     background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
-.chek h1 {
+.p-chek h1 {
     margin: 0; 
   }
   .process-img{
@@ -72,12 +72,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: justify;
 }
 
 
 
-  @media only screen and (max-width: 992px) and (min-width: 320px){
+  /* @media only screen and (max-width: 992px) and (min-width: 320px){
     .chek{
         justify-content: center;
     }
-  }
+  } */

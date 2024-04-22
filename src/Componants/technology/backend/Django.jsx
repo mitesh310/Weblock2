@@ -1,7 +1,9 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
-import './django.css'
+import './django.css';
+import MovingComponent from 'react-moving-text'
+
 
 export default function Django() {
 
@@ -27,7 +29,16 @@ export default function Django() {
 
       <div className="jango">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>Our Django Development Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -157,22 +168,30 @@ export default function Django() {
         <div className="custom-hr">
           <hr />
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Expertise: <span>Our team comprises experienced Django developers who are passionate about delivering high-quality web solutions that exceed client expectations.</span></h5>
+        <div className="row">
+          <div className="col-lg-8 mt-3">
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Expertise: <span>Our team comprises experienced Django developers who are passionate about delivering high-quality web solutions that exceed client expectations.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'>Customized Solutions: <span>  We understand that every business is unique, and we tailor our Django development services to meet your specific requirements, ensuring a solution that fits your needs perfectly.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Quality Assurance:  <span>We adhere to industry best practices and conduct thorough testing to ensure that your Django application is bug-free, secure, and performs optimally.</span></h5>
+            </div>
+            <div className="chek">
+              <img src="./image/webdevlopment/check-mark 1.png" alt="" />
+              <h5 className='mb-3'> Customer Satisfaction:  <span>We believe in transparent communication and keep you informed at every stage of the development process, ensuring that your project is delivered on time and within budget.</span></h5>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <img className='django-img' src="./image/django/image 125.png" alt="" />
+          </div>
         </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'>Customized Solutions: <span>  We understand that every business is unique, and we tailor our Django development services to meet your specific requirements, ensuring a solution that fits your needs perfectly.</span></h5>
-        </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Quality Assurance:  <span>We adhere to industry best practices and conduct thorough testing to ensure that your Django application is bug-free, secure, and performs optimally.</span></h5>
-        </div>
-        <div className="chek">
-          <img src="./image/webdevlopment/check-mark 1.png" alt="" />
-          <h5 className='mb-3'> Customer Satisfaction:  <span>We believe in transparent communication and keep you informed at every stage of the development process, ensuring that your project is delivered on time and within budget.</span></h5>
-        </div>
+        
 
       </div>
     </div>

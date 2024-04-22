@@ -44,7 +44,7 @@
     width: 33px;
   }
 
-.footer .chek-f h5 {
+.footer .chek-f h6 {
     margin: 0px;
     font-weight: bolder;
     margin-bottom: 50px; 
@@ -77,16 +77,32 @@
     margin-right: 10px;  
     font-size: 1.2rem; 
 }
-
+.end-line .footer-icons i:hover{
+  background-color: #1099C5;
+  color: white;
+}
 
 
   @media only screen and (max-width: 1024px) and (min-width: 992px){
     .footer .chek h5 {
         margin-bottom: 90px; 
       }
+      .footer .chek-f h6 {
+        margin-bottom: 87px; 
+      }
   }
-  @media only screen and (max-width: 991) and (min-width: 300px){
-    .footer .chek h5 {
+  @media only screen and (max-width: 991px) and (min-width: 600px){
+    .footer .chek-f h6 {
+        margin-bottom: 14px; 
+      }
+  }
+  @media only screen and (max-width:599px) and (min-width: 426px){
+    .footer .chek-f h6 {
+        margin-bottom: 14px; 
+      }
+  }
+  @media only screen and (max-width:355px) and (min-width: 300px){
+    .footer .chek-f h6 {
         margin-bottom: 90px; 
       }
   }

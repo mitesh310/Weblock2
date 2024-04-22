@@ -56,4 +56,22 @@
 }
 .asp p{
     color: #696969;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+/* this css .net.jsx  */
+.asp .net-img{
+    max-width: 100%;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .asp .col-lg-8{
+        width: 60%;
+    }
+    .asp p{
+        margin-top: 0px;
+    }
+    .asp .col-lg-4{
+        width: 40%;
+    }
 }

@@ -2,11 +2,13 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function Socialmedia() {
 
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -29,7 +31,16 @@ export default function Socialmedia() {
 
       <div className="seaction">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>Social media marketing Solutions</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -39,22 +50,22 @@ export default function Socialmedia() {
               img1="./image/social/image 104.png"
           
               title2="TrendWave Media "
-              desc2="TrendWave Media: Riding the crest of innovation in the digital sphere. We specialize in surfacing trends and crafting captivating content that resonates with your audience. Let us navigate the currents of digital media to amplify your brand's voice and make a splash in the industry."
+              desc2="Riding the crest of innovation in the digital sphere. We specialize in surfacing trends and crafting captivating content that resonates with your audience. Let us navigate the currents of digital media to amplify your brand's voice and make a splash in the industry."
               img2="./image/social/image 105.png"
           />
 
           <Solution
               title1="SocialVista Agency"
-              desc1="SocialVista Agency: Where social meets success. We specialize in crafting dynamic social media strategies that drive engagement, growth, and results for your brand. Let us elevate your online presence and navigate the ever-evolving landscape of social media with expertise and creativity"
+              desc1="Where social meets success. We specialize in crafting dynamic social media strategies that drive engagement, growth, and results for your brand. Let us elevate your online presence and navigate the ever-evolving landscape of social media with expertise and creativity"
               img1="./image/social/image 106.png"
 
               title2="SocialTrend Solutions"
-              desc2="ISocialTrend Solutions: Your compass in the digital landscape. We navigate social trends and craft tailored strategies to elevate your brand's online presence. Let us guide you to success with innovative solutions and trendsetting tactics."
+              desc2="Your compass in the digital landscape. We navigate social trends and craft tailored strategies to elevate your brand's online presence. Let us guide you to success with innovative solutions and trendsetting tactics."
               img2="./image/social/image 107.png"
           />
           <Solution
               title1="ImpactSphere Marketing"
-              desc1="ImpactSphere Marketing: Making waves with purpose-driven strategies. We specialize in crafting impactful campaigns that resonate with audiences and drive meaningful change. Let us amplify your brand's message and create a lasting impact in the world of marketing."
+              desc1="Making waves with purpose-driven strategies. We specialize in crafting impactful campaigns that resonate with audiences and drive meaningful change. Let us amplify your brand's message and create a lasting impact in the world of marketing."
               img1="./image/social/image 108.png"
           />
         </div>

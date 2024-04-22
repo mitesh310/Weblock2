@@ -26,6 +26,7 @@
 }
 .javascript .box p{
     color: #696969;
+    text-align: justify;
 }
 .javascript button{
     margin-top: 50px;
@@ -75,3 +76,11 @@
     font-size: 16px;
     color: #696969;
 }  
+
+
+
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .javascript .col-lg-4{
+        width: 50%;
+    }
+}

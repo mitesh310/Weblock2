@@ -222,7 +222,7 @@ export default function Home() {
                             <div className="box">
                                 <center><img className='vector' src="./image/home/stock-mobile 1.png" alt="" /></center>
                                 <h5>Data Analytics</h5>
-                                <p>Development of mobile application/web/blockchain started using latest tools and technologies with transparency.</p>
+                                <p>Data analytics is the process of examining large sets of data to uncover hidden patterns, correlations, trends, and insights that can be used to make informed decisions.</p>
                             </div>
                         </div>
                     </div>
@@ -242,7 +242,7 @@ export default function Home() {
                     <source src="./image/home/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video> */}
-                <img className='gif' src="./image/home/video.gif" alt="" />
+                <img className='gif' src="./image/home/Render.gif" alt="" />
             </div>
         </div>
         <div className="indu">
@@ -251,7 +251,7 @@ export default function Home() {
                     <img className='logo' src="./image/home/logo.png" alt="" />
                     <h3>We Serve Industries</h3>
                 </div>
-                <button className='btn'>View More</button>
+                {/* <button className='btn'>View More</button> */}
                 <div class="box-img mt-5">
                     <div class="box-1">
                         <center><img src="./image/home/4.png" alt="" /></center>
@@ -358,8 +358,8 @@ export default function Home() {
                                 <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
                                 </div>
                                 <div className="col-9 mt-3">
-                                <h5>John Carter</h5>
-                                <h6>CEO & Co-Founder</h6>
+                                    <h5>John Carter</h5>
+                                    <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>
@@ -376,8 +376,8 @@ export default function Home() {
                                 <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
                                 </div>
                                 <div className="col-9 mt-3">
-                                <h5>John Carter</h5>
-                                <h6>CEO & Co-Founder</h6>
+                                    <h5>John Carter</h5>
+                                    <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>
@@ -394,8 +394,8 @@ export default function Home() {
                                 <img className='rounded-circle' src="./image/home/image 47.png" alt="" />
                                 </div>
                                 <div className="col-9 mt-3">
-                                <h5>John Carter</h5>
-                                <h6>CEO & Co-Founder</h6>
+                                    <h5>John Carter</h5>
+                                    <h6>CEO & Co-Founder</h6>
                                 </div>
                             </div>
                             <p className='mt-3'>

@@ -3,6 +3,9 @@ import Banner from '../Banner'
 import './mobile.css'
 import Getin from '../Getin'
 import Price from '../Price'
+import MovingComponent from 'react-moving-text'
+
+
 
 export default function Mobile() {
 
@@ -28,7 +31,16 @@ export default function Mobile() {
 
         <div className="mobile">
           <div className="container">
-              <h2>Explore Our Mobile App Development Services</h2>
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
+            <h2>Explore Our Mobile App Development Services</h2>
+          </MovingComponent>
               <div className="custom-hr">
                 <hr />
               </div>

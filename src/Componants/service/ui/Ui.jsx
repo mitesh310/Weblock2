@@ -3,6 +3,8 @@ import './ui.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Price from '../Price'
+import MovingComponent from 'react-moving-text'
+
 
 export default function Ui() {
 
@@ -30,7 +32,16 @@ export default function Ui() {
 
     <div className="ui">
         <div className="container">
+            <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
             <h2>UI/UX Design and Development Company</h2>
+            </MovingComponent>
             <div className="custom-hr">
                 <hr />
             </div>

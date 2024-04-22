@@ -4,6 +4,8 @@ import Banner from '../Banner';
 import Getin from '../Getin';
 import Process from '../Process'
 import Price from '../Price';
+import MovingComponent from 'react-moving-text'
+
 
 export default function Graphic() {
   const getinRef = useRef(null);
@@ -26,7 +28,16 @@ export default function Graphic() {
       />
       <div className="graphic">
         <div className="container">
-          <h2>See what we can do for you</h2>
+          <MovingComponent
+              type="fadeInFromBottom"
+              duration="1000ms"
+              delay="1s"
+              direction="normal"
+              timing="ease"
+              iteration="1"
+              fillMode="none">
+            <h2>See what we can do for you</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -107,7 +118,7 @@ export default function Graphic() {
             <div className="custom-hr">
                 <hr />
             </div>
-            <p>Our design process follows a proven approach. <br /> We begin with a deep understanding of your needs and create a planning template.</p>
+            <p className='gra-p'>Our design process follows a proven approach. <br /> We begin with a deep understanding of your needs and create a planning template.</p>
             <Process 
             number1="01"
             title1="Requirement Gathering"

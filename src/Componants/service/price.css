@@ -31,7 +31,7 @@
 }
 .recruit .box p{
     font-weight: bolder;
-    text-align: center;
+    text-align: justify;
 }
 .recruit .box button{
     border: none;
@@ -100,6 +100,11 @@
     }
     .recruit .box {
         padding: 20px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px){
+    .recruit .col-lg-4{
+        width: 50%;
     }
 }
 @media only screen and (max-width: 429px) and (min-width: 320px){

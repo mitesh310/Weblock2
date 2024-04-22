@@ -2,12 +2,14 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function DevOpsConsulting() {
 
 
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -23,30 +25,39 @@ export default function DevOpsConsulting() {
     <>
     <Banner 
         heading="DevOps Consulting Services " 
-        desc="Discover the transformative impact of our DevOps Consulting services, harnessing the latest in next-gen technologies. Seamlessly merge development and operations to drive innovation, leveraging automation for agile software delivery. E"
+        desc="Discover the transformative impact of our DevOps Consulting services, harnessing the latest in next-gen technologies. Seamlessly merge development and operations to drive innovation, leveraging automation for agile software delivery."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
     />
 
       <div className="seaction">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>DevOps Consulting Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
           <Solution 
               title1="DevOps Accelerate"
-              desc1="DevOps Accelerate: Propel your projects to success with our cutting-edge solutions. Harness the power of seamless integration between development and operations, driving efficiency and innovation. From automation to continuous delivery, we tailor strategies to accelerate your journey. Experience rapid growth and operational excellence with our expert guidance."
+              desc1="Propel your projects to success with our cutting-edge solutions. Harness the power of seamless integration between development and operations, driving efficiency and innovation. From automation to continuous delivery, we tailor strategies to accelerate your journey. Experience rapid growth and operational excellence with our expert guidance."
               img1="./image/dconsulting/image 104.png"
           
               title2="DevOps Nexus "
-              desc2="DevOps Nexus: Your central hub for streamlined software delivery. We bridge the gap between development and operations, fostering collaboration and efficiency. With automated pipelines and continuous integration, we empower your team to deliver quality software at scale. Experience enhanced agility and accelerated time-to-market with DevOps Nexus leading the way."
+              desc2="Your central hub for streamlined software delivery. We bridge the gap between development and operations, fostering collaboration and efficiency. With automated pipelines and continuous integration, we empower your team to deliver quality software at scale. Experience enhanced agility and accelerated time-to-market with DevOps Nexus leading the way."
               img2="./image/dconsulting/image 105.png"
           />
 
           <Solution
               title1="DevOps Fusion"
-              desc1="DevOps Fusion: Uniting development and operations for unparalleled success. Our integrated approach merges cutting-edge technology with streamlined processes, driving efficiency and innovation. With automation and continuous delivery, we propel your projects to new heights."
+              desc1="Uniting development and operations for unparalleled success. Our integrated approach merges cutting-edge technology with streamlined processes, driving efficiency and innovation. With automation and continuous delivery, we propel your projects to new heights."
               img1="./image/dconsulting/image 106.png"
 
               title2="DevOps Evolution Partners"
@@ -55,11 +66,11 @@ export default function DevOpsConsulting() {
           />
           <Solution
               title1="DevOps Forge"
-              desc1="DevOps Forge: Crafting success through seamless integration of development and operations. Our innovative solutions empower teams to build, test, and deploy software with unparalleled efficiency. From automation to continuous delivery, we forge a path to accelerated development cycles and enhanced productivity. Experience the power of DevOps Forge in driving your projects to new heights."
+              desc1="Crafting success through seamless integration of development and operations. Our innovative solutions empower teams to build, test, and deploy software with unparalleled efficiency. From automation to continuous delivery, we forge a path to accelerated development cycles and enhanced productivity. Experience the power of DevOps Forge in driving your projects to new heights."
               img1="./image/dconsulting/image 108.png"
 
               title2="AgileStack Solutions"
-              desc2="AgileStack Solutions: Empowering your journey towards agile excellence. Our comprehensive suite of services spans Agile coaching, Scrum training, and tailored software solutions. With a focus on collaboration and adaptability, we help teams navigate the complexities of modern software development. Experience streamlined workflows and accelerated innovation with AgileStack Solutions as your trusted partner.  "
+              desc2="Empowering your journey towards agile excellence. Our comprehensive suite of services spans Agile coaching, Scrum training, and tailored software solutions. With a focus on collaboration and adaptability, we help teams navigate the complexities of modern software development. Experience streamlined workflows and accelerated innovation with AgileStack Solutions as your trusted partner.  "
               img2="./image/dconsulting/image 109.png"
           />
         </div>  

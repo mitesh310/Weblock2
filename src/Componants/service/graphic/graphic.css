@@ -28,6 +28,7 @@
 }
 .graphic .box p{
     color: #696969;
+    text-align: justify;
 }
 .visualize{
     padding: 50px;
@@ -51,6 +52,7 @@
 .visualize .ready p{
     color: #696969;
     margin-top: 30px;
+    text-align: justify;
 }
 .visualize .ready button{
     padding: 10px 20px;
@@ -83,6 +85,14 @@
     text-align: center;
 }
 .g-process p{
-    text-align: center;
+    text-align: justify;
     color: #696969;
+}
+.g-process .gra-p{
+    text-align: center;
+}
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .graphic .col-lg-6{
+        width: 50%;
+    }
 }

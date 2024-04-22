@@ -30,6 +30,7 @@
 }
 .ios .box p{
     color: #696969;
+    text-align: justify;
 }
 
 .i-why{
@@ -58,3 +59,8 @@
 .i-why .ios-img{
     max-width: 100%;
 }  
+@media only screen and (max-width: 991px) and (min-width: 600px){
+    .ios .col-lg-4{
+        width: 50%;
+    }
+}

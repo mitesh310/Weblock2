@@ -13,8 +13,12 @@ export default function Footer () {
                 </div>
                 <div className="col-lg-2 mt-4">
                     <h5>Hiring</h5>
-                    <li className='mt-4'>Web Development</li>
-                    <li>App Development</li>
+                    <a href="/web-development">
+                        <li className='mt-4'>Web Development</li>
+                    </a>
+                    <a href="/mobile">
+                        <li>App Development</li>
+                    </a>
                     <li>Machine Learning</li>
                     <li>Data Science</li>
                     <li>Artificial Intelligence </li>
@@ -22,10 +26,17 @@ export default function Footer () {
                 <div className="col-lg-2 mt-4">
                     <h5>Company</h5>
                     {/* <li className='mt-4'>Career</li> */}
-                    <li className='mt-4' >Services</li>
+                    <a href="/service">
+                        <li className='mt-4' >Services</li>
+                    </a>
                     <li>Technology</li>
-                    <li>Staff Augmentation</li>
-                    <li>Contact Us</li>
+                    <a href="/staff-augmentation">
+                        <li>Staff Augmentation</li>
+                    </a>
+                    <a href="/contact">
+                        <li>Contact Us</li>
+                    </a>
+                    
                 </div>
                 <div className="col-lg-4 mt-4">
                     <h5>Contact Information</h5>
@@ -34,7 +45,7 @@ export default function Footer () {
                     <li> 
                         <div className="chek-f">
                             <img className='fa-solid' src="./image/home/location.png" alt="" /> 
-                            <h5> Headquater- </h5> 
+                            <h6> Headquater- </h6> 
                             <p>3 King William St, Adelaide SA 5000, Australia.</p>
                         </div>
                     </li>
@@ -42,7 +53,7 @@ export default function Footer () {
                         <div className="chek-f">
                             <img className='fa-solid' src="./image/home/location.png" alt="" /> 
                             {/* <i class="fa-solid fa-location-dot"></i>  */}
-                            <h5> Branch- </h5> 
+                            <h6> Branch- </h6> 
                             <p>303-304 Golden Square, near D-Mart, Mota Varachha, Surat.</p>
                         </div>
                     </li>

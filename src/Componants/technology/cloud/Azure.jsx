@@ -1,14 +1,15 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
-import Solution from '../Solution'
+// import Solution from '../Solution'
 import Getin from '../../service/Getin';
-import './aws.css'
+import MovingComponent from 'react-moving-text';
+import './aws.css';
 
 
 export default function Azure() {
   
 
-  const customHr = <hr className="custom-hr" />;
+  // const customHr = <hr className="custom-hr" />;
 
   const getinRef = useRef(null);
 
@@ -29,14 +30,27 @@ export default function Azure() {
         scrollToGetin={scrollToGetin}
       />
 
-      <div className="seaction">
+
+
+
+{/* this seaction css native.css */}
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>What are Azure Web Services?</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
           <div className="row mt-5">
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>Azure web services refer to a suite of cloud computing services offered by Microsoft Azure, a leading cloud platform. These services provide a range of functionalities, including website hosting, application development, data storage, analytics, and more, enabling businesses to build, deploy, and manage web applications and services efficiently.</p>
             </div>
             

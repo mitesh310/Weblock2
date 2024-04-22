@@ -2,12 +2,14 @@ import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
+import MovingComponent from 'react-moving-text'
+
 
 
 export default function DevOpsAutomation() {
 
     
-    const customHr = <hr className="custom-hr" />;
+    // const customHr = <hr className="custom-hr" />;
 
     const getinRef = useRef(null);
 
@@ -32,7 +34,16 @@ export default function DevOpsAutomation() {
 
       <div className="seaction">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>DevOps Automation Services</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -48,7 +59,7 @@ export default function DevOpsAutomation() {
 
           <Solution
               title1="AutoOps Accelerate"
-              desc1="AutoOps Accelerate: Revolutionizing automotive efficiency with cutting-edge automation solutions. Our platform seamlessly integrates advanced technologies to streamline operations and enhance productivity. From supply chain optimization to intelligent manufacturing, we empower automotive businesses to thrive in a rapidly evolving industry. Experience accelerated growth and operational excellence with AutoOps Accelerate"
+              desc1="Revolutionizing automotive efficiency with cutting-edge automation solutions. Our platform seamlessly integrates advanced technologies to streamline operations and enhance productivity. From supply chain optimization to intelligent manufacturing, we empower automotive businesses to thrive in a rapidly evolving industry. Experience accelerated growth and operational excellence with AutoOps Accelerate"
               img1="./image/dautomation/image 106.png"
 
               title2="DevOps Automate Nexus"

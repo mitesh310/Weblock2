@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
-
+import MovingComponent from 'react-moving-text'
 import './native.css'
 
 export default function Native() {
@@ -27,9 +27,19 @@ export default function Native() {
         button="Get started"
         scrollToGetin={scrollToGetin} 
       />
-      <div className="seaction">
+
+      <div className="seaction-native">
         <div className="container">
+          <MovingComponent
+                    type="fadeInFromBottom"
+                    duration="1000ms"
+                    delay="1s"
+                    direction="normal"
+                    timing="ease"
+                    iteration="1"
+                    fillMode="none">
           <h2>Introduction to React Native</h2>
+          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
@@ -38,7 +48,7 @@ export default function Native() {
               <img className='se-img' src="./image/native/image 104.png" alt="" />
             </div>
             <div className="col-lg-2"></div>
-            <div className="col-lg-5 my-5">
+            <div className="col-lg-5">
               <p>React Native is an open-source framework developed by Facebook for building native mobile applications using JavaScript and React. It allows developers to write code once and deploy it across multiple platforms, significantly reducing development time and cost. React Native combines the performance and user experience of native mobile apps with the flexibility and productivity of web development, making it an ideal choice for building cross-platform mobile applications.</p>
             </div>
           </div>
