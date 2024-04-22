@@ -1,13 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import Banner from '../Banner'
 import './mobile.css'
 import Getin from '../Getin'
 import Price from '../Price'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 
 
 
 export default function Mobile() {
+
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.mobile h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
   const getinRef = useRef(null);
 
@@ -31,16 +44,9 @@ export default function Mobile() {
 
         <div className="mobile">
           <div className="container">
-          <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
+
             <h2>Explore Our Mobile App Development Services</h2>
-          </MovingComponent>
+
               <div className="custom-hr">
                 <hr />
               </div>

@@ -1,10 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import Banner from '../../service/Banner'
 import Getin from '../../service/Getin';
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 import './native.css'
 
 export default function Native() {
+
+    
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.seaction h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
 
 
@@ -30,16 +44,7 @@ export default function Native() {
 
       <div className="seaction-native">
         <div className="container">
-          <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
           <h2>Introduction to React Native</h2>
-          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

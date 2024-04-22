@@ -1,10 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 import Getin from '../../service/Getin';
 
 export default function New() {
+
+    
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.seaction h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
     // const customHr = <hr className="custom-hr" />;
 
@@ -29,16 +43,7 @@ export default function New() {
 
       <div className="seaction">
         <div className="container">
-        <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
           <h2>React JS Development Solutions</h2>
-          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

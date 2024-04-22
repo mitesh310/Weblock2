@@ -1,7 +1,35 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './price.css'
+import ScrollReveal from 'scrollreveal';
+
 
 export default function Price(props) {
+
+
+  useEffect(() => {
+    const sr = ScrollReveal({
+      duration: 1000,
+      distance: '30px',
+      delay: 500,
+      opacity: 0,
+      easing: 'ease-in-out',
+      cleanup: true
+    });
+
+  
+    sr.reveal('.priceb-1',{
+      origin: 'right',
+      distance: '60px'
+    });
+    sr.reveal('.priceb-2',{
+      origin: 'left',
+      distance: '60px'
+    });
+
+    return () => {
+      sr.destroy(); 
+    };
+  }, []); 
 
     const {heading,title1,price1,desc1,title2,price2,desc2,title3,price3,desc3} = props;
 
@@ -14,7 +42,7 @@ export default function Price(props) {
                 <hr />
             </div>
             <div className="row">
-              <div className="col-lg-4 my-3">
+              <div className="col-lg-4 priceb-1 my-3">
                 <div className="box">
                   <h6>{title1}</h6>
                   <h1>${price1}</h1>
@@ -30,7 +58,7 @@ export default function Price(props) {
                  
                 </div>
               </div>
-              <div className="col-lg-4 my-3">
+              <div className="col-lg-4 priceb-2 my-3">
                 <div className="box">
                   <h6>{title3}</h6>
                   <h1>${price3}</h1>

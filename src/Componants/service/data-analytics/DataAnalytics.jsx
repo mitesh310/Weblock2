@@ -1,12 +1,27 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import './data-analytics.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Process from '../Process'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 
 
 export default function DataAnalytics() {
+
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.analytics h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
+
+
   const getinRef = useRef(null);
 
   const scrollToGetin = () => {
@@ -24,16 +39,7 @@ export default function DataAnalytics() {
     />
     <div className="analytics">
       <div className="container">
-        <MovingComponent
-            type="fadeInFromBottom"
-            duration="1000ms"
-            delay="1s"
-            direction="normal"
-            timing="ease"
-            iteration="1"
-            fillMode="none">
           <h2>Data Analytics Services and Solutions</h2>
-        </MovingComponent>
         <div className="custom-hr">
           <hr />
         </div>

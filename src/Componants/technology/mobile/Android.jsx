@@ -1,12 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import Banner from '../../service/Banner'
 import Solution from '../Solution'
 import Getin from '../../service/Getin';
 import './android.css';
-import MovingComponent from 'react-moving-text'
-
+import ScrollReveal from 'scrollreveal';
 
 export default function Android() {
+    
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.seaction h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
   // const customHr = <hr className="custom-hr" />;
 
@@ -29,16 +41,7 @@ export default function Android() {
       />  
       <div className="seaction">
         <div className="container">
-          <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
           <h2>We are your Preferred Android App Development Partner</h2>
-          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

@@ -1,12 +1,25 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import Banner from '../../service/Banner'
 // import Solution from '../Solution'
 import Getin from '../../service/Getin';
 import './aws.css'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 
 
 export default function Gcp() {
+    
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.seaction-native h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
 
   // const customHr = <hr className="custom-hr" />;
@@ -34,16 +47,7 @@ export default function Gcp() {
 {/* this seaction css native.css */}
       <div className="seaction-native">
         <div className="container">
-          <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
           <h2>What are GCP Web Services?</h2>
-          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>

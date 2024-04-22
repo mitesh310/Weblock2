@@ -242,7 +242,7 @@ export default function Home() {
                     <source src="./image/home/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video> */}
-                <img className='gif' src="./image/home/Render.gif" alt="" />
+                <img className='gif' src="./image/home/Render2.gif" alt="" />
             </div>
         </div>
         <div className="indu">

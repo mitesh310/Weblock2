@@ -1,7 +1,44 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './banner.css'
+import ScrollReveal from 'scrollreveal';
 
 export default function Banner(props) {
+
+
+
+  useEffect(() => {
+    const sr = ScrollReveal({
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      cleanup: true
+    });
+
+  
+    sr.reveal('.banner-text h1',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+    sr.reveal('.banner-text h6',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+    sr.reveal('.banner-text p',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+
+
+    return () => {
+      sr.destroy(); 
+    };
+  }, []); 
+  
+  
+  
+
 
   const { heading, title, desc, desc2, button, scrollToGetin } = props;
 

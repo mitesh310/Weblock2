@@ -1,13 +1,29 @@
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 import './marketing.css'
 import Banner from '../Banner'
 import Getin from '../Getin'
 import Process from '../Process'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 
 
 
 export default function Marketing() {
+
+
+    useEffect(() => {
+        
+        ScrollReveal().reveal('.social h2', {
+          duration: 1000,
+          distance: '30px',
+          delay: 300,
+          opacity: 0,
+          easing: 'ease-in-out',
+          origin: 'bottom',
+          cleanup: true 
+        });
+      }, []);
+
+
     const getinRef = useRef(null);
 
     const scrollToGetin = () => {
@@ -30,17 +46,7 @@ export default function Marketing() {
 
     <div className="social">
         <div className="container">
-            <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
-
                 <h2>Social Media Marketing service</h2>
-            </MovingComponent>
             <div className="custom-hr">
                 <hr />
             </div>

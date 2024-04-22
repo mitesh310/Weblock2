@@ -1,14 +1,29 @@
-import React, { useState , useRef } from "react";
+import React, { useState , useRef,useEffect } from "react";
 import Banner from "../Banner";
 import "./software.css";
 import Getin from "../Getin";
 import Price from '../Price'
-import MovingComponent from 'react-moving-text'
+import ScrollReveal from 'scrollreveal';
 
 
 
 
 export default function Software() {
+
+
+
+  useEffect(() => {
+        
+    ScrollReveal().reveal('.software h2', {
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      origin: 'bottom',
+      cleanup: true 
+    });
+  }, []);
 
   const [selectedOption, setSelectedOption] = useState("Manufacturing");
 
@@ -37,16 +52,7 @@ export default function Software() {
       />
       <div className="software">
         <div className="container">
-        <MovingComponent
-                    type="fadeInFromBottom"
-                    duration="1000ms"
-                    delay="1s"
-                    direction="normal"
-                    timing="ease"
-                    iteration="1"
-                    fillMode="none">
           <h2>Software Development Services for All Industries</h2>
-          </MovingComponent>
           <div className="custom-hr">
             <hr />
           </div>
