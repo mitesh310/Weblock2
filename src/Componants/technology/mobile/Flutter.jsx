@@ -31,6 +31,10 @@ export default function Flutter() {
       }
     };
 
+    const bannerImage = './image/service/banner.png';
+
+
+
   return (
     <>
     <Banner 
@@ -38,6 +42,7 @@ export default function Flutter() {
         desc="With a leading Flutter app development company, create robust, natively compiled cross-platform apps. Our dedicated team, equipped with AI tools, streamlines business processes and crafts feature-rich applications for web, mobile, and desktop. Harness our advanced Flutter app development services for unparalleled efficiency and innovation."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
     <div className="seaction">
         <div className="container">

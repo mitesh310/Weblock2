@@ -31,6 +31,7 @@ export default function WebDevelopment() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
 
   return (
     <>
@@ -41,6 +42,7 @@ export default function WebDevelopment() {
       desc="We excel in developing strategic roadmaps for global businesses, translating their groundbreaking concepts into web solutions. Our web development services are outcome-driven, serving enterprises, mid-sized companies, and startups by aligning with their distinct visions to deliver impactful website solutions."
       button="Free Consultation Request"
       scrollToGetin={scrollToGetin} 
+      backgroundImage={bannerImage}
       
       />
        
@@ -127,7 +129,7 @@ export default function WebDevelopment() {
                 </div>
               </div>
             </div>
-            <center><button onClick={scrollToGetin}  className='mb-3'>Share Your Project Idea with Us for Discussion</button></center>
+            <center><button onClick={scrollToGetin}  className='mb-5'>Share Your Project Idea with Us for Discussion</button></center>
           </div>
       </div>
 
@@ -238,7 +240,7 @@ export default function WebDevelopment() {
       
       <div className="data">
         <div className="container">
-          <h2>Our Detailed Data Analytics Process</h2>
+          <h2>Our Detailed Web Development Process</h2>
           <div className="custom-hr">
             <hr />
           </div>

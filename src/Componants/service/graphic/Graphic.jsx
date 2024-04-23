@@ -33,6 +33,10 @@ export default function Graphic() {
     }
   };
 
+
+  const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
       <Banner
@@ -40,7 +44,8 @@ export default function Graphic() {
         title="Transforming ideas into visual stories."
         desc="Graphic design is the art of visual communication, combining creativity and technology to convey messages effectively. Our expert graphic designers specialize in creating captivating visuals that resonate with your audience and elevate your brand identity"
         button="Contact with our experts"
-        scrollToGetin={scrollToGetin} 
+        scrollToGetin={scrollToGetin}
+        backgroundImage={bannerImage} 
 
       />
       <div className="graphic">

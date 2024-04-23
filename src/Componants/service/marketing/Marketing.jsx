@@ -31,6 +31,11 @@ export default function Marketing() {
         getinRef.current.scrollIntoView({ behavior: 'smooth' });
       }
     };
+
+
+    const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
     <Banner 
@@ -40,6 +45,7 @@ export default function Marketing() {
     desc="Social media marketing is a digital strategy used to connect with audiences, build brand awareness, and drive engagement. It involves content creation, user interaction, and performance metrics analysis. Success relies on creativity, authenticity, and strategic planning."
     button="Contact with our experts"
     scrollToGetin={scrollToGetin} 
+    backgroundImage={bannerImage}
 
     />
     

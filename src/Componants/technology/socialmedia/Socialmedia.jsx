@@ -32,6 +32,8 @@ export default function Socialmedia() {
       }
     };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -40,6 +42,7 @@ export default function Socialmedia() {
         desc="Elevate your online presence with our expert social media marketing services. From strategic content creation to targeted audience engagement, we help your brand stand out in the digital sphere. Trust us to drive results and maximize your impact across all social platforms."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
       <div className="seaction">

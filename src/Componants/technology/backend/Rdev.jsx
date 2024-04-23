@@ -33,6 +33,8 @@ export default function Rdev() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -41,6 +43,7 @@ export default function Rdev() {
         desc="Welcome to our R Development Services page! At Weblock Infosoft, we specialize in providing comprehensive R development solutions tailored to meet your specific business needs. Whether you're looking to harness the power of data analytics, build predictive models, or create interactive visualizations, our team of experienced R developers is here to help you every step of the way."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
 

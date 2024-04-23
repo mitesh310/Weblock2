@@ -33,6 +33,10 @@ export default function Native() {
   };
 
 
+  const bannerImage = './image/service/banner.png';
+
+
+
   return (
     <>
        <Banner 
@@ -40,6 +44,7 @@ export default function Native() {
         desc="Weblock Infosoft is a premier React Native app development company, specializing in delivering top-notch React Native development services. With a focus on transparency, flexibility, and agility, we ensure that your React Native app achieves success and stands out on both the Android Play Store and iOS App Store charts. Trust us to bring your app idea to life and propel it to the forefront of the mobile market. "
         button="Get started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
       />
 
       <div className="seaction-native">

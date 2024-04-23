@@ -61,7 +61,8 @@ export default function Aboutus() {
                             <p>Weblock Infosoft Transcends Typical Web Development, Driven By A Visionary Zeal In The Tech Industry. Originating With A Small, Passionate Team Specializing In Web Designing And Development, Our Growth Has Led To A Diverse Array Of Services. From Website Design And Development To Graphics Design, Desktop And Mobile App Development (Android & IOS), UI/UX Designing, We Cover A Comprehensive Spectrum Within The Realm Of Computing And Communication Technology.</p>
                             <div className="row">
                                 <div className="col-lg-5"></div>
-                                <div className="col-lg-2">
+                                <div className="col-lg-2 separat-column">
+                                    <hr className="column-separat" />
                                     <div className="round">1</div>
                                 </div>
                                 <div className="col-lg-5">
@@ -74,7 +75,8 @@ export default function Aboutus() {
                                     <h5>Unique Solutions</h5>
                                     <p>Weblock Infosoft is known for its innovative approaches that offer unique solutions to your technological problems.</p>
                                 </div>
-                                <div className="col-lg-2">
+                                <div className="col-lg-2  separat-column">
+                                    <hr className="column-separat" />
                                     <div className="round">2</div>
                                 </div>
                                 <div className="col-lg-5">
@@ -84,6 +86,7 @@ export default function Aboutus() {
                             <div className="row">
                                 <div className="col-lg-5"></div>
                                 <div className="col-lg-2">
+
                                     <div className="round">3</div>
                                 </div>
                                 <div className="col-lg-5">

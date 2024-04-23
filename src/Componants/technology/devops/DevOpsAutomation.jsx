@@ -32,6 +32,9 @@ export default function DevOpsAutomation() {
       }
     };
 
+  const bannerImage = './image/service/banner.png';
+
+
 
   return (
     <>
@@ -40,6 +43,7 @@ export default function DevOpsAutomation() {
         desc="Empower your organization with our DevOps Automation Services, revolutionizing your deployment and release capabilities. Through our expert DevOps Automation Consulting Services, we streamline processes, minimize manual tasks, and elevate software quality."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
 

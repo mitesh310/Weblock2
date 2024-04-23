@@ -40,6 +40,11 @@ export default function Software() {
     }
   };
 
+
+  const bannerImage = './image/service/banner.png';
+
+
+
   return (
     <>
       <Banner
@@ -48,6 +53,7 @@ export default function Software() {
         desc2="We specialize in creating cutting-edge digital solutions using advanced technology. Collaborate with us to enhance and expand your software development expertise."
         button="Contact with our experts"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
 
       />
       <div className="software">

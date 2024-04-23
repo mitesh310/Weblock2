@@ -29,6 +29,9 @@ export default function Database() {
       }
     };
 
+  const bannerImage = './image/service/banner.png';
+
+
 
 
   return (
@@ -37,7 +40,8 @@ export default function Database() {
       heading="Database Solutions: MySQL and MongoDB " 
       desc="Welcome to our website development services! As part of our comprehensive offerings, we provide expertise in database solutions, including MySQL and MongoDB. In this section, we offer an overview of MySQL and MongoDB, their features, and how they can address your data storage and management needs."
       button="Get Started"
-      scrollToGetin={scrollToGetin} 
+      scrollToGetin={scrollToGetin}
+      backgroundImage={bannerImage} 
       />  
 
       <div className="database">

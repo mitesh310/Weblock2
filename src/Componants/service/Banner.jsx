@@ -31,6 +31,7 @@ export default function Banner(props) {
     });
 
 
+
     return () => {
       sr.destroy(); 
     };
@@ -40,13 +41,13 @@ export default function Banner(props) {
   
 
 
-  const { heading, title, desc, desc2, button, scrollToGetin } = props;
+  const { heading, title, desc, desc2, button, scrollToGetin, backgroundImage } = props;
 
   
   return (
     <>
 
-    <div className="banner">
+    <div className="banner" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">

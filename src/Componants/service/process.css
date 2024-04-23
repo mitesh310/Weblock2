@@ -14,12 +14,12 @@
     font-weight: bolder;
   }
  
-  .p-chek .two{
-      background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
-  }
+.p-chek .two{
+    background: linear-gradient(180deg, rgba(109, 187, 229, 0.54) 0%, rgba(64, 155, 206, 0.53) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 .p-chek .one{
     background: linear-gradient(180deg, rgba(197, 173, 215, 0.44) 0%, rgba(104, 91, 113, 0.4) 100%);
     -webkit-background-clip: text;
@@ -76,9 +76,29 @@
 }
 
 
+  .separator-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .separator-column::before {
+    content: '';
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-image: linear-gradient(to right, #080808 50%, transparent 50%); /* Dotted line pattern */
+    background-size: 8px 2px; 
+    z-index: -1; 
+    transform: rotate(90deg);
+  }
 
-  /* @media only screen and (max-width: 992px) and (min-width: 320px){
-    .chek{
-        justify-content: center;
+  @media only screen and (max-width: 991px) and (min-width: 280px){
+    .separator-column::before {
+        display: none;
     }
-  } */
+  }

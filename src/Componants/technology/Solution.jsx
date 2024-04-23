@@ -7,7 +7,7 @@ export default function Solution(props) {
   return (
     <>
       
-          <div className="row my-5">
+          <div className="row my-3">
             <div className="col-lg-5">
               <h4>{title1}</h4>
               <p>{desc1}</p>
@@ -17,7 +17,7 @@ export default function Solution(props) {
               <img className='se-img' src={img1} alt="" />
             </div>
           </div>
-          <div className="row my-5">
+          <div className="row my-3">
             <div className="col-lg-5">
               <img className='se-img' src={img2} alt="" />
             </div>

@@ -30,6 +30,8 @@ export default function Phython() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -38,6 +40,7 @@ export default function Phython() {
         desc="As a highly reputable Python development company, we specialize in delivering top-notch custom web applications, desktop apps, and dynamic websites. With expertise in advanced frameworks like Flask, Web2py, and Django, we offer a result-oriented approach backed by years of experience, making us the preferred partner for businesses seeking premier Python development services."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
 

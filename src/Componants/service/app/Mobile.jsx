@@ -30,6 +30,8 @@ export default function Mobile() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -40,6 +42,7 @@ export default function Mobile() {
           desc="As a top Mobile App Development Company, we specialize in transforming mobile app ideas into digital masterpieces tailored for businesses of all sizes. Our Mobile App Development Services cater to iOS, Android, and modern mobile platforms, helping businesses create cutting-edge apps to engage users effectively."
           button="Free Consultation Request"
           scrollToGetin={scrollToGetin} 
+          backgroundImage={bannerImage}
         />
 
         <div className="mobile">

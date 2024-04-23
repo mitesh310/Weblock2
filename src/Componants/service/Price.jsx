@@ -17,19 +17,35 @@ export default function Price(props) {
     });
 
   
-    sr.reveal('.priceb-1',{
-      origin: 'right',
-      distance: '60px'
-    });
-    sr.reveal('.priceb-2',{
-      origin: 'left',
-      distance: '60px'
-    });
+    const revealElements = () => {
+      if (window.innerWidth > 600) {
+        sr.reveal('.priceb-1', {
+          origin: 'right',
+          distance: '60px'
+        });
+        sr.reveal('.priceb-2', {
+          origin: 'left',
+          distance: '60px'
+        });
+      } else {
+        
+        sr.destroy();
+      }
+    };
+
+    revealElements();
+
+    const handleResize = () => {
+      revealElements(); 
+    };
+
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      sr.destroy(); 
+      window.removeEventListener('resize', handleResize);
+      sr.destroy();
     };
-  }, []); 
+  }, []);
 
     const {heading,title1,price1,desc1,title2,price2,desc2,title3,price3,desc3} = props;
 

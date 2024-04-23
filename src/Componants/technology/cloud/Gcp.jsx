@@ -33,6 +33,8 @@ export default function Gcp() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -41,6 +43,7 @@ export default function Gcp() {
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in Google Cloud Platform (GCP) web services, providing scalable, reliable, and innovative solutions to enhance your online presence. In this section, we offer an overview of GCP web services, its features, and how it can elevate your digital initiatives."
         button="Get Started"
         scrollToGetin={scrollToGetin}
+        backgroundImage={bannerImage}
       />
 
 

@@ -53,6 +53,27 @@
     background-color: #E7F5FF; 
     font-weight: bolder;
 }
+.abus .column-separat{
+    display: none;
+}
+.abus .separat-column {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+.abus .separat-column::before {
+    content: '';
+    position: absolute;
+    top: 70%; 
+    left: -18px;
+    width: 100%;
+    height: 2px; 
+    background-image: linear-gradient(to right, #080808 50%, transparent 50%); /* Dotted line pattern */
+    background-size: 8px 2px; 
+    z-index: -1; 
+    transform: rotate(90deg);
+  }
 .vision{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -74,4 +95,17 @@
 .prot h3{
     text-align: center;
     font-weight: bolder;    
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+    .abus .separat-column::before {
+        left: -60px;
+        width: 250%;
+      }
+}
+@media only screen and (max-width: 991px) and (min-width: 280px){
+    .abus .separat-column::before {
+        display: none;
+      }
 }

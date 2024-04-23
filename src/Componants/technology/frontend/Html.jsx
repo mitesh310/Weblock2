@@ -32,6 +32,9 @@ export default function Html() {
       }
     };
 
+  const bannerImage = './image/service/banner.png';
+
+
 
   return (
     <>
@@ -40,6 +43,7 @@ export default function Html() {
         desc="our tailored HTML And CSS development services are designed to meet your brand-specific requirements. From custom website design to responsive layout implementation, our comprehensive range of services addresses any project-related challenges you may encounter. "
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
       <div className="seaction">
         <div className="container">

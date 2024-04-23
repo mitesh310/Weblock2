@@ -33,6 +33,9 @@ export default function Net() {
     };
 
 
+    const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
     <Banner 
@@ -40,6 +43,7 @@ export default function Net() {
         desc="AI-infused .NET Development Company, Elevate your projects! Renowned for crafting scalable, cost-effective enterprise solutions, we excel in modern ASP .NET development services. Building world-class desktop, web, and mobile apps is our forte."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
 

@@ -33,6 +33,10 @@ export default function DevOpsConsulting() {
     };
 
 
+  const bannerImage = './image/service/banner.png';
+
+
+
   return (
     <>
     <Banner 
@@ -40,6 +44,7 @@ export default function DevOpsConsulting() {
         desc="Discover the transformative impact of our DevOps Consulting services, harnessing the latest in next-gen technologies. Seamlessly merge development and operations to drive innovation, leveraging automation for agile software delivery."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
       <div className="seaction">

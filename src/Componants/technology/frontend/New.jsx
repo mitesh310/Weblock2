@@ -31,6 +31,9 @@ export default function New() {
     };
 
 
+  const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
     <Banner 
@@ -38,6 +41,7 @@ export default function New() {
     desc="At Weblock infosoft, we're passionate about leveraging the power of React.js to build exceptional web experiences. As a leading React.js development company, we specialize in creating dynamic, interactive, and scalable web applications that propel businesses forward. "
     button="Get started"
     scrollToGetin={scrollToGetin} 
+    backgroundImage={bannerImage}
     />
 
 

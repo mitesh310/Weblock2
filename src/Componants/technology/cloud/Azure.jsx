@@ -33,6 +33,9 @@ export default function Azure() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
+
 
   return (
     <>
@@ -41,6 +44,7 @@ export default function Azure() {
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in Azure web services, providing scalable, reliable, and secure solutions to elevate your online presence. In this section, we offer an overview of Azure web services, its features, and how it can transform your digital initiatives."
         button="Get Started"
         scrollToGetin={scrollToGetin}
+        backgroundImage={bannerImage}
       />
 
 

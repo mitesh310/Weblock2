@@ -32,6 +32,8 @@ export default function Django() {
 
     }
   };
+  const bannerImage = './image/service/banner.png';
+
 
 
   return (
@@ -41,6 +43,7 @@ export default function Django() {
         desc="Welcome to our Django Development Services page! At [Your Company Name], we specialize in crafting robust web applications using Django, a high-level Python web framework. With Django, we can bring your web project to life efficiently, ensuring scalability, security, and performance."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
       /> 
 
       <div className="jango">

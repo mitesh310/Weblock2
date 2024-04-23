@@ -31,6 +31,7 @@ export default function Laravel() {
       }
     };
 
+    const bannerImage = './image/service/banner.png';
 
 
   return (
@@ -40,6 +41,7 @@ export default function Laravel() {
         desc="As your trusted Laravel development company, we propel your success by harnessing the full potential of the Laravel framework alongside cutting-edge AI tools. Connect with our team of highly-experienced, top-rated Laravel engineers to collaborate on web and app development services, shaping a better future together."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
     />
 
 

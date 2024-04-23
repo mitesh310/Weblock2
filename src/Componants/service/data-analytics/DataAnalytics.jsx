@@ -29,6 +29,10 @@ export default function DataAnalytics() {
       getinRef.current.scrollIntoView({ behavior: 'smooth' });
     }
   };
+
+  const bannerImage = './image/dataanlytics/banner.png';
+
+
   return (
     <>
     <Banner
@@ -36,6 +40,7 @@ export default function DataAnalytics() {
     desc="Unlock business potential with our reliable software consulting services, tailored to future trends. Transform your digital journey with expert tech solutions and flawless execution for optimal growth."
     button="Free Consultation Request"
     scrollToGetin={scrollToGetin} 
+    backgroundImage={bannerImage}
     />
     <div className="analytics">
       <div className="container">
@@ -104,7 +109,7 @@ export default function DataAnalytics() {
       <div className="custom-hr">
           <hr />
       </div>
-      <Process 
+      <Process
       number1="01"
       title1="Definition of Data Requirements"
       img1="./image/dataanlytics/define.png"

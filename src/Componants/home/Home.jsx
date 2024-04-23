@@ -1,12 +1,67 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./home.css"
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import MovingComponent from 'react-moving-text'
+import MovingComponent from 'react-moving-text';
+import ScrollReveal from 'scrollreveal';
+
 
 
 export default function Home() {
+
+
+    
+  useEffect(() => {
+    const sr = ScrollReveal({
+      duration: 1000,
+      distance: '30px',
+      delay: 300,
+      opacity: 0,
+      easing: 'ease-in-out',
+      cleanup: true
+    });
+
+  
+    sr.reveal('.home h1',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+    sr.reveal('.client h3',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+    sr.reveal('.box h3',{
+      origin: 'bottom',
+      distance: '30px'
+    });
+    sr.reveal('.service h3',{
+        origin: 'bottom',
+        distance: '30px'
+    });
+    sr.reveal('.process h3',{
+        origin: 'bottom',
+        distance: '30px'
+    });
+    sr.reveal('.indu h3',{
+        origin: 'bottom',
+        distance: '30px'
+    });
+    sr.reveal('.meet h3',{
+        origin: 'bottom',
+        distance: '30px'
+    });
+    sr.reveal('.test h3',{
+        origin: 'bottom',
+        distance: '30px'
+    });
+
+
+    return () => {
+      sr.destroy(); 
+    };
+  }, []); 
+  
 
 
 //   this seaction is test slider
@@ -312,6 +367,17 @@ export default function Home() {
                         <div class="content-details fadeIn-bottom">
                             <h4 class="content-title">Nitesh Vasani</h4>
                             <p class="content-text">Founder & CEO</p>
+                            <div className='icon'>
+                                <a href="https://www.facebook.com/profile.php?id=100005288536552" target="_blank">
+                                    <i class="m-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/mr._.bholu_/"  target="_blank">
+                                    <i class="m-icon fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/nitesh-vasani-33890b23b/?originalSubdomain=in" target="_blank">
+                                    <i class="m-icon fab fa-linkedin"></i>
+                                </a>
+                            </div>
                         </div>
         
                     </div>
@@ -323,6 +389,17 @@ export default function Home() {
                         <div class="content-details fadeIn-bottom">
                             <h4 class="content-title">Avani Vaghani</h4>
                             <p class="content-text">HR</p>
+                            <div className='icon'>
+                                <a href="https://www.facebook.com/people/Avi-Vaghani/pfbid02bNp8rCw7YJYnhSTGHSfvLqyoaqJHuj2ZripcSGBqy5UUUH7hJQBzRWM76pUucFb1l/" target="_blank">
+                                    <i class="m-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/avi_vaghani/"  target="_blank">
+                                    <i class="m-icon fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/avani-vaghani/" target="_blank">
+                                    <i class="m-icon fab fa-linkedin"></i>
+                                </a>
+                            </div>
                         </div>
         
                     </div>
@@ -334,6 +411,17 @@ export default function Home() {
                         <div class="content-details fadeIn-bottom">
                             <h4 class="content-title">Dhruvil Savaliya</h4>
                             <p class="content-text">Social Marketing Head</p>
+                            <div className='icon'>
+                                <a href="https://m.facebook.com/profile.php/?id=100007057936590&name=xhp_nt_" target="_blank">
+                                    <i class="m-icon fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/awesome.surat/?igsh=YXpoYXpqNjNodWVp"  target="_blank">
+                                    <i class="m-icon fab fa-instagram"></i>
+                                </a>
+                                <a href="https://in.linkedin.com/in/dhruvil-royal-5a8727207" target="_blank">
+                                    <i class="m-icon fab fa-linkedin"></i>
+                                </a>
+                            </div>
                         </div>
         
                     </div>

@@ -31,6 +31,9 @@ export default function Android() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
       <Banner 
@@ -38,6 +41,7 @@ export default function Android() {
         desc="We cannot deny the fact that Android is the world’s most popular mobile application platform, and having a presence on this platform in the form of an application makes great business sense. At Bacancy, we can help you build highly innovative and scalable Android applications with dynamic interfaces."
         button="Get Started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
       />  
       <div className="seaction">
         <div className="container">

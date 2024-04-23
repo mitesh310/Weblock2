@@ -10,7 +10,7 @@ export default function Ios() {
     
   useEffect(() => {
         
-    ScrollReveal().reveal('.seaction h2', {
+    ScrollReveal().reveal('.ios h2', {
       duration: 1000,
       distance: '30px',
       delay: 300,
@@ -32,6 +32,9 @@ export default function Ios() {
   };
 
 
+  const bannerImage = './image/service/banner.png';
+
+
   return (
     <>
       <Banner 
@@ -39,6 +42,7 @@ export default function Ios() {
       desc="Welcome to our iOS development services page, where we bring your app ideas to life on the iOS platform. Our team of expert developers is here to guide you through every step of the iOS app development process, ensuring that your vision is transformed into a successful and feature-rich application."
       button="Get Started"
       scrollToGetin={scrollToGetin} 
+      backgroundImage={bannerImage}
       />
 
 

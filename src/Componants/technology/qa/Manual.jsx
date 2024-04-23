@@ -29,6 +29,8 @@ export default function Manual() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
 
   return (
     <>
@@ -37,6 +39,7 @@ export default function Manual() {
       desc="Welcome to our website development services! As part of our comprehensive offerings, we provide expertise in manual testing development to ensure the quality and reliability of your software products. In this section, we offer an overview of manual testing development, its importance, and how it can benefit your projects."
       button="Get Started"
       scrollToGetin={scrollToGetin} 
+      backgroundImage={bannerImage}
       />
       <div className="manual">
         <div className="container">

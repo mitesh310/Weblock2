@@ -35,6 +35,7 @@ export default function Aws() {
 
     }
   };
+  const bannerImage = './image/service/banner.png';
 
 
   return (
@@ -44,6 +45,7 @@ export default function Aws() {
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in AWS development services to empower your business with scalable, secure, and reliable cloud solutions. In this section, we provide an overview of AWS development services, its benefits, and how it can transform your business operations."
         button="Get Started"
         scrollToGetin={scrollToGetin}
+        backgroundImage={bannerImage}
       />
 
 

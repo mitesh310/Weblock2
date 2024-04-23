@@ -15,7 +15,8 @@ export default function Process(props) {
                 <h1 > {title1}</h1>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 separator-column">
+              <hr className="column-separator" />
               <center><img className='process-img' src={img1} alt="" /></center>
             </div>
             <div className="col-lg-4 desc-text">
@@ -26,8 +27,9 @@ export default function Process(props) {
             <div className="col-lg-4 desc-text">
               <p className=''>{desc2}</p>
             </div>
-            <div className="col-lg-4 ">
-              <center><img className='process-img' src={img2} alt="" /></center>
+            <div className="col-lg-4 separator-column">
+              <hr className="column-separator" />
+              <img className="process-img" src={img2} alt="" />
             </div>
             <div className="col-lg-4 d-flex justify-content-center align-items-center">
               <div className="p-chek">
@@ -36,6 +38,7 @@ export default function Process(props) {
                 </div>
               </div>
           </div>
+          
 
     </>
   )

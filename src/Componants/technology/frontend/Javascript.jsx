@@ -33,6 +33,9 @@ export default function Javascript() {
     }
   };
 
+  const bannerImage = './image/service/banner.png';
+
+
 
   return (
     <>
@@ -41,6 +44,7 @@ export default function Javascript() {
         desc="Welcome to our website development services! As part of our comprehensive offerings, we specialize in JavaScript development, harnessing the power of this versatile programming language to create dynamic and interactive web experiences. In this section, we provide an overview of JavaScript, its features, and how it can elevate your web development projects. "
         button="Get started"
         scrollToGetin={scrollToGetin} 
+        backgroundImage={bannerImage}
       />
 
 
